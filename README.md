@@ -139,7 +139,7 @@ parseNid("1234567890").kind;         // "smart"  (shape only, not a lookup)
 
 ## Evaluation sets
 
-[datasets/README.md](datasets/README.md) is the sheet of CC0 JSONL and CSV generated from this library, with a dataset card in each folder. `node datasets/eval.mjs` scores predictions. These files are not inside the npm package. Other Bangla corpora are linked, not copied, in [RESOURCES.md](RESOURCES.md).
+[datasets/README.md](datasets/README.md) is the sheet of CC0 JSONL and CSV generated from this library, plus original Bangla sentences under `datasets/text/` (CC0, CC BY 2.0 FR, and CC BY-SA 4.0, in separate folders). `node datasets/eval.mjs` scores predictions. These files are not inside the npm package. Other Bangla corpora are linked, not copied, in [RESOURCES.md](RESOURCES.md).
 
 ## What is not in here
 

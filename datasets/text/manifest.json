@@ -1,0 +1,13 @@
+{
+  "retrieved": "2026-11-20",
+  "counts": {
+    "text/cc0/tatoeba": 800,
+    "text/cc0/common-voice": 400,
+    "text/cc-by/tatoeba-eng": 500,
+    "text/cc-by-sa/wiki": 75,
+    "text/cc0/numbers-in-sentences": 120,
+    "text/cc0/normalization": 40,
+    "text/cc0/phonetic-words": 15,
+    "text/cc0/romanized-words": 15
+  }
+}
