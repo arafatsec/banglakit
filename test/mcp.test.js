@@ -8,11 +8,15 @@ test("MCP server lists tools and answers calls over stdio", async () => {
   await client.connect(new StdioClientTransport({ command: process.execPath, args: ["bin/banglakit.js", "mcp"] }));
   try {
     const { tools } = await client.listTools();
-    assert.deepEqual(tools.map((t) => t.name).sort(), ["bangla_date", "convert_digits", "format_number", "gregorian_date", "number_to_words", "phonetic_to_bangla", "taka_in_words"]);
+    assert.deepEqual(tools.map((t) => t.name).sort(), ["bangla_date", "bd_holidays", "convert_digits", "find_area", "format_number", "gregorian_date", "is_holiday", "list_areas", "number_to_words", "parse_phone", "phonetic_to_bangla", "taka_in_words"]);
     const r = await client.callTool({ name: "taka_in_words", arguments: { amount: "125000.50" } });
     assert.equal(r.content[0].text, "এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র");
     const d = await client.callTool({ name: "bangla_date", arguments: { date: "2026-02-21" } });
     assert.equal(JSON.parse(d.content[0].text).text, "৮ ফাল্গুন ১৪৩২ বঙ্গাব্দ");
+    const area = await client.callTool({ name: "find_area", arguments: { query: "savar" } });
+    assert.equal(JSON.parse(area.content[0].text)[0].bn, "সাভার");
+    const hol = await client.callTool({ name: "is_holiday", arguments: { date: "2026-02-21" } });
+    assert.equal(JSON.parse(hol.content[0].text).holidays[0].type, "general");
     const bad = await client.callTool({ name: "taka_in_words", arguments: { amount: "abc" } });
     assert.equal(bad.isError, true);
   } finally {

@@ -1,0 +1,3090 @@
+{
+ "source": "https://bangladesh.gov.bd/views/upazila-list",
+ "publisher": "Government of the People's Republic of Bangladesh (National Portal)",
+ "retrieved": "2026-11-20",
+ "counts": {
+  "divisions": 8,
+  "districts": 64,
+  "upazilas": 502
+ },
+ "divisions": [
+  {
+   "id": "dhaka",
+   "bn": "ঢাকা",
+   "en": "Dhaka",
+   "districts": [
+    {
+     "id": "dhaka",
+     "bn": "ঢাকা",
+     "en": "Dhaka",
+     "website": "https://dhaka.gov.bd",
+     "upazilas": [
+      {
+       "id": "dhamrai",
+       "bn": "ধামরাই",
+       "website": "https://dhamrai.dhaka.gov.bd"
+      },
+      {
+       "id": "dohar",
+       "bn": "দোহার",
+       "website": "https://dohar.dhaka.gov.bd"
+      },
+      {
+       "id": "keraniganj",
+       "bn": "কেরাণীগঞ্জ",
+       "website": "https://keraniganj.dhaka.gov.bd"
+      },
+      {
+       "id": "nawabganj",
+       "bn": "নবাবগঞ্জ",
+       "website": "https://nawabganj.dhaka.gov.bd"
+      },
+      {
+       "id": "savar",
+       "bn": "সাভার",
+       "website": "https://savar.dhaka.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "faridpur",
+     "bn": "ফরিদপুর",
+     "en": "Faridpur",
+     "website": "https://faridpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "alfadanga",
+       "bn": "আলফাডাঙ্গা",
+       "website": "https://alfadanga.faridpur.gov.bd"
+      },
+      {
+       "id": "bhanga",
+       "bn": "ভাঙ্গা",
+       "website": "https://bhanga.faridpur.gov.bd"
+      },
+      {
+       "id": "boalmari",
+       "bn": "বোয়ালমারী",
+       "website": "https://boalmari.faridpur.gov.bd"
+      },
+      {
+       "id": "charbhadrasan",
+       "bn": "চরভদ্রাসন",
+       "website": "https://charbhadrasan.faridpur.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "ফরিদপুর সদর",
+       "website": "https://sadar.faridpur.gov.bd"
+      },
+      {
+       "id": "madhukhali",
+       "bn": "মধুখালী",
+       "website": "https://madhukhali.faridpur.gov.bd"
+      },
+      {
+       "id": "nagarkanda",
+       "bn": "নগরকান্দা",
+       "website": "https://nagarkanda.faridpur.gov.bd"
+      },
+      {
+       "id": "sadarpur",
+       "bn": "সদরপুর",
+       "website": "https://sadarpur.faridpur.gov.bd"
+      },
+      {
+       "id": "saltha",
+       "bn": "সালথা",
+       "website": "https://saltha.faridpur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "gazipur",
+     "bn": "গাজীপুর",
+     "en": "Gazipur",
+     "website": "https://gazipur.gov.bd",
+     "upazilas": [
+      {
+       "id": "sadar",
+       "bn": "গাজীপুর সদর",
+       "website": "https://sadar.gazipur.gov.bd"
+      },
+      {
+       "id": "kaliakair",
+       "bn": "কালিয়াকৈর",
+       "website": "https://kaliakair.gazipur.gov.bd"
+      },
+      {
+       "id": "kaliganj",
+       "bn": "কালীগঞ্জ",
+       "website": "https://kaliganj.gazipur.gov.bd"
+      },
+      {
+       "id": "kapasia",
+       "bn": "কাপাসিয়া",
+       "website": "https://kapasia.gazipur.gov.bd"
+      },
+      {
+       "id": "sreepur",
+       "bn": "শ্রীপুর",
+       "website": "https://sreepur.gazipur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "gopalganj",
+     "bn": "গোপালগঞ্জ",
+     "en": "Gopalganj",
+     "website": "https://gopalganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "sadar",
+       "bn": "গোপালগঞ্জ সদর",
+       "website": "https://sadar.gopalganj.gov.bd"
+      },
+      {
+       "id": "kashiani",
+       "bn": "কাশিয়ানী",
+       "website": "https://kashiani.gopalganj.gov.bd"
+      },
+      {
+       "id": "kotalipara",
+       "bn": "কোটালীপাড়া",
+       "website": "https://kotalipara.gopalganj.gov.bd"
+      },
+      {
+       "id": "muksudpur",
+       "bn": "মুকসুদপুর",
+       "website": "https://muksudpur.gopalganj.gov.bd"
+      },
+      {
+       "id": "tungipara",
+       "bn": "টুঙ্গিপাড়া",
+       "website": "https://tungipara.gopalganj.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "kishoreganj",
+     "bn": "কিশোরগঞ্জ",
+     "en": "Kishoreganj",
+     "website": "https://kishoreganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "austagram",
+       "bn": "অষ্টগ্রাম",
+       "website": "https://austagram.kishoreganj.gov.bd"
+      },
+      {
+       "id": "bajitpur",
+       "bn": "বাজিতপুর",
+       "website": "https://bajitpur.kishoreganj.gov.bd"
+      },
+      {
+       "id": "bhairab",
+       "bn": "ভৈরব",
+       "website": "https://bhairab.kishoreganj.gov.bd"
+      },
+      {
+       "id": "hossainpur",
+       "bn": "হোসেনপুর",
+       "website": "https://hossainpur.kishoreganj.gov.bd"
+      },
+      {
+       "id": "itna",
+       "bn": "ইটনা",
+       "website": "https://itna.kishoreganj.gov.bd"
+      },
+      {
+       "id": "karimgonj",
+       "bn": "করিমগঞ্জ",
+       "website": "https://karimgonj.kishoreganj.gov.bd"
+      },
+      {
+       "id": "katiadi",
+       "bn": "কটিয়াদী",
+       "website": "https://katiadi.kishoreganj.gov.bd"
+      },
+      {
+       "id": "kishoreganjsadar",
+       "bn": "কিশোরগঞ্জ সদর",
+       "website": "https://kishoreganjsadar.kishoreganj.gov.bd"
+      },
+      {
+       "id": "kuliarchar",
+       "bn": "কুলিয়ারচর",
+       "website": "https://kuliarchar.kishoreganj.gov.bd"
+      },
+      {
+       "id": "mithamoin",
+       "bn": "মিঠামইন",
+       "website": "https://mithamoin.kishoreganj.gov.bd"
+      },
+      {
+       "id": "nikli",
+       "bn": "নিকলী",
+       "website": "https://nikli.kishoreganj.gov.bd"
+      },
+      {
+       "id": "pakundia",
+       "bn": "পাকুন্দিয়া",
+       "website": "https://pakundia.kishoreganj.gov.bd"
+      },
+      {
+       "id": "tarail",
+       "bn": "তাড়াইল",
+       "website": "https://tarail.kishoreganj.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "madaripur",
+     "bn": "মাদারীপুর",
+     "en": "Madaripur",
+     "website": "https://madaripur.gov.bd",
+     "upazilas": [
+      {
+       "id": "kalkini",
+       "bn": "কালকিনি",
+       "website": "https://kalkini.madaripur.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "মাদারীপুর সদর",
+       "website": "https://sadar.madaripur.gov.bd"
+      },
+      {
+       "id": "rajoir",
+       "bn": "রাজৈর",
+       "website": "https://rajoir.madaripur.gov.bd"
+      },
+      {
+       "id": "shibchar",
+       "bn": "শিবচর",
+       "website": "https://shibchar.madaripur.gov.bd"
+      },
+      {
+       "id": "dasar",
+       "bn": "ডাসার",
+       "website": "https://dasar.madaripur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "manikganj",
+     "bn": "মানিকগঞ্জ",
+     "en": "Manikganj",
+     "website": "https://manikganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "daulatpur",
+       "bn": "দৌলতপুর",
+       "website": "https://daulatpur.manikganj.gov.bd"
+      },
+      {
+       "id": "gior",
+       "bn": "ঘিওর",
+       "website": "https://gior.manikganj.gov.bd"
+      },
+      {
+       "id": "harirampur",
+       "bn": "হরিরামপুর",
+       "website": "https://harirampur.manikganj.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "মানিকগঞ্জ সদর",
+       "website": "https://sadar.manikganj.gov.bd"
+      },
+      {
+       "id": "saturia",
+       "bn": "সাটুরিয়া",
+       "website": "https://saturia.manikganj.gov.bd"
+      },
+      {
+       "id": "shibaloy",
+       "bn": "শিবালয়",
+       "website": "https://shibaloy.manikganj.gov.bd"
+      },
+      {
+       "id": "singair",
+       "bn": "সিংগাইর",
+       "website": "https://singair.manikganj.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "munshiganj",
+     "bn": "মুন্সীগঞ্জ",
+     "en": "Munshiganj",
+     "website": "https://munshiganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "gajaria",
+       "bn": "গজারিয়া",
+       "website": "https://gajaria.munshiganj.gov.bd"
+      },
+      {
+       "id": "louhajanj",
+       "bn": "লৌহজং",
+       "website": "https://louhajanj.munshiganj.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "মুন্সীগঞ্জ সদর",
+       "website": "https://sadar.munshiganj.gov.bd"
+      },
+      {
+       "id": "sirajdikhan",
+       "bn": "সিরাজদিখান",
+       "website": "https://sirajdikhan.munshiganj.gov.bd"
+      },
+      {
+       "id": "sreenagar",
+       "bn": "শ্রীনগর",
+       "website": "https://sreenagar.munshiganj.gov.bd"
+      },
+      {
+       "id": "tongibari",
+       "bn": "টংগিবাড়ী",
+       "website": "https://tongibari.munshiganj.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "narayanganj",
+     "bn": "নারায়ণগঞ্জ",
+     "en": "Narayanganj",
+     "website": "https://narayanganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "araihazar",
+       "bn": "আড়াইহাজার",
+       "website": "https://araihazar.narayanganj.gov.bd"
+      },
+      {
+       "id": "sonargaon",
+       "bn": "সোনারগাঁ",
+       "website": "https://sonargaon.narayanganj.gov.bd"
+      },
+      {
+       "id": "narayanganjsadar",
+       "bn": "নারায়নগঞ্জ সদর",
+       "website": "https://narayanganjsadar.narayanganj.gov.bd"
+      },
+      {
+       "id": "rupganj",
+       "bn": "রূপগঞ্জ",
+       "website": "https://rupganj.narayanganj.gov.bd"
+      },
+      {
+       "id": "bandar",
+       "bn": "বন্দর",
+       "website": "https://bandar.narayanganj.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "narsingdi",
+     "bn": "নরসিংদী",
+     "en": "Narsingdi",
+     "website": "https://narsingdi.gov.bd",
+     "upazilas": [
+      {
+       "id": "belabo",
+       "bn": "বেলাবো",
+       "website": "https://belabo.narsingdi.gov.bd"
+      },
+      {
+       "id": "monohardi",
+       "bn": "মনোহরদী",
+       "website": "https://monohardi.narsingdi.gov.bd"
+      },
+      {
+       "id": "narsingdisadar",
+       "bn": "নরসিংদী সদর",
+       "website": "https://narsingdisadar.narsingdi.gov.bd"
+      },
+      {
+       "id": "palash",
+       "bn": "পলাশ",
+       "website": "https://palash.narsingdi.gov.bd"
+      },
+      {
+       "id": "raipura",
+       "bn": "রায়পুরা",
+       "website": "https://raipura.narsingdi.gov.bd"
+      },
+      {
+       "id": "shibpur",
+       "bn": "শিবপুর",
+       "website": "https://shibpur.narsingdi.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "rajbari",
+     "bn": "রাজবাড়ী",
+     "en": "Rajbari",
+     "website": "https://rajbari.gov.bd",
+     "upazilas": [
+      {
+       "id": "baliakandi",
+       "bn": "বালিয়াকান্দি",
+       "website": "https://baliakandi.rajbari.gov.bd"
+      },
+      {
+       "id": "goalanda",
+       "bn": "গোয়ালন্দ",
+       "website": "https://goalanda.rajbari.gov.bd"
+      },
+      {
+       "id": "kalukhali",
+       "bn": "কালুখালী",
+       "website": "https://kalukhali.rajbari.gov.bd"
+      },
+      {
+       "id": "pangsa",
+       "bn": "পাংশা",
+       "website": "https://pangsa.rajbari.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "রাজবাড়ী সদর",
+       "website": "https://sadar.rajbari.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "shariatpur",
+     "bn": "শরীয়তপুর",
+     "en": "Shariatpur",
+     "website": "https://shariatpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "bhedarganj",
+       "bn": "ভেদরগঞ্জ",
+       "website": "https://bhedarganj.shariatpur.gov.bd"
+      },
+      {
+       "id": "damudya",
+       "bn": "ডামুড্যা",
+       "website": "https://damudya.shariatpur.gov.bd"
+      },
+      {
+       "id": "gosairhat",
+       "bn": "গোসাইরহাট",
+       "website": "https://gosairhat.shariatpur.gov.bd"
+      },
+      {
+       "id": "naria",
+       "bn": "নড়িয়া",
+       "website": "https://naria.shariatpur.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "শরিয়তপুর সদর",
+       "website": "https://sadar.shariatpur.gov.bd"
+      },
+      {
+       "id": "zajira",
+       "bn": "জাজিরা",
+       "website": "https://zajira.shariatpur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "tangail",
+     "bn": "টাঙ্গাইল",
+     "en": "Tangail",
+     "website": "https://tangail.gov.bd",
+     "upazilas": [
+      {
+       "id": "basail",
+       "bn": "বাসাইল",
+       "website": "https://basail.tangail.gov.bd"
+      },
+      {
+       "id": "bhuapur",
+       "bn": "ভূঞাপুর",
+       "website": "https://bhuapur.tangail.gov.bd"
+      },
+      {
+       "id": "delduar",
+       "bn": "দেলদুয়ার",
+       "website": "https://delduar.tangail.gov.bd"
+      },
+      {
+       "id": "dhanbari",
+       "bn": "ধনবাড়ী",
+       "website": "https://dhanbari.tangail.gov.bd"
+      },
+      {
+       "id": "ghatail",
+       "bn": "ঘাটাইল",
+       "website": "https://ghatail.tangail.gov.bd"
+      },
+      {
+       "id": "gopalpur",
+       "bn": "গোপালপুর",
+       "website": "https://gopalpur.tangail.gov.bd"
+      },
+      {
+       "id": "kalihati",
+       "bn": "কালিহাতী",
+       "website": "https://kalihati.tangail.gov.bd"
+      },
+      {
+       "id": "madhupur",
+       "bn": "মধুপুর",
+       "website": "https://madhupur.tangail.gov.bd"
+      },
+      {
+       "id": "mirzapur",
+       "bn": "মির্জাপুর",
+       "website": "https://mirzapur.tangail.gov.bd"
+      },
+      {
+       "id": "nagarpur",
+       "bn": "নাগরপুর",
+       "website": "https://nagarpur.tangail.gov.bd"
+      },
+      {
+       "id": "sakhipur",
+       "bn": "সখিপুর",
+       "website": "https://sakhipur.tangail.gov.bd"
+      },
+      {
+       "id": "tangailsadar",
+       "bn": "টাঙ্গাইল সদর",
+       "website": "https://tangailsadar.tangail.gov.bd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "khulna",
+   "bn": "খুলনা",
+   "en": "Khulna",
+   "districts": [
+    {
+     "id": "bagerhat",
+     "bn": "বাগেরহাট",
+     "en": "Bagerhat",
+     "website": "https://bagerhat.gov.bd",
+     "upazilas": [
+      {
+       "id": "chitalmari",
+       "bn": "চিতলমারী",
+       "website": "https://chitalmari.bagerhat.gov.bd"
+      },
+      {
+       "id": "fakirhat",
+       "bn": "ফকিরহাট",
+       "website": "https://fakirhat.bagerhat.gov.bd"
+      },
+      {
+       "id": "kachua",
+       "bn": "কচুয়া",
+       "website": "https://kachua.bagerhat.gov.bd"
+      },
+      {
+       "id": "mollahat",
+       "bn": "মোল্লাহাট",
+       "website": "https://mollahat.bagerhat.gov.bd"
+      },
+      {
+       "id": "mongla",
+       "bn": "মোংলা",
+       "website": "https://mongla.bagerhat.gov.bd"
+      },
+      {
+       "id": "morrelganj",
+       "bn": "মোরেলগঞ্জ",
+       "website": "https://morrelganj.bagerhat.gov.bd"
+      },
+      {
+       "id": "rampal",
+       "bn": "রামপাল",
+       "website": "https://rampal.bagerhat.gov.bd"
+      },
+      {
+       "id": "sarankhola",
+       "bn": "শরণখোলা",
+       "website": "https://sarankhola.bagerhat.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "বাগেরহাট সদর",
+       "website": "https://sadar.bagerhat.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "chuadanga",
+     "bn": "চুয়াডাঙ্গা",
+     "en": "Chuadanga",
+     "website": "https://chuadanga.gov.bd",
+     "upazilas": [
+      {
+       "id": "alamdanga",
+       "bn": "আলমডাঙ্গা",
+       "website": "https://alamdanga.chuadanga.gov.bd"
+      },
+      {
+       "id": "chuadangasadar",
+       "bn": "চুয়াডাঙ্গা সদর",
+       "website": "https://chuadangasadar.chuadanga.gov.bd"
+      },
+      {
+       "id": "damurhuda",
+       "bn": "দামুড়হুদা",
+       "website": "https://damurhuda.chuadanga.gov.bd"
+      },
+      {
+       "id": "jibannagar",
+       "bn": "জীবননগর",
+       "website": "https://jibannagar.chuadanga.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "jashore",
+     "bn": "যশোর",
+     "en": "Jashore",
+     "website": "https://jashore.gov.bd",
+     "upazilas": [
+      {
+       "id": "abhaynagar",
+       "bn": "অভয়নগর",
+       "website": "https://abhaynagar.jashore.gov.bd"
+      },
+      {
+       "id": "bagherpara",
+       "bn": "বাঘারপাড়া",
+       "website": "https://bagherpara.jashore.gov.bd"
+      },
+      {
+       "id": "chougachha",
+       "bn": "চৌগাছা",
+       "website": "https://chougachha.jashore.gov.bd"
+      },
+      {
+       "id": "jhikargacha",
+       "bn": "ঝিকরগাছা",
+       "website": "https://jhikargacha.jashore.gov.bd"
+      },
+      {
+       "id": "keshabpur",
+       "bn": "কেশবপুর",
+       "website": "https://keshabpur.jashore.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "যশোর সদর",
+       "website": "https://sadar.jashore.gov.bd"
+      },
+      {
+       "id": "manirampur",
+       "bn": "মণিরামপুর",
+       "website": "https://manirampur.jashore.gov.bd"
+      },
+      {
+       "id": "sharsha",
+       "bn": "শার্শা",
+       "website": "https://sharsha.jashore.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "jhenaidah",
+     "bn": "ঝিনাইদহ",
+     "en": "Jhenaidah",
+     "website": "https://jhenaidah.gov.bd",
+     "upazilas": [
+      {
+       "id": "harinakundu",
+       "bn": "হরিণাকুন্ডু",
+       "website": "https://harinakundu.jhenaidah.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "ঝিনাইদহ সদর",
+       "website": "https://sadar.jhenaidah.gov.bd"
+      },
+      {
+       "id": "kaliganj",
+       "bn": "কালীগঞ্জ",
+       "website": "https://kaliganj.jhenaidah.gov.bd"
+      },
+      {
+       "id": "kotchandpur",
+       "bn": "কোটচাঁদপুর",
+       "website": "https://kotchandpur.jhenaidah.gov.bd"
+      },
+      {
+       "id": "moheshpur",
+       "bn": "মহেশপুর",
+       "website": "https://moheshpur.jhenaidah.gov.bd"
+      },
+      {
+       "id": "shailkupa",
+       "bn": "শৈলকুপা",
+       "website": "https://shailkupa.jhenaidah.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "khulna",
+     "bn": "খুলনা",
+     "en": "Khulna",
+     "website": "https://khulna.gov.bd",
+     "upazilas": [
+      {
+       "id": "botiaghata",
+       "bn": "বটিয়াঘাটা",
+       "website": "https://botiaghata.khulna.gov.bd"
+      },
+      {
+       "id": "dacope",
+       "bn": "দাকোপ",
+       "website": "https://dacope.khulna.gov.bd"
+      },
+      {
+       "id": "dumuria",
+       "bn": "ডুমুরিয়া",
+       "website": "https://dumuria.khulna.gov.bd"
+      },
+      {
+       "id": "koyra",
+       "bn": "কয়রা",
+       "website": "https://koyra.khulna.gov.bd"
+      },
+      {
+       "id": "paikgasa",
+       "bn": "পাইকগাছা",
+       "website": "https://paikgasa.khulna.gov.bd"
+      },
+      {
+       "id": "fultola",
+       "bn": "ফুলতলা",
+       "website": "https://fultola.khulna.gov.bd"
+      },
+      {
+       "id": "rupsha",
+       "bn": "রূপসা",
+       "website": "https://rupsha.khulna.gov.bd"
+      },
+      {
+       "id": "terokhada",
+       "bn": "তেরখাদা",
+       "website": "https://terokhada.khulna.gov.bd"
+      },
+      {
+       "id": "digholia",
+       "bn": "দিঘলিয়া",
+       "website": "https://digholia.khulna.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "kushtia",
+     "bn": "কুষ্টিয়া",
+     "en": "Kushtia",
+     "website": "https://kushtia.gov.bd",
+     "upazilas": [
+      {
+       "id": "bheramara",
+       "bn": "ভেড়ামারা",
+       "website": "https://bheramara.kushtia.gov.bd"
+      },
+      {
+       "id": "daulatpur",
+       "bn": "দৌলতপুর",
+       "website": "https://daulatpur.kushtia.gov.bd"
+      },
+      {
+       "id": "khoksa",
+       "bn": "খোকসা",
+       "website": "https://khoksa.kushtia.gov.bd"
+      },
+      {
+       "id": "kumarkhali",
+       "bn": "কুমারখালী",
+       "website": "https://kumarkhali.kushtia.gov.bd"
+      },
+      {
+       "id": "kushtiasadar",
+       "bn": "কুষ্টিয়া সদর",
+       "website": "https://kushtiasadar.kushtia.gov.bd"
+      },
+      {
+       "id": "mirpur",
+       "bn": "মিরপুর",
+       "website": "https://mirpur.kushtia.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "magura",
+     "bn": "মাগুরা",
+     "en": "Magura",
+     "website": "https://magura.gov.bd",
+     "upazilas": [
+      {
+       "id": "magurasadar",
+       "bn": "মাগুরা সদর",
+       "website": "https://magurasadar.magura.gov.bd"
+      },
+      {
+       "id": "mohammadpur",
+       "bn": "মহম্মদপুর",
+       "website": "https://mohammadpur.magura.gov.bd"
+      },
+      {
+       "id": "shalikha",
+       "bn": "শালিখা",
+       "website": "https://shalikha.magura.gov.bd"
+      },
+      {
+       "id": "sreepur",
+       "bn": "শ্রীপুর",
+       "website": "https://sreepur.magura.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "meherpur",
+     "bn": "মেহেরপুর",
+     "en": "Meherpur",
+     "website": "https://meherpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "gangni",
+       "bn": "গাংনী",
+       "website": "https://gangni.meherpur.gov.bd"
+      },
+      {
+       "id": "mujibnagar",
+       "bn": "মুজিবনগর",
+       "website": "https://mujibnagar.meherpur.gov.bd"
+      },
+      {
+       "id": "meherpursadar",
+       "bn": "মেহেরপুর সদর",
+       "website": "https://meherpursadar.meherpur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "narail",
+     "bn": "নড়াইল",
+     "en": "Narail",
+     "website": "https://narail.gov.bd",
+     "upazilas": [
+      {
+       "id": "kalia",
+       "bn": "কালিয়া",
+       "website": "https://kalia.narail.gov.bd"
+      },
+      {
+       "id": "lohagara",
+       "bn": "লোহাগড়া",
+       "website": "https://lohagara.narail.gov.bd"
+      },
+      {
+       "id": "narailsadar",
+       "bn": "নড়াইল সদর",
+       "website": "https://narailsadar.narail.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "satkhira",
+     "bn": "সাতক্ষীরা",
+     "en": "Satkhira",
+     "website": "https://satkhira.gov.bd",
+     "upazilas": [
+      {
+       "id": "assasuni",
+       "bn": "আশাশুনি",
+       "website": "https://assasuni.satkhira.gov.bd"
+      },
+      {
+       "id": "debhata",
+       "bn": "দেবহাটা",
+       "website": "https://debhata.satkhira.gov.bd"
+      },
+      {
+       "id": "kalaroa",
+       "bn": "কলারোয়া",
+       "website": "https://kalaroa.satkhira.gov.bd"
+      },
+      {
+       "id": "kaliganj",
+       "bn": "কালিগঞ্জ",
+       "website": "https://kaliganj.satkhira.gov.bd"
+      },
+      {
+       "id": "satkhirasadar",
+       "bn": "সাতক্ষীরা সদর",
+       "website": "https://satkhirasadar.satkhira.gov.bd"
+      },
+      {
+       "id": "shyamnagar",
+       "bn": "শ্যামনগর",
+       "website": "https://shyamnagar.satkhira.gov.bd"
+      },
+      {
+       "id": "tala",
+       "bn": "তালা",
+       "website": "https://tala.satkhira.gov.bd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chattogram",
+   "bn": "চট্টগ্রাম",
+   "en": "Chattogram",
+   "districts": [
+    {
+     "id": "bandarban",
+     "bn": "বান্দরবান",
+     "en": "Bandarban",
+     "website": "https://bandarban.gov.bd",
+     "upazilas": [
+      {
+       "id": "alikadam",
+       "bn": "আলীকদম",
+       "website": "https://alikadam.bandarban.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "বান্দরবান সদর",
+       "website": "https://sadar.bandarban.gov.bd"
+      },
+      {
+       "id": "lama",
+       "bn": "লামা",
+       "website": "https://lama.bandarban.gov.bd"
+      },
+      {
+       "id": "naikhongchhari",
+       "bn": "নাইক্ষ্যংছড়ি",
+       "website": "https://naikhongchhari.bandarban.gov.bd"
+      },
+      {
+       "id": "rowangchhari",
+       "bn": "রোয়াংছড়ি",
+       "website": "https://rowangchhari.bandarban.gov.bd"
+      },
+      {
+       "id": "ruma",
+       "bn": "রুমা",
+       "website": "https://ruma.bandarban.gov.bd"
+      },
+      {
+       "id": "thanchi",
+       "bn": "থানচি",
+       "website": "https://thanchi.bandarban.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "brahmanbaria",
+     "bn": "ব্রাহ্মণবাড়িয়া",
+     "en": "Brahmanbaria",
+     "website": "https://brahmanbaria.gov.bd",
+     "upazilas": [
+      {
+       "id": "akhaura",
+       "bn": "আখাউড়া",
+       "website": "https://akhaura.brahmanbaria.gov.bd"
+      },
+      {
+       "id": "bancharampur",
+       "bn": "বাঞ্ছারামপুর",
+       "website": "https://bancharampur.brahmanbaria.gov.bd"
+      },
+      {
+       "id": "bijoynagar",
+       "bn": "বিজয়নগর",
+       "website": "https://bijoynagar.brahmanbaria.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "ব্রাহ্মণবাড়িয়া সদর",
+       "website": "https://sadar.brahmanbaria.gov.bd"
+      },
+      {
+       "id": "ashuganj",
+       "bn": "আশুগঞ্জ",
+       "website": "https://ashuganj.brahmanbaria.gov.bd"
+      },
+      {
+       "id": "kasba",
+       "bn": "কসবা",
+       "website": "https://kasba.brahmanbaria.gov.bd"
+      },
+      {
+       "id": "nabinagar",
+       "bn": "নবীনগর",
+       "website": "https://nabinagar.brahmanbaria.gov.bd"
+      },
+      {
+       "id": "nasirnagar",
+       "bn": "নাসিরনগর",
+       "website": "https://nasirnagar.brahmanbaria.gov.bd"
+      },
+      {
+       "id": "sarail",
+       "bn": "সরাইল",
+       "website": "https://sarail.brahmanbaria.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "chandpur",
+     "bn": "চাঁদপুর",
+     "en": "Chandpur",
+     "website": "https://chandpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "sadar",
+       "bn": "চাঁদপুর সদর",
+       "website": "https://sadar.chandpur.gov.bd"
+      },
+      {
+       "id": "faridgonj",
+       "bn": "ফরিদগঞ্জ",
+       "website": "https://faridgonj.chandpur.gov.bd"
+      },
+      {
+       "id": "haimchar",
+       "bn": "হাইমচর",
+       "website": "https://haimchar.chandpur.gov.bd"
+      },
+      {
+       "id": "hajiganj",
+       "bn": "হাজীগঞ্জ",
+       "website": "https://hajiganj.chandpur.gov.bd"
+      },
+      {
+       "id": "kachua",
+       "bn": "কচুয়া",
+       "website": "https://kachua.chandpur.gov.bd"
+      },
+      {
+       "id": "matlabsouth",
+       "bn": "মতলব দক্ষিণ",
+       "website": "https://matlabsouth.chandpur.gov.bd"
+      },
+      {
+       "id": "matlabnorth",
+       "bn": "মতলব উত্তর",
+       "website": "https://matlabnorth.chandpur.gov.bd"
+      },
+      {
+       "id": "shahrasti",
+       "bn": "শাহরাস্তি",
+       "website": "https://shahrasti.chandpur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "chattogram",
+     "bn": "চট্টগ্রাম",
+     "en": "Chattogram",
+     "website": "https://chattogram.gov.bd",
+     "upazilas": [
+      {
+       "id": "anwara",
+       "bn": "আনোয়ারা",
+       "website": "https://anwara.chattogram.gov.bd"
+      },
+      {
+       "id": "banshkhali",
+       "bn": "বাঁশখালী",
+       "website": "https://banshkhali.chattogram.gov.bd"
+      },
+      {
+       "id": "boalkhali",
+       "bn": "বোয়ালখালী",
+       "website": "https://boalkhali.chattogram.gov.bd"
+      },
+      {
+       "id": "chandanaish",
+       "bn": "চন্দনাইশ",
+       "website": "https://chandanaish.chattogram.gov.bd"
+      },
+      {
+       "id": "fatikchhari",
+       "bn": "ফটিকছড়ি",
+       "website": "https://fatikchhari.chattogram.gov.bd"
+      },
+      {
+       "id": "hathazari",
+       "bn": "হাটহাজারী",
+       "website": "https://hathazari.chattogram.gov.bd"
+      },
+      {
+       "id": "lohagara",
+       "bn": "লোহাগাড়া",
+       "website": "https://lohagara.chattogram.gov.bd"
+      },
+      {
+       "id": "mirsharai",
+       "bn": "মীরসরাই",
+       "website": "https://mirsharai.chattogram.gov.bd"
+      },
+      {
+       "id": "patiya",
+       "bn": "পটিয়া",
+       "website": "https://patiya.chattogram.gov.bd"
+      },
+      {
+       "id": "rangunia",
+       "bn": "রাঙ্গুনিয়া",
+       "website": "https://rangunia.chattogram.gov.bd"
+      },
+      {
+       "id": "raozan",
+       "bn": "রাউজান",
+       "website": "https://raozan.chattogram.gov.bd"
+      },
+      {
+       "id": "sandwip",
+       "bn": "সন্দ্বীপ",
+       "website": "https://sandwip.chattogram.gov.bd"
+      },
+      {
+       "id": "satkania",
+       "bn": "সাতকানিয়া",
+       "website": "https://satkania.chattogram.gov.bd"
+      },
+      {
+       "id": "sitakunda",
+       "bn": "সীতাকুন্ড",
+       "website": "https://sitakunda.chattogram.gov.bd"
+      },
+      {
+       "id": "karnafuli",
+       "bn": "কর্ণফুলী",
+       "website": "https://karnafuli.chattogram.gov.bd"
+      },
+      {
+       "id": "fatikchhariuttar",
+       "bn": "ফটিকছড়ি উত্তর",
+       "website": "https://fatikchhariuttar.chattogram.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "comilla",
+     "bn": "কুমিল্লা",
+     "en": "Cumilla",
+     "website": "https://comilla.gov.bd",
+     "upazilas": [
+      {
+       "id": "barura",
+       "bn": "বরুড়া",
+       "website": "https://barura.comilla.gov.bd"
+      },
+      {
+       "id": "brahmanpara",
+       "bn": "ব্রাহ্মণপাড়া",
+       "website": "https://brahmanpara.comilla.gov.bd"
+      },
+      {
+       "id": "burichang",
+       "bn": "বুড়িচং",
+       "website": "https://burichang.comilla.gov.bd"
+      },
+      {
+       "id": "chandina",
+       "bn": "চান্দিনা",
+       "website": "https://chandina.comilla.gov.bd"
+      },
+      {
+       "id": "chauddagram",
+       "bn": "চৌদ্দগ্রাম",
+       "website": "https://chauddagram.comilla.gov.bd"
+      },
+      {
+       "id": "comillasadar",
+       "bn": "আদর্শ সদর",
+       "website": "https://comillasadar.comilla.gov.bd"
+      },
+      {
+       "id": "sadarsouth",
+       "bn": "সদর দক্ষিণ",
+       "website": "https://sadarsouth.comilla.gov.bd"
+      },
+      {
+       "id": "daudkandi",
+       "bn": "দাউদকান্দি",
+       "website": "https://daudkandi.comilla.gov.bd"
+      },
+      {
+       "id": "debidwar",
+       "bn": "দেবিদ্বার",
+       "website": "https://debidwar.comilla.gov.bd"
+      },
+      {
+       "id": "homna",
+       "bn": "হোমনা",
+       "website": "https://homna.comilla.gov.bd"
+      },
+      {
+       "id": "laksam",
+       "bn": "লাকসাম",
+       "website": "https://laksam.comilla.gov.bd"
+      },
+      {
+       "id": "monohargonj",
+       "bn": "মনোহরগঞ্জ",
+       "website": "https://monohargonj.comilla.gov.bd"
+      },
+      {
+       "id": "meghna",
+       "bn": "মেঘনা",
+       "website": "https://meghna.comilla.gov.bd"
+      },
+      {
+       "id": "muradnagar",
+       "bn": "মুরাদনগর",
+       "website": "https://muradnagar.comilla.gov.bd"
+      },
+      {
+       "id": "nangalkot",
+       "bn": "নাঙ্গলকোট",
+       "website": "https://nangalkot.comilla.gov.bd"
+      },
+      {
+       "id": "titas",
+       "bn": "তিতাস",
+       "website": "https://titas.comilla.gov.bd"
+      },
+      {
+       "id": "lalmai",
+       "bn": "লালমাই",
+       "website": "https://lalmai.comilla.gov.bd"
+      },
+      {
+       "id": "bangara",
+       "bn": "বাঙ্গরা",
+       "website": "https://bangara.cumilla.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "coxsbazar",
+     "bn": "কক্সবাজার",
+     "en": "Cox's Bazar",
+     "website": "https://coxsbazar.gov.bd",
+     "upazilas": [
+      {
+       "id": "chakaria",
+       "bn": "চকরিয়া",
+       "website": "https://chakaria.coxsbazar.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "কক্সবাজার সদর",
+       "website": "https://sadar.coxsbazar.gov.bd"
+      },
+      {
+       "id": "kutubdia",
+       "bn": "কুতুবদিয়া",
+       "website": "https://kutubdia.coxsbazar.gov.bd"
+      },
+      {
+       "id": "moheshkhali",
+       "bn": "মহেশখালী",
+       "website": "https://moheshkhali.coxsbazar.gov.bd"
+      },
+      {
+       "id": "pekua",
+       "bn": "পেকুয়া",
+       "website": "https://pekua.coxsbazar.gov.bd"
+      },
+      {
+       "id": "ramu",
+       "bn": "রামু",
+       "website": "https://ramu.coxsbazar.gov.bd"
+      },
+      {
+       "id": "teknaf",
+       "bn": "টেকনাফ",
+       "website": "https://teknaf.coxsbazar.gov.bd"
+      },
+      {
+       "id": "ukhiya",
+       "bn": "উখিয়া",
+       "website": "https://ukhiya.coxsbazar.gov.bd"
+      },
+      {
+       "id": "eidgaon",
+       "bn": "ঈদগাঁও",
+       "website": "https://eidgaon.coxsbazar.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "feni",
+     "bn": "ফেনী",
+     "en": "Feni",
+     "website": "https://feni.gov.bd",
+     "upazilas": [
+      {
+       "id": "chhagalnaiya",
+       "bn": "ছাগলনাইয়া",
+       "website": "https://chhagalnaiya.feni.gov.bd"
+      },
+      {
+       "id": "daganbhuiyan",
+       "bn": "দাগনভূঞা",
+       "website": "https://daganbhuiyan.feni.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "ফেনী সদর",
+       "website": "https://sadar.feni.gov.bd"
+      },
+      {
+       "id": "fulgazi",
+       "bn": "ফুলগাজী",
+       "website": "https://fulgazi.feni.gov.bd"
+      },
+      {
+       "id": "parshuram",
+       "bn": "পরশুরাম",
+       "website": "https://parshuram.feni.gov.bd"
+      },
+      {
+       "id": "sonagazi",
+       "bn": "সোনাগাজী",
+       "website": "https://sonagazi.feni.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "khagrachhari",
+     "bn": "খাগড়াছড়ি",
+     "en": "Khagrachhari",
+     "website": "https://khagrachhari.gov.bd",
+     "upazilas": [
+      {
+       "id": "dighinala",
+       "bn": "দীঘিনালা",
+       "website": "https://dighinala.khagrachhari.gov.bd"
+      },
+      {
+       "id": "manikchari",
+       "bn": "মানিকছড়ি",
+       "website": "https://manikchari.khagrachhari.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "খাগড়াছড়ি সদর",
+       "website": "https://sadar.khagrachhari.gov.bd"
+      },
+      {
+       "id": "laxmichhari",
+       "bn": "লক্ষীছড়ি",
+       "website": "https://laxmichhari.khagrachhari.gov.bd"
+      },
+      {
+       "id": "mohalchari",
+       "bn": "মহালছড়ি",
+       "website": "https://mohalchari.khagrachhari.gov.bd"
+      },
+      {
+       "id": "matiranga",
+       "bn": "মাটিরাঙ্গা",
+       "website": "https://matiranga.khagrachhari.gov.bd"
+      },
+      {
+       "id": "panchari",
+       "bn": "পানছড়ি",
+       "website": "https://panchari.khagrachhari.gov.bd"
+      },
+      {
+       "id": "ramgarh",
+       "bn": "রামগড়",
+       "website": "https://ramgarh.khagrachhari.gov.bd"
+      },
+      {
+       "id": "guimara",
+       "bn": "গুইমারা",
+       "website": "https://guimara.khagrachhari.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "lakshmipur",
+     "bn": "লক্ষ্মীপুর",
+     "en": "Lakshmipur",
+     "website": "https://lakshmipur.gov.bd",
+     "upazilas": [
+      {
+       "id": "kamalnagar",
+       "bn": "কমলনগর",
+       "website": "https://kamalnagar.lakshmipur.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "লক্ষ্মীপুর সদর",
+       "website": "https://sadar.lakshmipur.gov.bd"
+      },
+      {
+       "id": "raipur",
+       "bn": "রায়পুর",
+       "website": "https://raipur.lakshmipur.gov.bd"
+      },
+      {
+       "id": "ramganj",
+       "bn": "রামগঞ্জ",
+       "website": "https://ramganj.lakshmipur.gov.bd"
+      },
+      {
+       "id": "ramgati",
+       "bn": "রামগতি",
+       "website": "https://ramgati.lakshmipur.gov.bd"
+      },
+      {
+       "id": "chandraganj",
+       "bn": "চন্দ্রগঞ্জ",
+       "website": "https://chandraganj.lakshmipur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "noakhali",
+     "bn": "নোয়াখালী",
+     "en": "Noakhali",
+     "website": "https://noakhali.gov.bd",
+     "upazilas": [
+      {
+       "id": "begumganj",
+       "bn": "বেগমগঞ্জ",
+       "website": "https://begumganj.noakhali.gov.bd"
+      },
+      {
+       "id": "chatkhil",
+       "bn": "চাটখিল",
+       "website": "https://chatkhil.noakhali.gov.bd"
+      },
+      {
+       "id": "companiganj",
+       "bn": "কোম্পানীগঞ্জ",
+       "website": "https://companiganj.noakhali.gov.bd"
+      },
+      {
+       "id": "hatia",
+       "bn": "হাতিয়া",
+       "website": "https://hatia.noakhali.gov.bd"
+      },
+      {
+       "id": "senbug",
+       "bn": "সেনবাগ",
+       "website": "https://senbug.noakhali.gov.bd"
+      },
+      {
+       "id": "sonaimuri",
+       "bn": "সোনাইমুড়ী",
+       "website": "https://sonaimuri.noakhali.gov.bd"
+      },
+      {
+       "id": "subarnachar",
+       "bn": "সুবর্ণচর",
+       "website": "https://subarnachar.noakhali.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "নোয়াখালী সদর",
+       "website": "https://sadar.noakhali.gov.bd"
+      },
+      {
+       "id": "kabirhat",
+       "bn": "কবিরহাট",
+       "website": "https://kabirhat.noakhali.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "rangamati",
+     "bn": "রাঙ্গামাটি",
+     "en": "Rangamati",
+     "website": "https://rangamati.gov.bd",
+     "upazilas": [
+      {
+       "id": "baghaichari",
+       "bn": "বাঘাইছড়ি",
+       "website": "https://baghaichari.rangamati.gov.bd"
+      },
+      {
+       "id": "barkal",
+       "bn": "বরকল",
+       "website": "https://barkal.rangamati.gov.bd"
+      },
+      {
+       "id": "kawkhali",
+       "bn": "কাউখালী",
+       "website": "https://kawkhali.rangamati.gov.bd"
+      },
+      {
+       "id": "kaptai",
+       "bn": "কাপ্তাই",
+       "website": "https://kaptai.rangamati.gov.bd"
+      },
+      {
+       "id": "juraichari",
+       "bn": "জুরাছড়ি",
+       "website": "https://juraichari.rangamati.gov.bd"
+      },
+      {
+       "id": "langadu",
+       "bn": "লংগদু",
+       "website": "https://langadu.rangamati.gov.bd"
+      },
+      {
+       "id": "naniarchar",
+       "bn": "নানিয়ারচর",
+       "website": "https://naniarchar.rangamati.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "রাঙ্গামাটি সদর",
+       "website": "https://sadar.rangamati.gov.bd"
+      },
+      {
+       "id": "rajasthali",
+       "bn": "রাজস্থলী",
+       "website": "https://rajasthali.rangamati.gov.bd"
+      },
+      {
+       "id": "belaichari",
+       "bn": "বিলাইছড়ি",
+       "website": "https://belaichari.rangamati.gov.bd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rajshahi",
+   "bn": "রাজশাহী",
+   "en": "Rajshahi",
+   "districts": [
+    {
+     "id": "bogra",
+     "bn": "বগুড়া",
+     "en": "Bogura",
+     "website": "https://bogra.gov.bd",
+     "upazilas": [
+      {
+       "id": "adamdighi",
+       "bn": "আদমদিঘি",
+       "website": "https://adamdighi.bogra.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "বগুড়া সদর",
+       "website": "https://sadar.bogra.gov.bd"
+      },
+      {
+       "id": "dhunot",
+       "bn": "ধুনট",
+       "website": "https://dhunot.bogra.gov.bd"
+      },
+      {
+       "id": "dupchanchia",
+       "bn": "দুপচাচিঁয়া",
+       "website": "https://dupchanchia.bogra.gov.bd"
+      },
+      {
+       "id": "gabtali",
+       "bn": "গাবতলী",
+       "website": "https://gabtali.bogra.gov.bd"
+      },
+      {
+       "id": "kahaloo",
+       "bn": "কাহালু",
+       "website": "https://kahaloo.bogra.gov.bd"
+      },
+      {
+       "id": "nondigram",
+       "bn": "নন্দিগ্রাম",
+       "website": "https://nondigram.bogra.gov.bd"
+      },
+      {
+       "id": "shariakandi",
+       "bn": "সারিয়াকান্দি",
+       "website": "https://shariakandi.bogra.gov.bd"
+      },
+      {
+       "id": "shajahanpur",
+       "bn": "শাজাহানপুর",
+       "website": "https://shajahanpur.bogra.gov.bd"
+      },
+      {
+       "id": "sherpur",
+       "bn": "শেরপুর",
+       "website": "https://sherpur.bogra.gov.bd"
+      },
+      {
+       "id": "shibganj",
+       "bn": "শিবগঞ্জ",
+       "website": "https://shibganj.bogra.gov.bd"
+      },
+      {
+       "id": "sonatala",
+       "bn": "সোনাতলা",
+       "website": "https://sonatala.bogra.gov.bd"
+      },
+      {
+       "id": "mokamtala",
+       "bn": "মোকামতলা",
+       "website": "https://mokamtala.bogra.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "joypurhat",
+     "bn": "জয়পুরহাট",
+     "en": "Joypurhat",
+     "website": "https://joypurhat.gov.bd",
+     "upazilas": [
+      {
+       "id": "akkelpur",
+       "bn": "আক্কেলপুর",
+       "website": "https://akkelpur.joypurhat.gov.bd"
+      },
+      {
+       "id": "joypurhatsadar",
+       "bn": "জয়পুরহাট সদর",
+       "website": "https://joypurhatsadar.joypurhat.gov.bd"
+      },
+      {
+       "id": "kalai",
+       "bn": "কালাই",
+       "website": "https://kalai.joypurhat.gov.bd"
+      },
+      {
+       "id": "panchbibi",
+       "bn": "পাঁচবিবি",
+       "website": "https://panchbibi.joypurhat.gov.bd"
+      },
+      {
+       "id": "khetlal",
+       "bn": "ক্ষেতলাল",
+       "website": "https://khetlal.joypurhat.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "naogaon",
+     "bn": "নওগাঁ",
+     "en": "Naogaon",
+     "website": "https://naogaon.gov.bd",
+     "upazilas": [
+      {
+       "id": "atrai",
+       "bn": "আত্রাই",
+       "website": "https://atrai.naogaon.gov.bd"
+      },
+      {
+       "id": "dhamoirhat",
+       "bn": "ধামইরহাট",
+       "website": "https://dhamoirhat.naogaon.gov.bd"
+      },
+      {
+       "id": "manda",
+       "bn": "মান্দা",
+       "website": "https://manda.naogaon.gov.bd"
+      },
+      {
+       "id": "mohadevpur",
+       "bn": "মহাদেবপুর",
+       "website": "https://mohadevpur.naogaon.gov.bd"
+      },
+      {
+       "id": "naogaonsadar",
+       "bn": "নওগাঁ সদর",
+       "website": "https://naogaonsadar.naogaon.gov.bd"
+      },
+      {
+       "id": "niamatpur",
+       "bn": "নিয়ামতপুর",
+       "website": "https://niamatpur.naogaon.gov.bd"
+      },
+      {
+       "id": "patnitala",
+       "bn": "পত্নীতলা",
+       "website": "https://patnitala.naogaon.gov.bd"
+      },
+      {
+       "id": "raninagar",
+       "bn": "রাণীনগর",
+       "website": "https://raninagar.naogaon.gov.bd"
+      },
+      {
+       "id": "sapahar",
+       "bn": "সাপাহার",
+       "website": "https://sapahar.naogaon.gov.bd"
+      },
+      {
+       "id": "badalgachi",
+       "bn": "বদলগাছী",
+       "website": "https://badalgachi.naogaon.gov.bd"
+      },
+      {
+       "id": "porsha",
+       "bn": "পোরশা",
+       "website": "https://porsha.naogaon.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "natore",
+     "bn": "নাটোর",
+     "en": "Natore",
+     "website": "https://natore.gov.bd",
+     "upazilas": [
+      {
+       "id": "bagatipara",
+       "bn": "বাগাতিপাড়া",
+       "website": "https://bagatipara.natore.gov.bd"
+      },
+      {
+       "id": "baraigram",
+       "bn": "বড়াইগ্রাম",
+       "website": "https://baraigram.natore.gov.bd"
+      },
+      {
+       "id": "gurudaspur",
+       "bn": "গুরুদাসপুর",
+       "website": "https://gurudaspur.natore.gov.bd"
+      },
+      {
+       "id": "lalpur",
+       "bn": "লালপুর",
+       "website": "https://lalpur.natore.gov.bd"
+      },
+      {
+       "id": "natoresadar",
+       "bn": "নাটোর সদর",
+       "website": "https://natoresadar.natore.gov.bd"
+      },
+      {
+       "id": "singra",
+       "bn": "সিংড়া",
+       "website": "https://singra.natore.gov.bd"
+      },
+      {
+       "id": "naldanga",
+       "bn": "নলডাঙ্গা",
+       "website": "https://naldanga.natore.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "chapainawabganj",
+     "bn": "চাঁপাইনবাবগঞ্জ",
+     "en": "Chapai Nawabganj",
+     "website": "https://chapainawabganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "bholahat",
+       "bn": "ভোলাহাট",
+       "website": "https://bholahat.chapainawabganj.gov.bd"
+      },
+      {
+       "id": "gomostapur",
+       "bn": "গোমস্তাপুর",
+       "website": "https://gomostapur.chapainawabganj.gov.bd"
+      },
+      {
+       "id": "nachol",
+       "bn": "নাচোল",
+       "website": "https://nachol.chapainawabganj.gov.bd"
+      },
+      {
+       "id": "chapainawabganjsadar",
+       "bn": "চাঁপাইনবাবগঞ্জ সদর",
+       "website": "https://chapainawabganjsadar.chapainawabganj.gov.bd"
+      },
+      {
+       "id": "shibganj",
+       "bn": "শিবগঞ্জ",
+       "website": "https://shibganj.chapainawabganj.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "pabna",
+     "bn": "পাবনা",
+     "en": "Pabna",
+     "website": "https://pabna.gov.bd",
+     "upazilas": [
+      {
+       "id": "atghoria",
+       "bn": "আটঘরিয়া",
+       "website": "https://atghoria.pabna.gov.bd"
+      },
+      {
+       "id": "bera",
+       "bn": "বেড়া",
+       "website": "https://bera.pabna.gov.bd"
+      },
+      {
+       "id": "bhangura",
+       "bn": "ভাঙ্গুড়া",
+       "website": "https://bhangura.pabna.gov.bd"
+      },
+      {
+       "id": "chatmohar",
+       "bn": "চাটমোহর",
+       "website": "https://chatmohar.pabna.gov.bd"
+      },
+      {
+       "id": "faridpur",
+       "bn": "ফরিদপুর",
+       "website": "https://faridpur.pabna.gov.bd"
+      },
+      {
+       "id": "ishurdi",
+       "bn": "ঈশ্বরদী",
+       "website": "https://ishurdi.pabna.gov.bd"
+      },
+      {
+       "id": "pabnasadar",
+       "bn": "পাবনা সদর",
+       "website": "https://pabnasadar.pabna.gov.bd"
+      },
+      {
+       "id": "santhia",
+       "bn": "সাঁথিয়া",
+       "website": "https://santhia.pabna.gov.bd"
+      },
+      {
+       "id": "sujanagar",
+       "bn": "সুজানগর",
+       "website": "https://sujanagar.pabna.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "rajshahi",
+     "bn": "রাজশাহী",
+     "en": "Rajshahi",
+     "website": "https://rajshahi.gov.bd",
+     "upazilas": [
+      {
+       "id": "bagha",
+       "bn": "বাঘা",
+       "website": "https://bagha.rajshahi.gov.bd"
+      },
+      {
+       "id": "bagmara",
+       "bn": "বাগমারা",
+       "website": "https://bagmara.rajshahi.gov.bd"
+      },
+      {
+       "id": "charghat",
+       "bn": "চারঘাট",
+       "website": "https://charghat.rajshahi.gov.bd"
+      },
+      {
+       "id": "durgapur",
+       "bn": "দুর্গাপুর",
+       "website": "https://durgapur.rajshahi.gov.bd"
+      },
+      {
+       "id": "godagari",
+       "bn": "গোদাগাড়ী",
+       "website": "https://godagari.rajshahi.gov.bd"
+      },
+      {
+       "id": "mohonpur",
+       "bn": "মোহনপুর",
+       "website": "https://mohonpur.rajshahi.gov.bd"
+      },
+      {
+       "id": "paba",
+       "bn": "পবা",
+       "website": "https://paba.rajshahi.gov.bd"
+      },
+      {
+       "id": "puthia",
+       "bn": "পুঠিয়া",
+       "website": "https://puthia.rajshahi.gov.bd"
+      },
+      {
+       "id": "tanore",
+       "bn": "তানোর",
+       "website": "https://tanore.rajshahi.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "sirajganj",
+     "bn": "সিরাজগঞ্জ",
+     "en": "Sirajganj",
+     "website": "https://sirajganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "belkuchi",
+       "bn": "বেলকুচি",
+       "website": "https://belkuchi.sirajganj.gov.bd"
+      },
+      {
+       "id": "chauhali",
+       "bn": "চৌহালি",
+       "website": "https://chauhali.sirajganj.gov.bd"
+      },
+      {
+       "id": "kamarkhand",
+       "bn": "কামারখন্দ",
+       "website": "https://kamarkhand.sirajganj.gov.bd"
+      },
+      {
+       "id": "kazipur",
+       "bn": "কাজীপুর",
+       "website": "https://kazipur.sirajganj.gov.bd"
+      },
+      {
+       "id": "raigonj",
+       "bn": "রায়গঞ্জ",
+       "website": "https://raigonj.sirajganj.gov.bd"
+      },
+      {
+       "id": "shahjadpur",
+       "bn": "শাহজাদপুর",
+       "website": "https://shahjadpur.sirajganj.gov.bd"
+      },
+      {
+       "id": "sirajganjsadar",
+       "bn": "সিরাজগঞ্জ সদর",
+       "website": "https://sirajganjsadar.sirajganj.gov.bd"
+      },
+      {
+       "id": "tarash",
+       "bn": "তাড়াশ",
+       "website": "https://tarash.sirajganj.gov.bd"
+      },
+      {
+       "id": "ullapara",
+       "bn": "উল্লাপাড়া",
+       "website": "https://ullapara.sirajganj.gov.bd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sylhet",
+   "bn": "সিলেট",
+   "en": "Sylhet",
+   "districts": [
+    {
+     "id": "habiganj",
+     "bn": "হবিগঞ্জ",
+     "en": "Habiganj",
+     "website": "https://habiganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "ajmiriganj",
+       "bn": "আজমিরীগঞ্জ",
+       "website": "https://ajmiriganj.habiganj.gov.bd"
+      },
+      {
+       "id": "bahubal",
+       "bn": "বাহুবল",
+       "website": "https://bahubal.habiganj.gov.bd"
+      },
+      {
+       "id": "baniachong",
+       "bn": "বানিয়াচং",
+       "website": "https://baniachong.habiganj.gov.bd"
+      },
+      {
+       "id": "chunarughat",
+       "bn": "চুনারুঘাট",
+       "website": "https://chunarughat.habiganj.gov.bd"
+      },
+      {
+       "id": "habiganjsadar",
+       "bn": "হবিগঞ্জ সদর",
+       "website": "https://habiganjsadar.habiganj.gov.bd"
+      },
+      {
+       "id": "lakhai",
+       "bn": "লাখাই",
+       "website": "https://lakhai.habiganj.gov.bd"
+      },
+      {
+       "id": "madhabpur",
+       "bn": "মাধবপুর",
+       "website": "https://madhabpur.habiganj.gov.bd"
+      },
+      {
+       "id": "nabiganj",
+       "bn": "নবীগঞ্জ",
+       "website": "https://nabiganj.habiganj.gov.bd"
+      },
+      {
+       "id": "shayestaganj",
+       "bn": "শায়েস্তাগঞ্জ",
+       "website": "https://shayestaganj.habiganj.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "moulvibazar",
+     "bn": "মৌলভীবাজার",
+     "en": "Moulvibazar",
+     "website": "https://moulvibazar.gov.bd",
+     "upazilas": [
+      {
+       "id": "barlekha",
+       "bn": "বড়লেখা",
+       "website": "https://barlekha.moulvibazar.gov.bd"
+      },
+      {
+       "id": "juri",
+       "bn": "জুড়ী",
+       "website": "https://juri.moulvibazar.gov.bd"
+      },
+      {
+       "id": "kamolganj",
+       "bn": "কমলগঞ্জ",
+       "website": "https://kamolganj.moulvibazar.gov.bd"
+      },
+      {
+       "id": "kulaura",
+       "bn": "কুলাউড়া",
+       "website": "https://kulaura.moulvibazar.gov.bd"
+      },
+      {
+       "id": "moulvibazarsadar",
+       "bn": "মৌলভীবাজার সদর",
+       "website": "https://moulvibazarsadar.moulvibazar.gov.bd"
+      },
+      {
+       "id": "rajnagar",
+       "bn": "রাজনগর",
+       "website": "https://rajnagar.moulvibazar.gov.bd"
+      },
+      {
+       "id": "sreemangal",
+       "bn": "শ্রীমঙ্গল",
+       "website": "https://sreemangal.moulvibazar.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "sunamganj",
+     "bn": "সুনামগঞ্জ",
+     "en": "Sunamganj",
+     "website": "https://sunamganj.gov.bd",
+     "upazilas": [
+      {
+       "id": "bishwambarpur",
+       "bn": "বিশ্বম্ভরপুর",
+       "website": "https://bishwambarpur.sunamganj.gov.bd"
+      },
+      {
+       "id": "chhatak",
+       "bn": "ছাতক",
+       "website": "https://chhatak.sunamganj.gov.bd"
+      },
+      {
+       "id": "derai",
+       "bn": "দিরাই",
+       "website": "https://derai.sunamganj.gov.bd"
+      },
+      {
+       "id": "dharmapasha",
+       "bn": "ধর্মপাশা",
+       "website": "https://dharmapasha.sunamganj.gov.bd"
+      },
+      {
+       "id": "dowarabazar",
+       "bn": "দোয়ারাবাজার",
+       "website": "https://dowarabazar.sunamganj.gov.bd"
+      },
+      {
+       "id": "jagannathpur",
+       "bn": "জগন্নাথপুর",
+       "website": "https://jagannathpur.sunamganj.gov.bd"
+      },
+      {
+       "id": "jamalganj",
+       "bn": "জামালগঞ্জ",
+       "website": "https://jamalganj.sunamganj.gov.bd"
+      },
+      {
+       "id": "shalla",
+       "bn": "শাল্লা",
+       "website": "https://shalla.sunamganj.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "সুনামগঞ্জ সদর",
+       "website": "https://sadar.sunamganj.gov.bd"
+      },
+      {
+       "id": "tahirpur",
+       "bn": "তাহিরপুর",
+       "website": "https://tahirpur.sunamganj.gov.bd"
+      },
+      {
+       "id": "shantiganj",
+       "bn": "শান্তিগঞ্জ",
+       "website": "https://shantiganj.sunamganj.gov.bd"
+      },
+      {
+       "id": "madhyanagar",
+       "bn": "মধ্যনগর",
+       "website": "https://madhyanagar.sunamganj.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "sylhet",
+     "bn": "সিলেট",
+     "en": "Sylhet",
+     "website": "https://sylhet.gov.bd",
+     "upazilas": [
+      {
+       "id": "balaganj",
+       "bn": "বালাগঞ্জ",
+       "website": "https://balaganj.sylhet.gov.bd"
+      },
+      {
+       "id": "beanibazar",
+       "bn": "বিয়ানীবাজার",
+       "website": "https://beanibazar.sylhet.gov.bd"
+      },
+      {
+       "id": "bishwanath",
+       "bn": "বিশ্বনাথ",
+       "website": "https://bishwanath.sylhet.gov.bd"
+      },
+      {
+       "id": "companiganj",
+       "bn": "কোম্পানীগঞ্জ",
+       "website": "https://companiganj.sylhet.gov.bd"
+      },
+      {
+       "id": "dakshinsurma",
+       "bn": "দক্ষিণ সুরমা",
+       "website": "https://dakshinsurma.sylhet.gov.bd"
+      },
+      {
+       "id": "fenchuganj",
+       "bn": "ফেঞ্চুগঞ্জ",
+       "website": "https://fenchuganj.sylhet.gov.bd"
+      },
+      {
+       "id": "golapganj",
+       "bn": "গোলাপগঞ্জ",
+       "website": "https://golapganj.sylhet.gov.bd"
+      },
+      {
+       "id": "gowainghat",
+       "bn": "গোয়াইনঘাট",
+       "website": "https://gowainghat.sylhet.gov.bd"
+      },
+      {
+       "id": "jaintiapur",
+       "bn": "জৈন্তাপুর",
+       "website": "https://jaintiapur.sylhet.gov.bd"
+      },
+      {
+       "id": "kanaighat",
+       "bn": "কানাইঘাট",
+       "website": "https://kanaighat.sylhet.gov.bd"
+      },
+      {
+       "id": "sylhetsadar",
+       "bn": "সিলেট সদর",
+       "website": "https://sylhetsadar.sylhet.gov.bd"
+      },
+      {
+       "id": "zakiganj",
+       "bn": "জকিগঞ্জ",
+       "website": "https://zakiganj.sylhet.gov.bd"
+      },
+      {
+       "id": "osmaninagar",
+       "bn": "ওসমানী নগর",
+       "website": "https://osmaninagar.sylhet.gov.bd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rangpur",
+   "bn": "রংপুর",
+   "en": "Rangpur",
+   "districts": [
+    {
+     "id": "dinajpur",
+     "bn": "দিনাজপুর",
+     "en": "Dinajpur",
+     "website": "https://dinajpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "birampur",
+       "bn": "বিরামপুর",
+       "website": "https://birampur.dinajpur.gov.bd"
+      },
+      {
+       "id": "birganj",
+       "bn": "বীরগঞ্জ",
+       "website": "https://birganj.dinajpur.gov.bd"
+      },
+      {
+       "id": "birol",
+       "bn": "বিরল",
+       "website": "https://birol.dinajpur.gov.bd"
+      },
+      {
+       "id": "bochaganj",
+       "bn": "বোচাগঞ্জ",
+       "website": "https://bochaganj.dinajpur.gov.bd"
+      },
+      {
+       "id": "chirirbandar",
+       "bn": "চিরিরবন্দর",
+       "website": "https://chirirbandar.dinajpur.gov.bd"
+      },
+      {
+       "id": "fulbari",
+       "bn": "ফুলবাড়ী",
+       "website": "https://fulbari.dinajpur.gov.bd"
+      },
+      {
+       "id": "ghoraghat",
+       "bn": "ঘোড়াঘাট",
+       "website": "https://ghoraghat.dinajpur.gov.bd"
+      },
+      {
+       "id": "hakimpur",
+       "bn": "হাকিমপুর",
+       "website": "https://hakimpur.dinajpur.gov.bd"
+      },
+      {
+       "id": "kaharol",
+       "bn": "কাহারোল",
+       "website": "https://kaharol.dinajpur.gov.bd"
+      },
+      {
+       "id": "khansama",
+       "bn": "খানসামা",
+       "website": "https://khansama.dinajpur.gov.bd"
+      },
+      {
+       "id": "nawabganj",
+       "bn": "নবাবগঞ্জ",
+       "website": "https://nawabganj.dinajpur.gov.bd"
+      },
+      {
+       "id": "parbatipur",
+       "bn": "পার্বতীপুর",
+       "website": "https://parbatipur.dinajpur.gov.bd"
+      },
+      {
+       "id": "dinajpursadar",
+       "bn": "দিনাজপুর সদর",
+       "website": "https://dinajpursadar.dinajpur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "gaibandha",
+     "bn": "গাইবান্ধা",
+     "en": "Gaibandha",
+     "website": "https://gaibandha.gov.bd",
+     "upazilas": [
+      {
+       "id": "phulchari",
+       "bn": "ফুলছড়ি",
+       "website": "https://phulchari.gaibandha.gov.bd"
+      },
+      {
+       "id": "gaibandhasadar",
+       "bn": "গাইবান্ধা সদর",
+       "website": "https://gaibandhasadar.gaibandha.gov.bd"
+      },
+      {
+       "id": "gobindaganj",
+       "bn": "গোবিন্দগঞ্জ",
+       "website": "https://gobindaganj.gaibandha.gov.bd"
+      },
+      {
+       "id": "palashbari",
+       "bn": "পলাশবাড়ী",
+       "website": "https://palashbari.gaibandha.gov.bd"
+      },
+      {
+       "id": "sadullapur",
+       "bn": "সাদুল্লাপুর",
+       "website": "https://sadullapur.gaibandha.gov.bd"
+      },
+      {
+       "id": "saghata",
+       "bn": "সাঘাটা",
+       "website": "https://saghata.gaibandha.gov.bd"
+      },
+      {
+       "id": "sundarganj",
+       "bn": "সুন্দরগঞ্জ",
+       "website": "https://sundarganj.gaibandha.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "kurigram",
+     "bn": "কুড়িগ্রাম",
+     "en": "Kurigram",
+     "website": "https://kurigram.gov.bd",
+     "upazilas": [
+      {
+       "id": "bhurungamari",
+       "bn": "ভূরুঙ্গামারী",
+       "website": "https://bhurungamari.kurigram.gov.bd"
+      },
+      {
+       "id": "charrajibpur",
+       "bn": "চর রাজিবপুর",
+       "website": "https://charrajibpur.kurigram.gov.bd"
+      },
+      {
+       "id": "chilmari",
+       "bn": "চিলমারী",
+       "website": "https://chilmari.kurigram.gov.bd"
+      },
+      {
+       "id": "phulbari",
+       "bn": "ফুলবাড়ী",
+       "website": "https://phulbari.kurigram.gov.bd"
+      },
+      {
+       "id": "kurigramsadar",
+       "bn": "কুড়িগ্রাম সদর",
+       "website": "https://kurigramsadar.kurigram.gov.bd"
+      },
+      {
+       "id": "nageshwari",
+       "bn": "নাগেশ্বরী",
+       "website": "https://nageshwari.kurigram.gov.bd"
+      },
+      {
+       "id": "rajarhat",
+       "bn": "রাজারহাট",
+       "website": "https://rajarhat.kurigram.gov.bd"
+      },
+      {
+       "id": "rowmari",
+       "bn": "রৌমারী",
+       "website": "https://rowmari.kurigram.gov.bd"
+      },
+      {
+       "id": "ulipur",
+       "bn": "উলিপুর",
+       "website": "https://ulipur.kurigram.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "lalmonirhat",
+     "bn": "লালমনিরহাট",
+     "en": "Lalmonirhat",
+     "website": "https://lalmonirhat.gov.bd",
+     "upazilas": [
+      {
+       "id": "aditmari",
+       "bn": "আদিতমারী",
+       "website": "https://aditmari.lalmonirhat.gov.bd"
+      },
+      {
+       "id": "hatibandha",
+       "bn": "হাতীবান্ধা",
+       "website": "https://hatibandha.lalmonirhat.gov.bd"
+      },
+      {
+       "id": "kaliganj",
+       "bn": "কালীগঞ্জ",
+       "website": "https://kaliganj.lalmonirhat.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "লালমনিরহাট সদর",
+       "website": "https://sadar.lalmonirhat.gov.bd"
+      },
+      {
+       "id": "patgram",
+       "bn": "পাটগ্রাম",
+       "website": "https://patgram.lalmonirhat.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "nilphamari",
+     "bn": "নীলফামারী",
+     "en": "Nilphamari",
+     "website": "https://nilphamari.gov.bd",
+     "upazilas": [
+      {
+       "id": "domar",
+       "bn": "ডোমার",
+       "website": "https://domar.nilphamari.gov.bd"
+      },
+      {
+       "id": "jaldhaka",
+       "bn": "জলঢাকা",
+       "website": "https://jaldhaka.nilphamari.gov.bd"
+      },
+      {
+       "id": "kishorganj",
+       "bn": "কিশোরগঞ্জ",
+       "website": "https://kishorganj.nilphamari.gov.bd"
+      },
+      {
+       "id": "nilphamarisadar",
+       "bn": "নীলফামারী সদর",
+       "website": "https://nilphamarisadar.nilphamari.gov.bd"
+      },
+      {
+       "id": "syedpur",
+       "bn": "সৈয়দপুর",
+       "website": "https://syedpur.nilphamari.gov.bd"
+      },
+      {
+       "id": "dimla",
+       "bn": "ডিমলা",
+       "website": "https://dimla.nilphamari.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "panchagarh",
+     "bn": "পঞ্চগড়",
+     "en": "Panchagarh",
+     "website": "https://panchagarh.gov.bd",
+     "upazilas": [
+      {
+       "id": "atwari",
+       "bn": "আটোয়ারী",
+       "website": "https://atwari.panchagarh.gov.bd"
+      },
+      {
+       "id": "boda",
+       "bn": "বোদা",
+       "website": "https://boda.panchagarh.gov.bd"
+      },
+      {
+       "id": "debiganj",
+       "bn": "দেবীগঞ্জ",
+       "website": "https://debiganj.panchagarh.gov.bd"
+      },
+      {
+       "id": "panchagarhsadar",
+       "bn": "পঞ্চগড় সদর",
+       "website": "https://panchagarhsadar.panchagarh.gov.bd"
+      },
+      {
+       "id": "tetulia",
+       "bn": "তেঁতুলিয়া",
+       "website": "https://tetulia.panchagarh.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "rangpur",
+     "bn": "রংপুর",
+     "en": "Rangpur",
+     "website": "https://rangpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "badargonj",
+       "bn": "বদরগঞ্জ",
+       "website": "https://badargonj.rangpur.gov.bd"
+      },
+      {
+       "id": "kaunia",
+       "bn": "কাউনিয়া",
+       "website": "https://kaunia.rangpur.gov.bd"
+      },
+      {
+       "id": "rangpursadar",
+       "bn": "রংপুর সদর",
+       "website": "https://rangpursadar.rangpur.gov.bd"
+      },
+      {
+       "id": "mithapukur",
+       "bn": "মিঠাপুকুর",
+       "website": "https://mithapukur.rangpur.gov.bd"
+      },
+      {
+       "id": "pirgacha",
+       "bn": "পীরগাছা",
+       "website": "https://pirgacha.rangpur.gov.bd"
+      },
+      {
+       "id": "pirgonj",
+       "bn": "পীরগঞ্জ",
+       "website": "https://pirgonj.rangpur.gov.bd"
+      },
+      {
+       "id": "taragonj",
+       "bn": "তারাগঞ্জ",
+       "website": "https://taragonj.rangpur.gov.bd"
+      },
+      {
+       "id": "gangachara",
+       "bn": "গংগাচড়া",
+       "website": "https://gangachara.rangpur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "thakurgaon",
+     "bn": "ঠাকুরগাঁও",
+     "en": "Thakurgaon",
+     "website": "https://thakurgaon.gov.bd",
+     "upazilas": [
+      {
+       "id": "baliadangi",
+       "bn": "বালিয়াডাঙ্গী",
+       "website": "https://baliadangi.thakurgaon.gov.bd"
+      },
+      {
+       "id": "haripur",
+       "bn": "হরিপুর",
+       "website": "https://haripur.thakurgaon.gov.bd"
+      },
+      {
+       "id": "pirganj",
+       "bn": "পীরগঞ্জ",
+       "website": "https://pirganj.thakurgaon.gov.bd"
+      },
+      {
+       "id": "ranisankail",
+       "bn": "রাণীশংকৈল",
+       "website": "https://ranisankail.thakurgaon.gov.bd"
+      },
+      {
+       "id": "thakurgaonsadar",
+       "bn": "ঠাকুরগাঁও সদর",
+       "website": "https://thakurgaonsadar.thakurgaon.gov.bd"
+      },
+      {
+       "id": "bhulli",
+       "bn": "ভূল্লী",
+       "website": "https://bhulli.thakurgaon.gov.bd"
+      },
+      {
+       "id": "ruhia",
+       "bn": "রুহিয়া",
+       "website": "https://ruhia.thakurgaon.gov.bd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mymensingh",
+   "bn": "ময়মনসিংহ",
+   "en": "Mymensingh",
+   "districts": [
+    {
+     "id": "jamalpur",
+     "bn": "জামালপুর",
+     "en": "Jamalpur",
+     "website": "https://jamalpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "bokshiganj",
+       "bn": "বকশীগঞ্জ",
+       "website": "https://bokshiganj.jamalpur.gov.bd"
+      },
+      {
+       "id": "dewangonj",
+       "bn": "দেওয়ানগঞ্জ",
+       "website": "https://dewangonj.jamalpur.gov.bd"
+      },
+      {
+       "id": "islampur",
+       "bn": "ইসলামপুর",
+       "website": "https://islampur.jamalpur.gov.bd"
+      },
+      {
+       "id": "jamalpursadar",
+       "bn": "জামালপুর সদর",
+       "website": "https://jamalpursadar.jamalpur.gov.bd"
+      },
+      {
+       "id": "madarganj",
+       "bn": "মাদারগঞ্জ",
+       "website": "https://madarganj.jamalpur.gov.bd"
+      },
+      {
+       "id": "melandah",
+       "bn": "মেলান্দহ",
+       "website": "https://melandah.jamalpur.gov.bd"
+      },
+      {
+       "id": "sarishabari",
+       "bn": "সরিষাবাড়ী",
+       "website": "https://sarishabari.jamalpur.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "mymensingh",
+     "bn": "ময়মনসিংহ",
+     "en": "Mymensingh",
+     "website": "https://mymensingh.gov.bd",
+     "upazilas": [
+      {
+       "id": "bhaluka",
+       "bn": "ভালুকা",
+       "website": "https://bhaluka.mymensingh.gov.bd"
+      },
+      {
+       "id": "dhobaura",
+       "bn": "ধোবাউড়া",
+       "website": "https://dhobaura.mymensingh.gov.bd"
+      },
+      {
+       "id": "fulbaria",
+       "bn": "ফুলবাড়ীয়া",
+       "website": "https://fulbaria.mymensingh.gov.bd"
+      },
+      {
+       "id": "gafargaon",
+       "bn": "গফরগাঁও",
+       "website": "https://gafargaon.mymensingh.gov.bd"
+      },
+      {
+       "id": "gouripur",
+       "bn": "গৌরীপুর",
+       "website": "https://gouripur.mymensingh.gov.bd"
+      },
+      {
+       "id": "haluaghat",
+       "bn": "হালুয়াঘাট",
+       "website": "https://haluaghat.mymensingh.gov.bd"
+      },
+      {
+       "id": "iswarganj",
+       "bn": "ঈশ্বরগঞ্জ",
+       "website": "https://iswarganj.mymensingh.gov.bd"
+      },
+      {
+       "id": "mymensinghsadar",
+       "bn": "ময়মনসিংহ সদর",
+       "website": "https://mymensinghsadar.mymensingh.gov.bd"
+      },
+      {
+       "id": "muktagacha",
+       "bn": "মুক্তাগাছা",
+       "website": "https://muktagacha.mymensingh.gov.bd"
+      },
+      {
+       "id": "nandail",
+       "bn": "নান্দাইল",
+       "website": "https://nandail.mymensingh.gov.bd"
+      },
+      {
+       "id": "phulpur",
+       "bn": "ফুলপুর",
+       "website": "https://phulpur.mymensingh.gov.bd"
+      },
+      {
+       "id": "tarakanda",
+       "bn": "তারাকান্দা",
+       "website": "https://tarakanda.mymensingh.gov.bd"
+      },
+      {
+       "id": "trishal",
+       "bn": "ত্রিশাল",
+       "website": "https://trishal.mymensingh.gov.bd"
+      },
+      {
+       "id": "southgafargaon",
+       "bn": "দক্ষিণ গফরগাঁও",
+       "website": "https://southgafargaon.mymensingh.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "netrokona",
+     "bn": "নেত্রকোণা",
+     "en": "Netrokona",
+     "website": "https://netrokona.gov.bd",
+     "upazilas": [
+      {
+       "id": "atpara",
+       "bn": "আটপাড়া",
+       "website": "https://atpara.netrokona.gov.bd"
+      },
+      {
+       "id": "barhatta",
+       "bn": "বারহাট্টা",
+       "website": "https://barhatta.netrokona.gov.bd"
+      },
+      {
+       "id": "durgapur",
+       "bn": "দুর্গাপুর",
+       "website": "https://durgapur.netrokona.gov.bd"
+      },
+      {
+       "id": "khaliajuri",
+       "bn": "খালিয়াজুরী",
+       "website": "https://khaliajuri.netrokona.gov.bd"
+      },
+      {
+       "id": "kalmakanda",
+       "bn": "কলমাকান্দা",
+       "website": "https://kalmakanda.netrokona.gov.bd"
+      },
+      {
+       "id": "kendua",
+       "bn": "কেন্দুয়া",
+       "website": "https://kendua.netrokona.gov.bd"
+      },
+      {
+       "id": "madan",
+       "bn": "মদন",
+       "website": "https://madan.netrokona.gov.bd"
+      },
+      {
+       "id": "mohongonj",
+       "bn": "মোহনগঞ্জ",
+       "website": "https://mohongonj.netrokona.gov.bd"
+      },
+      {
+       "id": "netrokonasadar",
+       "bn": "নেত্রকোণা সদর",
+       "website": "https://netrokonasadar.netrokona.gov.bd"
+      },
+      {
+       "id": "purbadhala",
+       "bn": "পূর্বধলা",
+       "website": "https://purbadhala.netrokona.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "sherpur",
+     "bn": "শেরপুর",
+     "en": "Sherpur",
+     "website": "https://sherpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "jhenaigati",
+       "bn": "ঝিনাইগাতী",
+       "website": "https://jhenaigati.sherpur.gov.bd"
+      },
+      {
+       "id": "nokla",
+       "bn": "নকলা",
+       "website": "https://nokla.sherpur.gov.bd"
+      },
+      {
+       "id": "nalitabari",
+       "bn": "নালিতাবাড়ী",
+       "website": "https://nalitabari.sherpur.gov.bd"
+      },
+      {
+       "id": "sherpursadar",
+       "bn": "শেরপুর সদর",
+       "website": "https://sherpursadar.sherpur.gov.bd"
+      },
+      {
+       "id": "sreebordi",
+       "bn": "শ্রীবরদী",
+       "website": "https://sreebordi.sherpur.gov.bd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "barishal",
+   "bn": "বরিশাল",
+   "en": "Barishal",
+   "districts": [
+    {
+     "id": "barguna",
+     "bn": "বরগুনা",
+     "en": "Barguna",
+     "website": "https://barguna.gov.bd",
+     "upazilas": [
+      {
+       "id": "amtali",
+       "bn": "আমতলী",
+       "website": "https://amtali.barguna.gov.bd"
+      },
+      {
+       "id": "bamna",
+       "bn": "বামনা",
+       "website": "https://bamna.barguna.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "বরগুনা সদর",
+       "website": "https://sadar.barguna.gov.bd"
+      },
+      {
+       "id": "betagi",
+       "bn": "বেতাগী",
+       "website": "https://betagi.barguna.gov.bd"
+      },
+      {
+       "id": "pathorghata",
+       "bn": "পাথরঘাটা",
+       "website": "https://pathorghata.barguna.gov.bd"
+      },
+      {
+       "id": "taltali",
+       "bn": "তালতলী",
+       "website": "https://taltali.barguna.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "barisal",
+     "bn": "বরিশাল",
+     "en": "Barishal",
+     "website": "https://barisal.gov.bd",
+     "upazilas": [
+      {
+       "id": "agailjhara",
+       "bn": "আগৈলঝাড়া",
+       "website": "https://agailjhara.barisal.gov.bd"
+      },
+      {
+       "id": "babuganj",
+       "bn": "বাবুগঞ্জ",
+       "website": "https://babuganj.barisal.gov.bd"
+      },
+      {
+       "id": "bakerganj",
+       "bn": "বাকেরগঞ্জ",
+       "website": "https://bakerganj.barisal.gov.bd"
+      },
+      {
+       "id": "banaripara",
+       "bn": "বানারীপাড়া",
+       "website": "https://banaripara.barisal.gov.bd"
+      },
+      {
+       "id": "gournadi",
+       "bn": "গৌরনদী",
+       "website": "https://gournadi.barisal.gov.bd"
+      },
+      {
+       "id": "hizla",
+       "bn": "হিজলা",
+       "website": "https://hizla.barisal.gov.bd"
+      },
+      {
+       "id": "barisalsadar",
+       "bn": "বরিশাল সদর",
+       "website": "https://barisalsadar.barisal.gov.bd"
+      },
+      {
+       "id": "mehendiganj",
+       "bn": "মেহেন্দিগঞ্জ",
+       "website": "https://mehendiganj.barisal.gov.bd"
+      },
+      {
+       "id": "muladi",
+       "bn": "মুলাদী",
+       "website": "https://muladi.barisal.gov.bd"
+      },
+      {
+       "id": "wazirpur",
+       "bn": "উজিরপুর",
+       "website": "https://wazirpur.barisal.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "bhola",
+     "bn": "ভোলা",
+     "en": "Bhola",
+     "website": "https://bhola.gov.bd",
+     "upazilas": [
+      {
+       "id": "sadar",
+       "bn": "ভোলা সদর",
+       "website": "https://sadar.bhola.gov.bd"
+      },
+      {
+       "id": "borhanuddin",
+       "bn": "বোরহানউদ্দিন",
+       "website": "https://borhanuddin.bhola.gov.bd"
+      },
+      {
+       "id": "doulatkhan",
+       "bn": "দৌলতখান",
+       "website": "https://doulatkhan.bhola.gov.bd"
+      },
+      {
+       "id": "lalmohan",
+       "bn": "লালমোহন",
+       "website": "https://lalmohan.bhola.gov.bd"
+      },
+      {
+       "id": "monpura",
+       "bn": "মনপুরা",
+       "website": "https://monpura.bhola.gov.bd"
+      },
+      {
+       "id": "tazumuddin",
+       "bn": "তজুমদ্দিন",
+       "website": "https://tazumuddin.bhola.gov.bd"
+      },
+      {
+       "id": "charfesson",
+       "bn": "চরফ্যাশন",
+       "website": "https://charfesson.bhola.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "jhalakathi",
+     "bn": "ঝালকাঠি",
+     "en": "Jhalokati",
+     "website": "https://jhalakathi.gov.bd",
+     "upazilas": [
+      {
+       "id": "sadar",
+       "bn": "ঝালকাঠি সদর",
+       "website": "https://sadar.jhalakathi.gov.bd"
+      },
+      {
+       "id": "nalchity",
+       "bn": "নলছিটি",
+       "website": "https://nalchity.jhalakathi.gov.bd"
+      },
+      {
+       "id": "kathalia",
+       "bn": "কাঠালিয়া",
+       "website": "https://kathalia.jhalakathi.gov.bd"
+      },
+      {
+       "id": "rajapur",
+       "bn": "রাজাপুর",
+       "website": "https://rajapur.jhalakathi.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "patuakhali",
+     "bn": "পটুয়াখালী",
+     "en": "Patuakhali",
+     "website": "https://patuakhali.gov.bd",
+     "upazilas": [
+      {
+       "id": "bauphal",
+       "bn": "বাউফল",
+       "website": "https://bauphal.patuakhali.gov.bd"
+      },
+      {
+       "id": "dashmina",
+       "bn": "দশমিনা",
+       "website": "https://dashmina.patuakhali.gov.bd"
+      },
+      {
+       "id": "dumki",
+       "bn": "দুমকী",
+       "website": "https://dumki.patuakhali.gov.bd"
+      },
+      {
+       "id": "kalapara",
+       "bn": "কলাপাড়া",
+       "website": "https://kalapara.patuakhali.gov.bd"
+      },
+      {
+       "id": "mirzaganj",
+       "bn": "মির্জাগঞ্জ",
+       "website": "https://mirzaganj.patuakhali.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "পটুয়াখালী সদর",
+       "website": "https://sadar.patuakhali.gov.bd"
+      },
+      {
+       "id": "rangabali",
+       "bn": "রাঙ্গাবালী",
+       "website": "https://rangabali.patuakhali.gov.bd"
+      },
+      {
+       "id": "galachipa",
+       "bn": "গলাচিপা",
+       "website": "https://galachipa.patuakhali.gov.bd"
+      }
+     ]
+    },
+    {
+     "id": "pirojpur",
+     "bn": "পিরোজপুর",
+     "en": "Pirojpur",
+     "website": "https://pirojpur.gov.bd",
+     "upazilas": [
+      {
+       "id": "bhandaria",
+       "bn": "ভান্ডারিয়া",
+       "website": "https://bhandaria.pirojpur.gov.bd"
+      },
+      {
+       "id": "kawkhali",
+       "bn": "কাউখালী",
+       "website": "https://kawkhali.pirojpur.gov.bd"
+      },
+      {
+       "id": "mathbaria",
+       "bn": "মঠবাড়ীয়া",
+       "website": "https://mathbaria.pirojpur.gov.bd"
+      },
+      {
+       "id": "nazirpur",
+       "bn": "নাজিরপুর",
+       "website": "https://nazirpur.pirojpur.gov.bd"
+      },
+      {
+       "id": "sadar",
+       "bn": "পিরোজপুর সদর",
+       "website": "https://sadar.pirojpur.gov.bd"
+      },
+      {
+       "id": "nesarabad",
+       "bn": "নেছারাবাদ",
+       "website": "https://nesarabad.pirojpur.gov.bd"
+      },
+      {
+       "id": "zianagar",
+       "bn": "জিয়ানগর",
+       "website": "https://zianagar.pirojpur.gov.bd"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

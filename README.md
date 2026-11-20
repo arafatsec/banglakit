@@ -2,11 +2,12 @@
 
 [![test](https://github.com/arafatsec/banglakit/actions/workflows/test.yml/badge.svg)](https://github.com/arafatsec/banglakit/actions/workflows/test.yml) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![good first issues](https://img.shields.io/github/issues/arafatsec/banglakit/good%20first%20issue?label=good%20first%20issues&color=7057ff)](https://github.com/arafatsec/banglakit/labels/good%20first%20issue)
 
-**Bangla (বাংলা) tools for people and AI agents.** Taka in words, the Bangladesh Bangla calendar, phonetic typing and digits, ready for Claude, Codex, Cursor or any MCP agent, plus a CLI and a JavaScript library.
+**Bangla (বাংলা) and Bangladesh tools for people and AI agents.** Taka in words, the Bangla calendar, every district and upazila, official public holidays, phone numbers and phonetic typing, ready for Claude, Codex, Cursor or any MCP agent, plus a CLI and a JavaScript library.
 
 300 million people speak Bangla, yet AI agents still get the basics wrong: they write taka amounts in the Western million system, guess the Bangla date, and can't read Bangla typed in English letters. banglakit gives them exact, tested tools instead of guesses.
 
-- **Exact:** rules, not AI. Every result is deterministic and covered by tests.
+- **Exact:** rules and official data, not AI guesses. Every result is deterministic and covered by tests.
+- **Sourced:** every dataset links to its Government of Bangladesh source ([data/README.md](data/README.md)).
 - **Local:** no network, no account, no data leaves your machine.
 - **Free:** Apache-2.0.
 
@@ -24,7 +25,7 @@ claude mcp add banglakit -- npx -y @arafatsec/banglakit mcp
 { "mcpServers": { "banglakit": { "command": "npx", "args": ["-y", "@arafatsec/banglakit", "mcp"] } } }
 ```
 
-Then just ask: *"Write ১,২৫,০০০.৫০ taka in words for this cheque"* or *"What is today's Bangla date?"*
+Then just ask: *"Write ১,২৫,০০০.৫০ taka in words for this cheque"*, *"Is 26 March a holiday?"* or *"Which district is Savar in?"*
 
 | Tool | What it does | Example |
 |---|---|---|
@@ -35,6 +36,11 @@ Then just ask: *"Write ১,২৫,০০০.৫০ taka in words for this cheque
 | `bangla_date` | Gregorian → Bangla date, weekday, season | `2026-02-21` → ৮ ফাল্গুন ১৪৩২ বঙ্গাব্দ |
 | `gregorian_date` | Bangla date → Gregorian | `1433 1 1` → 2026-04-14 |
 | `phonetic_to_bangla` | English letters → Bangla script | `ami banglay gan gai` → আমি বাংলায় গান গাই |
+| `find_area` | Find a division, district or upazila (Bangla or English) | `savar` → সাভার, Dhaka district, Dhaka division |
+| `list_areas` | Divisions → districts → upazilas | `district: gazipur` → গাজীপুর সদর, কালিয়াকৈর... |
+| `bd_holidays` | Official public holidays (general, executive, optional) | `2026, month 3` → ঈদ-উল-ফিতর, স্বাধীনতা দিবস... |
+| `is_holiday` | Is this date a holiday? | `2026-12-16` → বিজয় দিবস |
+| `parse_phone` | Check a mobile number, normalise, name the operator | `০১৭১২৩৪৫৬৭৮` → +8801712345678, Grameenphone |
 
 ## Command line
 
@@ -45,6 +51,9 @@ npx @arafatsec/banglakit date                    # today, e.g. শুক্র�
 npx @arafatsec/banglakit gdate 1433 1 1          # 2026-04-14
 npx @arafatsec/banglakit type amar sOnar bangla  # আমার সোনার বাংলা
 npx @arafatsec/banglakit format 12345678         # ১,২৩,৪৫,৬৭৮
+npx @arafatsec/banglakit area savar              # upazila সাভার · Dhaka · Dhaka
+npx @arafatsec/banglakit holidays 2026 12        # 2026-12-16 বুধবার বিজয় দিবস (Victory Day) ...
+npx @arafatsec/banglakit phone 01712345678       # +8801712345678 · Grameenphone
 ```
 
 ## Library
@@ -54,10 +63,13 @@ npm install @arafatsec/banglakit
 ```
 
 ```js
-import { takaInWords, toBanglaDate, phoneticToBangla } from "@arafatsec/banglakit";
+import { takaInWords, toBanglaDate, phoneticToBangla, findArea, holidaysOn, parsePhone } from "@arafatsec/banglakit";
 
 takaInWords("1,250.50");           // "এক হাজার দুই শত পঞ্চাশ টাকা পঞ্চাশ পয়সা মাত্র"
 toBanglaDate("2026-12-16").text;   // "১ পৌষ ১৪৩৩ বঙ্গাব্দ"
+findArea("savar")[0].district;     // "Dhaka"
+holidaysOn("2026-03-26")[0].name_bn; // "স্বাধীনতা ও জাতীয় দিবস"
+parsePhone("01912345678").operator; // "Banglalink"
 phoneticToBangla("kemon achhO");   // "কেমন আছো"
 ```
 
@@ -81,6 +93,9 @@ Two consonants in a row join into a conjunct (`rokto` → রক্ত). Type `o
 
 ## Roadmap (help wanted)
 
+- Postcodes for every post office (Bangladesh Post publishes them per district)
+- English names for every upazila
+- Holiday lists for 2027 onward
 - Bijoy (ANSI) ⇄ Unicode converter for old government and office documents
 - Bangla OCR and speech-to-text tools (wrapping open models)
 - West Bengal (Indian) Bangla calendar

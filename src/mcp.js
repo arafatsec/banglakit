@@ -11,7 +11,7 @@ const safe = (fn) => async (args) => {
 const lang = z.enum(["bn", "en"]).default("bn").describe("bn = Bangla words, en = English words with lakh/crore");
 
 export function createServer() {
-  const server = new McpServer({ name: "banglakit", version: "0.1.0" });
+  const server = new McpServer({ name: "banglakit", version: "0.2.0" });
   server.registerTool("taka_in_words", {
     title: "Taka amount in words",
     description: "Write a taka amount in words for cheques, invoices and receipts, using lakh and crore. Example: 125000.50 -> এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র.",
@@ -47,6 +47,31 @@ export function createServer() {
     description: "Turn Bangla typed in English letters into Bangla script (phonetic style similar to Avro). Example: 'ami banglay gan gai' -> 'আমি বাংলায় গান গাই'. Put English words inside {braces} to keep them.",
     inputSchema: { text: z.string() },
   }, safe(({ text: t }) => bk.phoneticToBangla(t)));
+  server.registerTool("find_area", {
+    title: "Find a place in Bangladesh",
+    description: "Search Bangladesh divisions, districts and upazilas by Bangla or English name (or part of it). Returns the official Bangla name, English name, parent district/division and official website. Source: Bangladesh National Portal.",
+    inputSchema: { query: z.string().describe("e.g. সাভার, Cumilla, mymensingh"), limit: z.number().int().min(1).max(50).default(10) },
+  }, safe(({ query, limit }) => bk.findArea(query, { limit })));
+  server.registerTool("list_areas", {
+    title: "List divisions, districts or upazilas",
+    description: "No arguments: the 8 divisions. division: its districts. district: its upazilas (with official website names).",
+    inputSchema: { division: z.string().optional(), district: z.string().optional() },
+  }, safe(({ division, district }) => (district ? bk.listUpazilas(district) : division ? bk.listDistricts(division) : bk.listDivisions())));
+  server.registerTool("bd_holidays", {
+    title: "Bangladesh public holidays",
+    description: "Official Bangladesh public holidays from the government gazette. type: public (offices closed: general + executive order), general, executive, optional (religious optional holidays) or all. Moon-dependent dates are marked moon: true.",
+    inputSchema: { year: z.number().int().default(2026), month: z.number().int().min(1).max(12).optional(), type: z.enum(["public", "general", "executive", "optional", "all"]).default("public") },
+  }, safe(({ year, month, type }) => ({ holidays: bk.listHolidays(year, { type, month }), source: bk.holidaySource(year) })));
+  server.registerTool("is_holiday", {
+    title: "Is this date a holiday in Bangladesh?",
+    description: "Check a date (YYYY-MM-DD) against the official holiday list. Returns the holidays on that date, or an empty list. Fridays and Saturdays are the weekly days off and are not listed.",
+    inputSchema: { date: z.string() },
+  }, safe(({ date }) => ({ date, holidays: bk.holidaysOn(date) })));
+  server.registerTool("parse_phone", {
+    title: "Check a Bangladesh mobile number",
+    description: "Validate and normalise a Bangladesh mobile number (any format, English or Bangla digits) and name the operator: Grameenphone, Banglalink, Robi, Airtel, Teletalk.",
+    inputSchema: { number: z.string() },
+  }, safe(({ number }) => bk.parsePhone(number)));
   return server;
 }
 
