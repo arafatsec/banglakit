@@ -29,6 +29,25 @@ test("round trip every day for 4 years", () => {
     assert.equal(fromBanglaDate(b.year, b.month, b.day), iso);
   }
 });
+test("the calendar in force before 14 April 2019", () => {
+  assert.equal(toBanglaDate("2018-02-21").text, "৯ ফাল্গুন ১৪২৪ বঙ্গাব্দ");
+  assert.equal(toBanglaDate("2019-10-16").text, "৩১ আশ্বিন ১৪২৬ বঙ্গাব্দ");
+  assert.equal(toBanglaDate("2018-10-16").text, "১ কার্তিক ১৪২৫ বঙ্গাব্দ");
+  assert.equal(toBanglaDate("2019-04-13").text, "৩০ চৈত্র ১৪২৫ বঙ্গাব্দ");
+  assert.equal(toBanglaDate("2019-04-14").rules, "revised-2019");
+  assert.equal(toBanglaDate("1990-01-01").note.includes("14 April 1995"), true);
+});
+test("round trip across the 1995 and 2019 reforms, including century leap years", () => {
+  for (const [start, end] of [[1899, 1901], [1994, 2021], [1999, 2001]]) {
+    for (let t = Date.UTC(start, 0, 1); t < Date.UTC(end, 0, 1); t += 864e5) {
+      const iso = new Date(t).toISOString().slice(0, 10);
+      const b = toBanglaDate(iso);
+      assert.equal(fromBanglaDate(b.year, b.month, b.day), iso, iso);
+    }
+  }
+  assert.equal(toBanglaDate("2000-02-29").monthNameEn, "Falgun");
+  assert.equal(toBanglaDate("1900-02-28").rules, "revised-1402");
+});
 test("bad input", () => {
   assert.throws(() => toBanglaDate("2026-02-30"));
   assert.throws(() => fromBanglaDate(1433, 11, 30)); // Falgun 1433 ends Mar 2027, not a leap year
