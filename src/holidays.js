@@ -1,12 +1,15 @@
 // Bangladesh public holidays from the official gazette (one file per year in data/).
-import { createRequire } from "node:module";
+import { loadJson } from "./load.js";
 
-const require = createRequire(import.meta.url);
-const YEARS = { 2026: require("../data/holidays-2026.json") };
-export const holidayYears = Object.keys(YEARS).map(Number);
+let YEARS;
+function years() {
+  if (!YEARS) YEARS = { 2026: loadJson("../data/holidays-2026.json") };
+  return YEARS;
+}
+export const holidayYears = [2026];
 
 function yearData(year) {
-  const y = YEARS[year];
+  const y = years()[year];
   if (!y) throw new RangeError(`No holiday list for ${year} yet. Available: ${holidayYears.join(", ")}`);
   return y;
 }

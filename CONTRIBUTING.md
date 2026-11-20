@@ -17,10 +17,14 @@ Node 18 or newer. No build step: the code in `src/` is plain JavaScript (ES modu
 
 | File | What |
 |---|---|
-| `src/numbers.js` | digits, number words, taka in words, lakh/crore grouping |
-| `src/calendar.js` | Bangla calendar (Bangladesh, 2019 revision) |
-| `src/phonetic.js` | phonetic typing rules |
+| `src/numbers.js` | digits, number words, ordinals, taka, percent |
+| `src/calendar.js` | Bangla calendar (2019 revision, and 1402–1425) |
+| `src/hijri.js` | tabular Hijri calendar |
+| `src/phonetic.js` | phonetic typing |
+| `src/text.js` | romanization, normalization, sort, counts, stopwords |
+| `src/id.js` | NID, TIN, BIN and postcode shapes |
 | `src/mcp.js` | MCP server (tools for AI agents) |
+| `data/SOURCES.md` | where every dataset and rule comes from |
 | `bin/banglakit.js` | command line |
 | `test/` | tests (`node --test`) |
 
@@ -30,7 +34,8 @@ Node 18 or newer. No build step: the code in `src/` is plain JavaScript (ES modu
 2. **Every fix comes with a test** that fails before your change and passes after it.
 3. **No network calls and no heavy dependencies** in the core tools. Tools that need models (OCR, speech) go in separate, optional packages.
 4. Keep functions small and pure (same input, same output).
-5. Run `npm test` before opening a pull request. CI runs it on Node 18, 20 and 22.
+5. Run `npm run lint` and `npm test` before opening a pull request. CI runs both on Node 18, 20 and 22.
+6. A new dataset needs a row in `data/SOURCES.md` with the URL, the publisher and the licence. Do not invent a row to fill a gap.
 
 ## Adding a new MCP tool
 

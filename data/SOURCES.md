@@ -1,0 +1,72 @@
+# Sources and licences
+
+Every dataset is stored as JSON, loaded on first use, and checked by the tests. Nothing here is personal data. If a figure could not be tied to a source, it was left out.
+
+## Place names
+
+| | |
+|---|---|
+| File | `areas.json` |
+| What | 8 divisions, 64 districts, 502 upazilas. Bangla names, English division and district names, official website addresses. |
+| Source | [Bangladesh National Portal, upazila list](https://bangladesh.gov.bd/views/upazila-list) |
+| Publisher | Government of the People's Republic of Bangladesh |
+| Retrieved | 2026-11-20 |
+| Rebuild | `node scripts/build-areas.mjs` (it refuses to write unless it sees 8 divisions and 64 districts) |
+| Licence | Government of Bangladesh public information. Keep the source link if you reuse it. |
+
+The Latin name shown for an upazila is the website host, title-cased (`savar.dhaka.gov.bd` becomes Savar). It is not a separate English gazetteer.
+
+## Geocodes
+
+| | |
+|---|---|
+| File | `geocodes.json` |
+| What | Two-digit division codes and four-digit district codes. |
+| Division codes | [BBS, কোড ও শ্রেণীবিভাগ](https://bbs.gov.bd/site/page/7ab2599d-a91a-40c9-a573-e841080c02f5/) (10 Barishal, 20 Chattogram, 30 Dhaka, 40 Khulna, 45 Mymensingh, 50 Rajshahi, 55 Rangpur, 60 Sylhet) |
+| District codes | The same BBS geocode, as published in the [DGHS Bangladesh Core FHIR CodeSystem `bd-geocodes` 0.5.0](https://fhir.dghs.gov.bd/core/CodeSystem-bd-geocodes.html) |
+| Retrieved | 2026-11-20 |
+| Licence | Government of Bangladesh public information. Keep the source link if you reuse it. |
+
+Upazila codes are not included. The public BBS upazila lists are older than upazilas the National Portal now lists, and a guessed code would be worse than no code. Tests require every current district id to have exactly one code.
+
+## Public holidays, 2026
+
+| | |
+|---|---|
+| File | `holidays-2026.json` |
+| What | General holidays, executive-order holidays and optional religious holidays. |
+| Source | [Bangladesh Gazette, 12 November 2025](https://www.dpp.gov.bd/upload_file/gazettes/59216_19984.pdf), notification no. 05.00.0000.000.175.08.0008.25-17, Ministry of Public Administration |
+| Licence | Government of Bangladesh public information. Keep the source link if you reuse it. |
+
+Dates marked `moon: true` depend on moon sighting. The gazette date can move by a day when the government confirms the sighting. Fridays and Saturdays, the weekly days off, are not listed.
+
+## Stopwords
+
+| | |
+|---|---|
+| File | `stopwords-bn.json` |
+| What | 382 Bangla words. A broad frequent-word list, not only function words. |
+| Source | [stopwords-iso/stopwords-bn](https://github.com/stopwords-iso/stopwords-bn) (`stopwords-bn.json`, master) |
+| Licence | MIT. The notice is in `licenses/stopwords-bn.MIT.txt`. Copyright (c) 2016 stopwords-iso contributors. |
+| Edits | Normalized to NFC, de-duplicated, and these seven entries were removed because they are not well-formed words: এক্, জন্যওজে, জ্নজন, তারৈ, তিনঐ, ধামার, পেয়্র্. |
+
+## Rules that are not data files
+
+These are algorithms. The tests lock them to published examples.
+
+| Rule | Source |
+|---|---|
+| Bangla calendar from 14 April 2019 | Bangla Academy revision, in force from 1 Boishakh 1426. Reported by [Dhaka Tribune](https://www.dhakatribune.com/bangladesh/191106/ashshin-in-31-days-in-revised-bangla-calendar) (22 October 2019), [New Age](https://www.newagebd.net/print/article/88109) and [BBC Bangla](https://www.bbc.com/bengali/news-50082316). First six months 31 days, Falgun 29 (30 in a Gregorian leap year), the rest 30. |
+| Bangla calendar from 14 April 1995 to 13 April 2019 | The calendar those same reports describe as the one in force before the revision: Boishakh to Bhadro 31 days, the other months 30, with the leap day on Falgun. The reports place that shape from Bangla year 1402. Dates before 14 April 1995 use those month lengths and are labelled as such; earlier reforms are not modelled. |
+| Number words 0–99 | Irregular forms, with ঊ in ঊনিশ, ঊনত্রিশ, ঊনচল্লিশ and the same pattern for the other “one less” tens, as in the [NCTB class 1 mathematics list](https://bdeducontent.bdeducation.org.bd/bdedupreprimary/class1/math/u14.php). Hundred, thousand, lakh and crore use শত, হাজার, লক্ষ, কোটি. |
+| Ordinals 1–10 | Classical forms প্রথম, দ্বিতীয়, তৃতীয়, চতুর্থ, পঞ্চম, ষষ্ঠ, সপ্তম, অষ্টম, নবম, দশম. From 11, the productive modern form Nতম. |
+| Phonetic typing | The published Avro Phonetic rules (OmicronLab’s typing guide; the same rules are written up at [avro.aminul.dev/guide](https://avro.aminul.dev/guide.html)). The code is written from the rules. It is not Avro’s source, and it has no dictionary: two consonants join unless you type a backtick. Lowercase `oi`/`ou` also make ঐ/ঔ, and `chh` is kept as another way to type ছ. |
+| Romanization | Orthographic ISO 15919. The inherent অ is written `a`, including at the end of a word. Spoken schwa deletion is not applied. |
+| Bangla sort | `Intl.Collator("bn")`, which is the Unicode CLDR Bangla collation. |
+| Unicode cleanup | Unicode Standard, Bengali: NFC composes ো, ৌ, ড়, ঢ় and য়. ZWJ and ZWNJ are kept only immediately after hasanta. |
+| Tabular Hijri | The civil Islamic calendar in *Calendrical Calculations* (Dershowitz and Reingold): Rata Die epoch 227015, leap years 2, 5, 7, 10, 13, 16, 18, 21, 24, 26 and 29 of the 30-year cycle. Checked against the published pairs 1 January 2000 = 24 Ramadan 1420, 1 January 2020 = 5 Jumada al-Awwal 1441, 1 January 2025 = 1 Rajab 1446 and 1 January 2026 = 12 Rajab 1447. This is not moon sighting. |
+| Mobile prefixes | BTRC national numbering plan: 013/017 Grameenphone, 014/019 Banglalink, 018 Robi, 016 Airtel (the brand stayed after the 2016 merger into Robi), 015 Teletalk. Portability has been in force since October 2018, so the prefix is the original operator. |
+| NID | Election Commission smart card: 10 digits, first digit not 0 ([bdnews24, 23 June 2015](https://bdnews24.com/bangladesh/election-commission-decides-on-10-digit-smart-nid-cards-for-bangladesh-nationals)). Older cards are 13 or 17 digits. NBR’s Mushak 2.1 describes a 17-digit NID. The 10-digit checksum algorithm was not published, so it is not checked. |
+| TIN | 12 digits. NBR Mushak 2.1 and the e-TIN. |
+| BIN | 13-digit e-BIN, which NBR’s site describes as the current BIN. 9-digit and 11-digit numbers are reported as the withdrawn lengths. |
+| Postcode | 4 digits. No official post-office list is shipped, so a code is not checked against a directory. |

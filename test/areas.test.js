@@ -26,7 +26,12 @@ test("data is clean: Bangla script names, NFC, unique ids, official websites", (
   }
 });
 test("search and lookups", () => {
-  assert.deepEqual(findArea("সাভার")[0], { type: "upazila", id: "savar", bn: "সাভার", district: "Dhaka", division: "Dhaka", website: "https://savar.dhaka.gov.bd" });
+  assert.deepEqual(findArea("সাভার")[0], { type: "upazila", id: "savar", bn: "সাভার", en: "Savar", district: "Dhaka", division: "Dhaka", website: "https://savar.dhaka.gov.bd" });
+  assert.equal(listDivisions().find((d) => d.id === "dhaka").code, "30");
+  assert.equal(listDistricts().find((d) => d.id === "comilla").code, "2019");
+  for (const d of listDistricts()) assert.match(d.code, /^\d{4}$/, d.en);
+  assert.equal(new Set(listDistricts().map((d) => d.code)).size, 64);
+  for (const d of listDivisions()) assert.match(d.code, /^\d{2}$/, d.en);
   assert.equal(findArea("cumilla")[0].bn, "কুমিল্লা");
   assert.equal(findArea("ময়মনসিংহ")[0].type, "division");
   assert.equal(listDistricts("সিলেট").length, 4);

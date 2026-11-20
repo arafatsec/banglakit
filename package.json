@@ -1,6 +1,6 @@
 {
   "name": "@arafatsec/banglakit",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Bangla (Bengali) and Bangladesh tools for AI agents: taka in words, Bangla calendar, districts and upazilas, public holidays, phone numbers, phonetic typing. MCP server, CLI and library.",
   "type": "module",
   "main": "src/index.js",
@@ -18,13 +18,16 @@
     "bin",
     "data/*.json",
     "data/README.md",
+    "data/SOURCES.md",
+    "data/licenses",
     "README.md",
     "LICENSE",
     "CHANGELOG.md"
   ],
   "scripts": {
     "test": "node --test",
-    "prepublishOnly": "npm test"
+    "lint": "node scripts/lint.mjs",
+    "prepublishOnly": "npm run lint && npm test"
   },
   "keywords": [
     "bangla",
@@ -40,7 +43,10 @@
     "districts",
     "upazila",
     "holidays",
-    "phone-number"
+    "phone-number",
+    "nid",
+    "hijri",
+    "romanization"
   ],
   "license": "Apache-2.0",
   "engines": {

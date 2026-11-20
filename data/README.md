@@ -1,16 +1,12 @@
-# Data sources
+# Data
 
-Every dataset in banglakit comes from an official Government of Bangladesh source, records where and when it was collected, and is checked by the test suite.
+The full citation for every dataset, including licence and what was deliberately left out, is in [SOURCES.md](SOURCES.md).
 
-| File | What | Source | How it is kept correct |
-|---|---|---|---|
-| `areas.json` | 8 divisions, 64 districts, upazilas with Bangla names, English district names and official website names | [Bangladesh National Portal, upazila list](https://bangladesh.gov.bd/views/upazila-list) | Rebuilt by `scripts/build-areas.mjs` (fails unless it finds exactly 8 divisions and 64 districts). Tests check script, Unicode NFC, unique ids and website format. |
-| `holidays-2026.json` | All 2026 holidays: general, executive order and optional (Muslim, Hindu, Christian, Buddhist, hill peoples) | [Bangladesh Gazette, 12 Nov 2025](https://www.dpp.gov.bd/upload_file/gazettes/59216_19984.pdf), Ministry of Public Administration | Transcribed with the gazette's own weekday and Bangla date. Tests check all three against banglakit's calendar, so a typing mistake fails CI. |
+| File | What | Source |
+|---|---|---|
+| `areas.json` | 8 divisions, 64 districts, upazilas | [National Portal upazila list](https://bangladesh.gov.bd/views/upazila-list) |
+| `geocodes.json` | BBS division and district codes | [BBS code page](https://bbs.gov.bd/site/page/7ab2599d-a91a-40c9-a573-e841080c02f5/) and the [DGHS geocode list](https://fhir.dghs.gov.bd/core/CodeSystem-bd-geocodes.html) |
+| `holidays-2026.json` | 2026 general, executive and optional holidays | [Gazette, 12 November 2025](https://www.dpp.gov.bd/upload_file/gazettes/59216_19984.pdf) |
+| `stopwords-bn.json` | Bangla stopwords, MIT | [stopwords-iso/stopwords-bn](https://github.com/stopwords-iso/stopwords-bn) |
 
-Notes:
-
-- **Upazilas** are as listed on the National Portal on the retrieval date, which includes some recently created upazilas. Upazila `id` is the official website name (e.g. `savar` for `savar.dhaka.gov.bd`); English upazila names are not yet included (help wanted).
-- **Holidays** marked `moon: true` depend on moon sighting; the government confirms the final date. Fridays and Saturdays (weekly days off) are not listed.
-- **Phone operators** follow the BTRC mobile number plan (013/017 Grameenphone, 014/019 Banglalink, 018 Robi, 016 Airtel, 015 Teletalk). Numbers can be ported between operators, so the operator is the original one for the prefix.
-
-Found a mistake? Open an issue with the official source. Government data is published for public use; please keep the source links when you reuse it.
+Upazila Latin names are the official website host, title-cased. Upazila geocodes are not included. Holidays marked `moon: true` can move when the moon is sighted. Phone operators follow the BTRC prefix plan; a number can have been ported since October 2018.

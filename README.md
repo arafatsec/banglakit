@@ -4,10 +4,12 @@
 
 **Bangla (বাংলা) and Bangladesh tools for people and AI agents.** Taka in words, the Bangla calendar, every district and upazila, official public holidays, phone numbers and phonetic typing, ready for Claude, Codex, Cursor or any MCP agent, plus a CLI and a JavaScript library.
 
+**বাংলায়:** টাকার কথায় লেখা, বাংলা ক্যালেন্ডার, জেলা-উপজেলা, সরকারি ছুটি, ফোন নম্বর ও অভ্র-ধাঁচের ফোনেটিক টাইপিং। হিসাব স্থানীয়, পরীক্ষিত, আর প্রতিটি তথ্যের সূত্র আছে।
+
 300 million people speak Bangla, yet AI agents still get the basics wrong: they write taka amounts in the Western million system, guess the Bangla date, and can't read Bangla typed in English letters. banglakit gives them exact, tested tools instead of guesses.
 
 - **Exact:** rules and official data, not AI guesses. Every result is deterministic and covered by tests.
-- **Sourced:** every dataset links to its Government of Bangladesh source ([data/README.md](data/README.md)).
+- **Sourced:** every dataset and rule names its source and licence ([data/SOURCES.md](data/SOURCES.md)).
 - **Local:** no network, no account, no data leaves your machine.
 - **Free:** Apache-2.0.
 
@@ -30,31 +32,54 @@ Then just ask: *"Write ১,২৫,০০০.৫০ taka in words for this cheque
 | Tool | What it does | Example |
 |---|---|---|
 | `taka_in_words` | Amount in words for cheques and invoices | `125000.50` → এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র |
+| `format_taka` | ৳ with lakh/crore grouping and paisa | `1250.5` → ৳১,২৫০.৫০ |
 | `number_to_words` | Number in Bangla or English words, lakh/crore | `1234567` → বারো লক্ষ চৌত্রিশ হাজার পাঁচ শত সাতষট্টি |
+| `ordinal` | প্রথম … দশম, then ২১তম | `4` → চতুর্থ |
 | `format_number` | Lakh/crore digit grouping | `12345678` → ১,২৩,৪৫,৬৭৮ |
+| `percent` | Percent, or শতকরা in words | `25` → ২৫% / শতকরা পঁচিশ |
 | `convert_digits` | 0-9 ⇄ ০-৯ inside any text | `2026` → ২০২৬ |
 | `bangla_date` | Gregorian → Bangla date, weekday, season | `2026-02-21` → ৮ ফাল্গুন ১৪৩২ বঙ্গাব্দ |
 | `gregorian_date` | Bangla date → Gregorian | `1433 1 1` → 2026-04-14 |
+| `hijri_date` | Gregorian → tabular Hijri (not moon sighting) | `2026-01-01` → ১২ রজব ১৪৪৭ হিজরি |
+| `format_time` | A clock time said in Bangla | `15:45` → বিকাল ৩টা ৪৫ মিনিট |
 | `phonetic_to_bangla` | English letters → Bangla script | `ami banglay gan gai` → আমি বাংলায় গান গাই |
-| `find_area` | Find a division, district or upazila (Bangla or English) | `savar` → সাভার, Dhaka district, Dhaka division |
+| `romanize` | Bangla → ISO 15919, or ASCII | `বাংলা` → bāṁlā / bangla |
+| `normalize_bangla` | NFC and stray zero-width characters | `ক` + `ে` + `া` → কো |
+| `sort_bangla` | CLDR Bangla sort | অমর, আম, কলা |
+| `count_bangla` | Words, sentences, orthographic akshara | আমি → 2 akshara |
+| `split_sentences` | Split on । ? ! | |
+| `remove_stopwords` | MIT Bangla stopword list | আমি বাংলায় → বাংলায় |
+| `find_area` | Division, district or upazila, with BBS code | `savar` → সাভার, Dhaka, code 3026 for the district |
 | `list_areas` | Divisions → districts → upazilas | `district: gazipur` → গাজীপুর সদর, কালিয়াকৈর... |
 | `bd_holidays` | Official public holidays (general, executive, optional) | `2026, month 3` → ঈদ-উল-ফিতর, স্বাধীনতা দিবস... |
 | `is_holiday` | Is this date a holiday? | `2026-12-16` → বিজয় দিবস |
-| `parse_phone` | Check a mobile number, normalise, name the operator | `০১৭১২৩৪৫৬৭৮` → +8801712345678, Grameenphone |
+| `parse_phone` | Mobile number, E.164, original operator | `০১৭১২৩৪৫৬৭৮` → +8801712345678, Grameenphone |
+| `check_nid` | NID shape: 10, 13 or 17 digits | format only, no lookup |
+| `check_tin` | TIN shape: 12 digits | format only |
+| `check_bin` | e-BIN shape: 13 digits | old 9- and 11-digit numbers are rejected |
+| `check_postcode` | 4-digit shape | does not know if the code is assigned |
 
 ## Command line
 
 ```bash
 npx @arafatsec/banglakit taka 125000.50          # এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র
 npx @arafatsec/banglakit taka 125000 --en        # one lakh twenty-five thousand taka only
+npx @arafatsec/banglakit money 1250.50           # ৳১,২৫০.৫০
+npx @arafatsec/banglakit ordinal 4               # চতুর্থ
 npx @arafatsec/banglakit date                    # today, e.g. শুক্রবার, ৫ অগ্রহায়ণ ১৪৩৩ বঙ্গাব্দ, হেমন্তকাল
 npx @arafatsec/banglakit gdate 1433 1 1          # 2026-04-14
+npx @arafatsec/banglakit hijri 2026-01-01        # ১২ রজব ১৪৪৭ হিজরি
+npx @arafatsec/banglakit time 15:45              # বিকাল ৩টা ৪৫ মিনিট
 npx @arafatsec/banglakit type amar sOnar bangla  # আমার সোনার বাংলা
+npx @arafatsec/banglakit roman বাংলা             # bāṁlā
 npx @arafatsec/banglakit format 12345678         # ১,২৩,৪৫,৬৭৮
-npx @arafatsec/banglakit area savar              # upazila সাভার · Dhaka · Dhaka
+npx @arafatsec/banglakit area savar              # upazila সাভার (Savar) · Dhaka · Dhaka
 npx @arafatsec/banglakit holidays 2026 12        # 2026-12-16 বুধবার বিজয় দিবস (Victory Day) ...
 npx @arafatsec/banglakit phone 01712345678       # +8801712345678 · Grameenphone
+npx @arafatsec/banglakit nid 1234567890          # smart, or an error if the shape is wrong
 ```
+
+A bad value, an unknown command, or a place search with no match exits with status 1. `--help` and `--version` exit 0.
 
 ## Library
 
@@ -63,44 +88,60 @@ npm install @arafatsec/banglakit
 ```
 
 ```js
-import { takaInWords, toBanglaDate, phoneticToBangla, findArea, holidaysOn, parsePhone } from "@arafatsec/banglakit";
+import { takaInWords, toBanglaDate, phoneticToBangla, findArea, holidaysOn, parsePhone, romanize, parseNid } from "@arafatsec/banglakit";
 
-takaInWords("1,250.50");           // "এক হাজার দুই শত পঞ্চাশ টাকা পঞ্চাশ পয়সা মাত্র"
-toBanglaDate("2026-12-16").text;   // "১ পৌষ ১৪৩৩ বঙ্গাব্দ"
-findArea("savar")[0].district;     // "Dhaka"
+takaInWords("1,250.50");             // "এক হাজার দুই শত পঞ্চাশ টাকা পঞ্চাশ পয়সা মাত্র"
+toBanglaDate("2026-12-16").text;     // "১ পৌষ ১৪৩৩ বঙ্গাব্দ"
+findArea("savar")[0].district;       // "Dhaka"
 holidaysOn("2026-03-26")[0].name_bn; // "স্বাধীনতা ও জাতীয় দিবস"
-parsePhone("01912345678").operator; // "Banglalink"
-phoneticToBangla("kemon achhO");   // "কেমন আছো"
+parsePhone("01912345678").operator;  // "Banglalink"
+phoneticToBangla("kemon achhO");     // "কেমন আছো"
+romanize("বাংলা");                    // "bāṁlā"
+parseNid("1234567890").kind;         // "smart"  (shape only, not a lookup)
 ```
 
 ## How the rules work
 
-**Bangla calendar.** The official Bangladesh calendar since the 2019 revision: the year starts on 14 April; Boishakh to Ashwin have 31 days; Kartik, Ogrohayon, Poush, Magh and Choitro have 30; Falgun has 29, or 30 in a Gregorian leap year. So 21 February is always ৮ ফাল্গুন, 26 March ১২ চৈত্র and 16 December ১ পৌষ. (The West Bengal calendar differs and is on the roadmap.)
+**Bangla calendar.** From 14 April 2019 the official Bangladesh calendar is: the year starts on 14 April; Boishakh to Ashwin have 31 days; Kartik, Ogrohayon, Poush, Magh and Choitro have 30; Falgun has 29, or 30 in a Gregorian leap year. So 21 February is ৮ ফাল্গুন, 26 March ১২ চৈত্র and 16 December ১ পৌষ. From 14 April 1995 until that revision, Boishakh to Bhadro had 31 days and Falgun carried the leap day, which is why 21 February 2018 was ৯ ফাল্গুন. The result's `rules` field says which one was used. (The West Bengal calendar differs and is on the roadmap.)
 
-**Phonetic typing** (similar to the well-known Avro style, written from scratch):
+**Hijri.** `toHijri` is the tabular (arithmetic) Islamic calendar used by most software. Bangladesh announces Islamic holidays by moon sighting, so those dates can differ by a day or two. Use `bd_holidays` for the official days.
+
+**Phonetic typing** follows the published Avro Phonetic rules, written from the rules rather than copied from Avro. There is no dictionary, so two consonants join (`rokto` is রক্ত, `amra` is আম্রা). Type a backtick between letters to keep them apart (`am` + backtick + `ra` is আমরা).
 
 | Type | Get | Type | Get | Type | Get |
 |---|---|---|---|---|---|
-| `a` / `i` / `I` | া / ি / ী | `u` / `U` | ু / ূ | `e` / `O` | ে / ো |
-| `oi` / `ou` | ৈ / ৌ | `rri` | ৃ | `o` | inherent অ |
+| `a` / `i` / `I` or `ee` | া / ি / ী | `u` or `oo` / `U` | ু / ূ | `e` / `O` | ে / ো |
+| `oi` or `OI` / `ou` or `OU` | ৈ / ৌ | `rri` | ৃ | `o` | inherent অ |
 | `T` `Th` `D` `Dh` | ট ঠ ড ঢ | `t` `th` `d` `dh` | ত থ দ ধ | `N` / `n` | ণ / ন |
-| `sh` / `S` or `Sh` / `s` | শ / ষ / স | `R` / `Rh` | ড় / ঢ় | `ng` / `Ng` | ং / ঙ |
-| `ch` / `chh` | চ / ছ | `kkh` or `kSh` | ক্ষ | `y` after a consonant | ্য (য-ফলা) |
-| `w` after a consonant | ্ব (ব-ফলা) | `` t`` `` | ৎ | `^` / `:` | ঁ / ঃ |
-| `.` | । | `{english}` | kept as typed | `0-9` | ০-৯ |
+| `sh` or `S` / `Sh` / `s` | শ / ষ / স | `R` / `Rh` | ড় / ঢ় | `ng` / `Ng` / `NG` | ং / ঙ / ঞ |
+| `c` / `ch` | চ / ছ | `kkh` or `kSh` | ক্ষ | `y` after a consonant | ্য (য-ফলা) |
+| `w` after a consonant | ্ব (ব-ফলা) | `t` then two backticks | ৎ | `^` / `:` | ঁ / ঃ |
+| `rr` before a consonant | র্ (reph) | `.` / `.` then a backtick | । / . | `0-9` | ০-৯ |
 
-Two consonants in a row join into a conjunct (`rokto` → রক্ত). Type `o` between them to keep them apart (`kolokata` → কলকাতা).
+`samia` → সামিয়া, `yahoo` → ইয়াহু, `krrm` → কর্ম, `ca^d` → চাঁদ. `{english}` is kept as typed. Letters that are not special accept either case.
+
+**Numbers.** Words use lakh and crore. The “one less” tens use the NCTB ঊ spelling: ঊনিশ, ঊনত্রিশ, ঊনচল্লিশ, and the same pattern through ঊননব্বই. Ordinals are প্রথম … দশম, then ২১তম.
+
+**Identity numbers** are format checks only. A 10-digit NID is not verified against the Election Commission, and the unpublished checksum is not invented.
+
+## What is not in here
+
+Left out on purpose, because a wrong table would be worse than a gap:
+
+- A Bijoy (ANSI) converter. It needs a large conjunct table and real documents to test against.
+- A directory of every post office. The 4-digit shape is checked; assignment is not.
+- BBS codes for upazilas. The public lists are older than the current National Portal set.
+- An Avro dictionary or conjunct whitelist. Two consonants join; a backtick splits them.
+- The West Bengal calendar, and Bangla reforms from before 1995.
+- The smart-NID checksum. The algorithm was not published.
 
 ## Roadmap (help wanted)
 
-- Postcodes for every post office (Bangladesh Post publishes them per district)
-- English names for every upazila
-- Holiday lists for 2027 onward
-- Bijoy (ANSI) ⇄ Unicode converter for old government and office documents
-- Bangla OCR and speech-to-text tools (wrapping open models)
+- Postcodes for every post office, from a Bangladesh Post file
+- Holiday lists for 2027 onward, from the gazette
+- Bijoy (ANSI) ⇄ Unicode, with a cited mapping and tests
 - West Bengal (Indian) Bangla calendar
-- Conjunct whitelist for smarter phonetic typing; more words in tests
-- Bangla number words for ordinals (প্রথম, দ্বিতীয়...) and dates written in words
+- Conjunct whitelist for phonetic typing
 - Python package
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Good first issues are labelled **good first issue**.
