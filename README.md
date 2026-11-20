@@ -1,5 +1,7 @@
 # banglakit
 
+[![test](https://github.com/arafatsec/banglakit/actions/workflows/test.yml/badge.svg)](https://github.com/arafatsec/banglakit/actions/workflows/test.yml) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![good first issues](https://img.shields.io/github/issues/arafatsec/banglakit/good%20first%20issue?label=good%20first%20issues&color=7057ff)](https://github.com/arafatsec/banglakit/labels/good%20first%20issue)
+
 **Bangla (বাংলা) tools for people and AI agents.** Taka in words, the Bangladesh Bangla calendar, phonetic typing and digits, ready for Claude, Codex, Cursor or any MCP agent, plus a CLI and a JavaScript library.
 
 300 million people speak Bangla, yet AI agents still get the basics wrong: they write taka amounts in the Western million system, guess the Bangla date, and can't read Bangla typed in English letters. banglakit gives them exact, tested tools instead of guesses.
