@@ -1,0 +1,7 @@
+{"id":"ord-1","task":"ordinal","input":"1","output":"প্রথম","meta":{"lang":"bn"}}
+{"id":"ord-2","task":"ordinal","input":"2","output":"দ্বিতীয়","meta":{"lang":"bn"}}
+{"id":"ord-3","task":"ordinal","input":"3","output":"তৃতীয়","meta":{"lang":"bn"}}
+{"id":"ord-4","task":"ordinal","input":"4","output":"চতুর্থ","meta":{"lang":"bn"}}
+{"id":"ord-10","task":"ordinal","input":"10","output":"দশম","meta":{"lang":"bn"}}
+{"id":"ord-11","task":"ordinal","input":"11","output":"১১তম","meta":{"lang":"bn"}}
+{"id":"ord-21","task":"ordinal","input":"21","output":"২১তম","meta":{"lang":"bn"}}

@@ -1,0 +1,113 @@
+{"id":"num-0","task":"number_to_words","input":"0","output":"শূন্য","meta":{"lang":"bn"}}
+{"id":"num-1","task":"number_to_words","input":"1","output":"এক","meta":{"lang":"bn"}}
+{"id":"num-2","task":"number_to_words","input":"2","output":"দুই","meta":{"lang":"bn"}}
+{"id":"num-3","task":"number_to_words","input":"3","output":"তিন","meta":{"lang":"bn"}}
+{"id":"num-4","task":"number_to_words","input":"4","output":"চার","meta":{"lang":"bn"}}
+{"id":"num-5","task":"number_to_words","input":"5","output":"পাঁচ","meta":{"lang":"bn"}}
+{"id":"num-6","task":"number_to_words","input":"6","output":"ছয়","meta":{"lang":"bn"}}
+{"id":"num-7","task":"number_to_words","input":"7","output":"সাত","meta":{"lang":"bn"}}
+{"id":"num-8","task":"number_to_words","input":"8","output":"আট","meta":{"lang":"bn"}}
+{"id":"num-9","task":"number_to_words","input":"9","output":"নয়","meta":{"lang":"bn"}}
+{"id":"num-10","task":"number_to_words","input":"10","output":"দশ","meta":{"lang":"bn"}}
+{"id":"num-11","task":"number_to_words","input":"11","output":"এগারো","meta":{"lang":"bn"}}
+{"id":"num-12","task":"number_to_words","input":"12","output":"বারো","meta":{"lang":"bn"}}
+{"id":"num-13","task":"number_to_words","input":"13","output":"তেরো","meta":{"lang":"bn"}}
+{"id":"num-14","task":"number_to_words","input":"14","output":"চৌদ্দ","meta":{"lang":"bn"}}
+{"id":"num-15","task":"number_to_words","input":"15","output":"পনেরো","meta":{"lang":"bn"}}
+{"id":"num-16","task":"number_to_words","input":"16","output":"ষোলো","meta":{"lang":"bn"}}
+{"id":"num-17","task":"number_to_words","input":"17","output":"সতেরো","meta":{"lang":"bn"}}
+{"id":"num-18","task":"number_to_words","input":"18","output":"আঠারো","meta":{"lang":"bn"}}
+{"id":"num-19","task":"number_to_words","input":"19","output":"ঊনিশ","meta":{"lang":"bn"}}
+{"id":"num-20","task":"number_to_words","input":"20","output":"বিশ","meta":{"lang":"bn"}}
+{"id":"num-21","task":"number_to_words","input":"21","output":"একুশ","meta":{"lang":"bn"}}
+{"id":"num-22","task":"number_to_words","input":"22","output":"বাইশ","meta":{"lang":"bn"}}
+{"id":"num-23","task":"number_to_words","input":"23","output":"তেইশ","meta":{"lang":"bn"}}
+{"id":"num-24","task":"number_to_words","input":"24","output":"চব্বিশ","meta":{"lang":"bn"}}
+{"id":"num-25","task":"number_to_words","input":"25","output":"পঁচিশ","meta":{"lang":"bn"}}
+{"id":"num-26","task":"number_to_words","input":"26","output":"ছাব্বিশ","meta":{"lang":"bn"}}
+{"id":"num-27","task":"number_to_words","input":"27","output":"সাতাশ","meta":{"lang":"bn"}}
+{"id":"num-28","task":"number_to_words","input":"28","output":"আটাশ","meta":{"lang":"bn"}}
+{"id":"num-29","task":"number_to_words","input":"29","output":"ঊনত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-30","task":"number_to_words","input":"30","output":"ত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-31","task":"number_to_words","input":"31","output":"একত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-32","task":"number_to_words","input":"32","output":"বত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-33","task":"number_to_words","input":"33","output":"তেত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-34","task":"number_to_words","input":"34","output":"চৌত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-35","task":"number_to_words","input":"35","output":"পঁয়ত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-36","task":"number_to_words","input":"36","output":"ছত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-37","task":"number_to_words","input":"37","output":"সাঁইত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-38","task":"number_to_words","input":"38","output":"আটত্রিশ","meta":{"lang":"bn"}}
+{"id":"num-39","task":"number_to_words","input":"39","output":"ঊনচল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-40","task":"number_to_words","input":"40","output":"চল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-41","task":"number_to_words","input":"41","output":"একচল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-42","task":"number_to_words","input":"42","output":"বিয়াল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-43","task":"number_to_words","input":"43","output":"তেতাল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-44","task":"number_to_words","input":"44","output":"চুয়াল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-45","task":"number_to_words","input":"45","output":"পঁয়তাল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-46","task":"number_to_words","input":"46","output":"ছেচল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-47","task":"number_to_words","input":"47","output":"সাতচল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-48","task":"number_to_words","input":"48","output":"আটচল্লিশ","meta":{"lang":"bn"}}
+{"id":"num-49","task":"number_to_words","input":"49","output":"ঊনপঞ্চাশ","meta":{"lang":"bn"}}
+{"id":"num-50","task":"number_to_words","input":"50","output":"পঞ্চাশ","meta":{"lang":"bn"}}
+{"id":"num-51","task":"number_to_words","input":"51","output":"একান্ন","meta":{"lang":"bn"}}
+{"id":"num-52","task":"number_to_words","input":"52","output":"বাহান্ন","meta":{"lang":"bn"}}
+{"id":"num-53","task":"number_to_words","input":"53","output":"তিপ্পান্ন","meta":{"lang":"bn"}}
+{"id":"num-54","task":"number_to_words","input":"54","output":"চুয়ান্ন","meta":{"lang":"bn"}}
+{"id":"num-55","task":"number_to_words","input":"55","output":"পঞ্চান্ন","meta":{"lang":"bn"}}
+{"id":"num-56","task":"number_to_words","input":"56","output":"ছাপ্পান্ন","meta":{"lang":"bn"}}
+{"id":"num-57","task":"number_to_words","input":"57","output":"সাতান্ন","meta":{"lang":"bn"}}
+{"id":"num-58","task":"number_to_words","input":"58","output":"আটান্ন","meta":{"lang":"bn"}}
+{"id":"num-59","task":"number_to_words","input":"59","output":"ঊনষাট","meta":{"lang":"bn"}}
+{"id":"num-60","task":"number_to_words","input":"60","output":"ষাট","meta":{"lang":"bn"}}
+{"id":"num-61","task":"number_to_words","input":"61","output":"একষট্টি","meta":{"lang":"bn"}}
+{"id":"num-62","task":"number_to_words","input":"62","output":"বাষট্টি","meta":{"lang":"bn"}}
+{"id":"num-63","task":"number_to_words","input":"63","output":"তেষট্টি","meta":{"lang":"bn"}}
+{"id":"num-64","task":"number_to_words","input":"64","output":"চৌষট্টি","meta":{"lang":"bn"}}
+{"id":"num-65","task":"number_to_words","input":"65","output":"পঁয়ষট্টি","meta":{"lang":"bn"}}
+{"id":"num-66","task":"number_to_words","input":"66","output":"ছেষট্টি","meta":{"lang":"bn"}}
+{"id":"num-67","task":"number_to_words","input":"67","output":"সাতষট্টি","meta":{"lang":"bn"}}
+{"id":"num-68","task":"number_to_words","input":"68","output":"আটষট্টি","meta":{"lang":"bn"}}
+{"id":"num-69","task":"number_to_words","input":"69","output":"ঊনসত্তর","meta":{"lang":"bn"}}
+{"id":"num-70","task":"number_to_words","input":"70","output":"সত্তর","meta":{"lang":"bn"}}
+{"id":"num-71","task":"number_to_words","input":"71","output":"একাত্তর","meta":{"lang":"bn"}}
+{"id":"num-72","task":"number_to_words","input":"72","output":"বাহাত্তর","meta":{"lang":"bn"}}
+{"id":"num-73","task":"number_to_words","input":"73","output":"তিয়াত্তর","meta":{"lang":"bn"}}
+{"id":"num-74","task":"number_to_words","input":"74","output":"চুয়াত্তর","meta":{"lang":"bn"}}
+{"id":"num-75","task":"number_to_words","input":"75","output":"পঁচাত্তর","meta":{"lang":"bn"}}
+{"id":"num-76","task":"number_to_words","input":"76","output":"ছিয়াত্তর","meta":{"lang":"bn"}}
+{"id":"num-77","task":"number_to_words","input":"77","output":"সাতাত্তর","meta":{"lang":"bn"}}
+{"id":"num-78","task":"number_to_words","input":"78","output":"আটাত্তর","meta":{"lang":"bn"}}
+{"id":"num-79","task":"number_to_words","input":"79","output":"ঊনআশি","meta":{"lang":"bn"}}
+{"id":"num-80","task":"number_to_words","input":"80","output":"আশি","meta":{"lang":"bn"}}
+{"id":"num-81","task":"number_to_words","input":"81","output":"একাশি","meta":{"lang":"bn"}}
+{"id":"num-82","task":"number_to_words","input":"82","output":"বিরাশি","meta":{"lang":"bn"}}
+{"id":"num-83","task":"number_to_words","input":"83","output":"তিরাশি","meta":{"lang":"bn"}}
+{"id":"num-84","task":"number_to_words","input":"84","output":"চুরাশি","meta":{"lang":"bn"}}
+{"id":"num-85","task":"number_to_words","input":"85","output":"পঁচাশি","meta":{"lang":"bn"}}
+{"id":"num-86","task":"number_to_words","input":"86","output":"ছিয়াশি","meta":{"lang":"bn"}}
+{"id":"num-87","task":"number_to_words","input":"87","output":"সাতাশি","meta":{"lang":"bn"}}
+{"id":"num-88","task":"number_to_words","input":"88","output":"আটাশি","meta":{"lang":"bn"}}
+{"id":"num-89","task":"number_to_words","input":"89","output":"ঊননব্বই","meta":{"lang":"bn"}}
+{"id":"num-90","task":"number_to_words","input":"90","output":"নব্বই","meta":{"lang":"bn"}}
+{"id":"num-91","task":"number_to_words","input":"91","output":"একানব্বই","meta":{"lang":"bn"}}
+{"id":"num-92","task":"number_to_words","input":"92","output":"বিরানব্বই","meta":{"lang":"bn"}}
+{"id":"num-93","task":"number_to_words","input":"93","output":"তিরানব্বই","meta":{"lang":"bn"}}
+{"id":"num-94","task":"number_to_words","input":"94","output":"চুরানব্বই","meta":{"lang":"bn"}}
+{"id":"num-95","task":"number_to_words","input":"95","output":"পঁচানব্বই","meta":{"lang":"bn"}}
+{"id":"num-96","task":"number_to_words","input":"96","output":"ছিয়ানব্বই","meta":{"lang":"bn"}}
+{"id":"num-97","task":"number_to_words","input":"97","output":"সাতানব্বই","meta":{"lang":"bn"}}
+{"id":"num-98","task":"number_to_words","input":"98","output":"আটানব্বই","meta":{"lang":"bn"}}
+{"id":"num-99","task":"number_to_words","input":"99","output":"নিরানব্বই","meta":{"lang":"bn"}}
+{"id":"num-100","task":"number_to_words","input":"100","output":"এক শত","meta":{"lang":"bn"}}
+{"id":"num-101","task":"number_to_words","input":"101","output":"এক শত এক","meta":{"lang":"bn"}}
+{"id":"num-110","task":"number_to_words","input":"110","output":"এক শত দশ","meta":{"lang":"bn"}}
+{"id":"num-250","task":"number_to_words","input":"250","output":"দুই শত পঞ্চাশ","meta":{"lang":"bn"}}
+{"id":"num-999","task":"number_to_words","input":"999","output":"নয় শত নিরানব্বই","meta":{"lang":"bn"}}
+{"id":"num-1000","task":"number_to_words","input":"1000","output":"এক হাজার","meta":{"lang":"bn"}}
+{"id":"num-1001","task":"number_to_words","input":"1001","output":"এক হাজার এক","meta":{"lang":"bn"}}
+{"id":"num-10000","task":"number_to_words","input":"10000","output":"দশ হাজার","meta":{"lang":"bn"}}
+{"id":"num-100000","task":"number_to_words","input":"100000","output":"এক লক্ষ","meta":{"lang":"bn"}}
+{"id":"num-1000000","task":"number_to_words","input":"1000000","output":"দশ লক্ষ","meta":{"lang":"bn"}}
+{"id":"num-10000000","task":"number_to_words","input":"10000000","output":"এক কোটি","meta":{"lang":"bn"}}
+{"id":"num-1234567","task":"number_to_words","input":"1234567","output":"বারো লক্ষ চৌত্রিশ হাজার পাঁচ শত সাতষট্টি","meta":{"lang":"bn"}}
+{"id":"num--5","task":"number_to_words","input":"-5","output":"ঋণাত্মক পাঁচ","meta":{"lang":"bn"}}

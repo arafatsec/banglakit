@@ -9,7 +9,7 @@
 300 million people speak Bangla, yet AI agents still get the basics wrong: they write taka amounts in the Western million system, guess the Bangla date, and can't read Bangla typed in English letters. banglakit gives them exact, tested tools instead of guesses.
 
 - **Exact:** rules and official data, not AI guesses. Every result is deterministic and covered by tests.
-- **Sourced:** every dataset and rule names its source and licence ([data/SOURCES.md](data/SOURCES.md)).
+- **Sourced:** every dataset and rule names its source and licence ([data/SOURCES.md](data/SOURCES.md)). Evaluation sets live in [datasets/](datasets/README.md). Other Bangla projects are listed in [RESOURCES.md](RESOURCES.md).
 - **Local:** no network, no account, no data leaves your machine.
 - **Free:** Apache-2.0.
 
@@ -58,6 +58,9 @@ Then just ask: *"Write ১,২৫,০০০.৫০ taka in words for this cheque
 | `check_tin` | TIN shape: 12 digits | format only |
 | `check_bin` | e-BIN shape: 13 digits | old 9- and 11-digit numbers are rejected |
 | `check_postcode` | 4-digit shape | does not know if the code is assigned |
+| `bijoy_to_unicode` | Bijoy / SutonnyMJ to Unicode | `Avgvi †mvbvi evsjv` → আমার সোনার বাংলা |
+| `find_mfs` | Bangladesh Bank MFS providers | bKash, Nagad, Rocket, … |
+| `lexicon` | Months, weekdays, seasons, units | বৈশাখ, শুক্রবার, টাকা |
 
 ## Command line
 
@@ -124,22 +127,28 @@ parseNid("1234567890").kind;         // "smart"  (shape only, not a lookup)
 
 **Identity numbers** are format checks only. A 10-digit NID is not verified against the Election Commission, and the unpublished checksum is not invented.
 
+## Evaluation sets
+
+[datasets/README.md](datasets/README.md) is the sheet of CC0 JSONL and CSV generated from this library, with a dataset card in each folder. `node datasets/eval.mjs` scores predictions. These files are not inside the npm package. Other Bangla corpora are linked, not copied, in [RESOURCES.md](RESOURCES.md).
+
 ## What is not in here
 
 Left out on purpose, because a wrong table would be worse than a gap:
 
-- A Bijoy (ANSI) converter. It needs a large conjunct table and real documents to test against.
-- A directory of every post office. The 4-digit shape is checked; assignment is not.
-- BBS codes for upazilas. The public lists are older than the current National Portal set.
-- An Avro dictionary or conjunct whitelist. Two consonants join; a backtick splits them.
+- Union names, and a BBS code on each upazila. Each upazila does carry its district's BBS code. The public upazila-code lists are older than the National Portal set.
+- A full post-office directory. The 4-digit shape is checked.
+- Holiday gazettes other than 2026. The 2025 list exists (gazette pages 27737–27740, 23 October 2024) but the PDF was not transcribed.
+- Honorifics. No official list was copied.
+- An Avro dictionary. Two consonants join unless you type a backtick.
 - The West Bengal calendar, and Bangla reforms from before 1995.
-- The smart-NID checksum. The algorithm was not published.
+- The smart-NID checksum.
+- Unicode back to Bijoy for a whole sentence. The one-to-one letters do round-trip.
 
 ## Roadmap (help wanted)
 
 - Postcodes for every post office, from a Bangladesh Post file
-- Holiday lists for 2027 onward, from the gazette
-- Bijoy (ANSI) ⇄ Unicode, with a cited mapping and tests
+- The 2025 and 2027 holiday lists, transcribed from the gazette
+- Unicode to Bijoy for full sentences
 - West Bengal (Indian) Bangla calendar
 - Conjunct whitelist for phonetic typing
 - Python package

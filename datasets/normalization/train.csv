@@ -1,0 +1,4 @@
+id,task,input,output
+norm-0,normalize,কো,কো
+norm-1,normalize,বাং​লা,বাংলা
+norm-2,normalize,ক্‌খ,ক্‌খ

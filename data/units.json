@@ -1,0 +1,10 @@
+{
+  "note": "These are the unit words banglakit already uses when it writes money and clock times. They are everyday Bangladesh usage, not a BSTI standard sheet.",
+  "units": [
+    { "bn": "টাকা", "en": "taka", "symbol": "৳" },
+    { "bn": "পয়সা", "en": "paisa" },
+    { "bn": "ঘণ্টা", "en": "hour" },
+    { "bn": "মিনিট", "en": "minute" },
+    { "bn": "সেকেন্ড", "en": "second" }
+  ]
+}

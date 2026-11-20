@@ -1,0 +1,3 @@
+{"id":"norm-0","task":"normalize","input":"কো","output":"কো","meta":{}}
+{"id":"norm-1","task":"normalize","input":"বাং​লা","output":"বাংলা","meta":{}}
+{"id":"norm-2","task":"normalize","input":"ক্‌খ","output":"ক্‌খ","meta":{}}

@@ -1,0 +1,15 @@
+{
+  "source": "https://en.wikipedia.org/wiki/Telephone_numbers_in_Bangladesh",
+  "publisher": "Bangladesh Telecommunication Regulatory Commission national numbering plan, as recorded in the Wikipedia article Telephone numbers in Bangladesh and the operator allocations described with it (013 and 017 Grameenphone, 014 and 019 Banglalink, 018 Robi, 016 Airtel, 015 Teletalk).",
+  "retrieved": "2026-11-20",
+  "note": "The prefix is the operator the number was first issued to. Mobile number portability has been in force since October 2018, so the SIM may now be on another network. 011 was Citycell, which closed in 2016. 010 and 012 are not mobile operator prefixes.",
+  "prefixes": [
+    { "prefix": "013", "operator": "Grameenphone", "operator_bn": "গ্রামীণফোন" },
+    { "prefix": "014", "operator": "Banglalink", "operator_bn": "বাংলালিংক" },
+    { "prefix": "015", "operator": "Teletalk", "operator_bn": "টেলিটক" },
+    { "prefix": "016", "operator": "Airtel (Robi)", "operator_bn": "এয়ারটেল (রবি)" },
+    { "prefix": "017", "operator": "Grameenphone", "operator_bn": "গ্রামীণফোন" },
+    { "prefix": "018", "operator": "Robi", "operator_bn": "রবি" },
+    { "prefix": "019", "operator": "Banglalink", "operator_bn": "বাংলালিংক" }
+  ]
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: banglakit
+message: If you use banglakit, please cite this repository.
+type: software
+authors:
+  - name: Elaichix
+repository-code: https://github.com/arafatsec/banglakit
+url: https://github.com/arafatsec/banglakit
+license: Apache-2.0
+version: 0.4.0
+date-released: 2026-11-20
+keywords:
+  - bangla
+  - bengali
+  - bangladesh
+  - nlp

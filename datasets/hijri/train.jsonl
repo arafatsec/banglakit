@@ -1,0 +1,4 @@
+{"id":"hijri-2000-01-01","task":"hijri_date","input":"2000-01-01","output":"২৪ রমজান ১৪২০ হিজরি","meta":{"calendar":"tabular-islamic"}}
+{"id":"hijri-2020-01-01","task":"hijri_date","input":"2020-01-01","output":"৫ জমাদিউল আউয়াল ১৪৪১ হিজরি","meta":{"calendar":"tabular-islamic"}}
+{"id":"hijri-2025-01-01","task":"hijri_date","input":"2025-01-01","output":"১ রজব ১৪৪৬ হিজরি","meta":{"calendar":"tabular-islamic"}}
+{"id":"hijri-2026-01-01","task":"hijri_date","input":"2026-01-01","output":"১২ রজব ১৪৪৭ হিজরি","meta":{"calendar":"tabular-islamic"}}

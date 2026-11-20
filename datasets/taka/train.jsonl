@@ -1,0 +1,8 @@
+{"id":"taka-0","task":"taka_in_words","input":"0","output":"শূন্য টাকা মাত্র","meta":{"lang":"bn"}}
+{"id":"taka-1","task":"taka_in_words","input":"1","output":"এক টাকা মাত্র","meta":{"lang":"bn"}}
+{"id":"taka-10.50","task":"taka_in_words","input":"10.50","output":"দশ টাকা পঞ্চাশ পয়সা মাত্র","meta":{"lang":"bn"}}
+{"id":"taka-1250.5","task":"taka_in_words","input":"1250.5","output":"এক হাজার দুই শত পঞ্চাশ টাকা পঞ্চাশ পয়সা মাত্র","meta":{"lang":"bn"}}
+{"id":"taka-125000.50","task":"taka_in_words","input":"125000.50","output":"এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র","meta":{"lang":"bn"}}
+{"id":"taka-10000000","task":"taka_in_words","input":"10000000","output":"এক কোটি টাকা মাত্র","meta":{"lang":"bn"}}
+{"id":"taka-0.05","task":"taka_in_words","input":"0.05","output":"শূন্য টাকা পাঁচ পয়সা মাত্র","meta":{"lang":"bn"}}
+{"id":"taka--10.50","task":"taka_in_words","input":"-10.50","output":"ঋণাত্মক দশ টাকা পঞ্চাশ পয়সা মাত্র","meta":{"lang":"bn"}}

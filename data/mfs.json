@@ -1,0 +1,22 @@
+{
+  "source": "https://www.bb.org.bd/en/index.php/financialactivity/paysystems",
+  "publisher": "Bangladesh Bank, Payment Systems Department, List of MFS Providers",
+  "retrieved": "2026-11-20",
+  "note": "Names are copied from the Bangladesh Bank page on the retrieval date. An older PDF on the same site spells some entities differently and does not list LENDEN. This file follows the HTML list. It is not a customer directory and contains no account numbers.",
+  "providers": [
+    { "service": "ROCKET", "entity": "Dutch Bangla Bank PLC." },
+    { "service": "bKash", "entity": "bKash Ltd." },
+    { "service": "MYCash", "entity": "Mercantile Bank PLC." },
+    { "service": "Islami Bank mCash", "entity": "Islami Bank Bangladesh PLC." },
+    { "service": "Trust And Pay: tap", "entity": "Trust And Pay Ltd." },
+    { "service": "FirstCash", "entity": "First Security Islami Bank PLC." },
+    { "service": "Upay", "service_bn": "উপায়", "entity": "UCB Fintech Company Ltd." },
+    { "service": "OK Wallet", "entity": "One Bank PLC." },
+    { "service": "RUPALICASH", "entity": "Rupali Bank PLC." },
+    { "service": "TeleCash", "entity": "Southeast Bank PLC." },
+    { "service": "Islamic Wallet", "entity": "Al-Arafah Islami Bank PLC." },
+    { "service": "Meghna Pay", "entity": "Meghna Bank PLC." },
+    { "service": "Nagad", "entity": "Bangladesh Post office (with interim approval of BB)" },
+    { "service": "LENDEN", "entity": "Prime Bank FinTech Limited" }
+  ]
+}

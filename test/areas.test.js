@@ -26,7 +26,7 @@ test("data is clean: Bangla script names, NFC, unique ids, official websites", (
   }
 });
 test("search and lookups", () => {
-  assert.deepEqual(findArea("সাভার")[0], { type: "upazila", id: "savar", bn: "সাভার", en: "Savar", district: "Dhaka", division: "Dhaka", website: "https://savar.dhaka.gov.bd" });
+  assert.deepEqual(findArea("সাভার")[0], { type: "upazila", id: "savar", bn: "সাভার", en: "Savar", district: "Dhaka", districtCode: "3026", division: "Dhaka", website: "https://savar.dhaka.gov.bd" });
   assert.equal(listDivisions().find((d) => d.id === "dhaka").code, "30");
   assert.equal(listDistricts().find((d) => d.id === "comilla").code, "2019");
   for (const d of listDistricts()) assert.match(d.code, /^\d{4}$/, d.en);

@@ -1,0 +1,114 @@
+id,task,input,output
+num-0,number_to_words,0,শূন্য
+num-1,number_to_words,1,এক
+num-2,number_to_words,2,দুই
+num-3,number_to_words,3,তিন
+num-4,number_to_words,4,চার
+num-5,number_to_words,5,পাঁচ
+num-6,number_to_words,6,ছয়
+num-7,number_to_words,7,সাত
+num-8,number_to_words,8,আট
+num-9,number_to_words,9,নয়
+num-10,number_to_words,10,দশ
+num-11,number_to_words,11,এগারো
+num-12,number_to_words,12,বারো
+num-13,number_to_words,13,তেরো
+num-14,number_to_words,14,চৌদ্দ
+num-15,number_to_words,15,পনেরো
+num-16,number_to_words,16,ষোলো
+num-17,number_to_words,17,সতেরো
+num-18,number_to_words,18,আঠারো
+num-19,number_to_words,19,ঊনিশ
+num-20,number_to_words,20,বিশ
+num-21,number_to_words,21,একুশ
+num-22,number_to_words,22,বাইশ
+num-23,number_to_words,23,তেইশ
+num-24,number_to_words,24,চব্বিশ
+num-25,number_to_words,25,পঁচিশ
+num-26,number_to_words,26,ছাব্বিশ
+num-27,number_to_words,27,সাতাশ
+num-28,number_to_words,28,আটাশ
+num-29,number_to_words,29,ঊনত্রিশ
+num-30,number_to_words,30,ত্রিশ
+num-31,number_to_words,31,একত্রিশ
+num-32,number_to_words,32,বত্রিশ
+num-33,number_to_words,33,তেত্রিশ
+num-34,number_to_words,34,চৌত্রিশ
+num-35,number_to_words,35,পঁয়ত্রিশ
+num-36,number_to_words,36,ছত্রিশ
+num-37,number_to_words,37,সাঁইত্রিশ
+num-38,number_to_words,38,আটত্রিশ
+num-39,number_to_words,39,ঊনচল্লিশ
+num-40,number_to_words,40,চল্লিশ
+num-41,number_to_words,41,একচল্লিশ
+num-42,number_to_words,42,বিয়াল্লিশ
+num-43,number_to_words,43,তেতাল্লিশ
+num-44,number_to_words,44,চুয়াল্লিশ
+num-45,number_to_words,45,পঁয়তাল্লিশ
+num-46,number_to_words,46,ছেচল্লিশ
+num-47,number_to_words,47,সাতচল্লিশ
+num-48,number_to_words,48,আটচল্লিশ
+num-49,number_to_words,49,ঊনপঞ্চাশ
+num-50,number_to_words,50,পঞ্চাশ
+num-51,number_to_words,51,একান্ন
+num-52,number_to_words,52,বাহান্ন
+num-53,number_to_words,53,তিপ্পান্ন
+num-54,number_to_words,54,চুয়ান্ন
+num-55,number_to_words,55,পঞ্চান্ন
+num-56,number_to_words,56,ছাপ্পান্ন
+num-57,number_to_words,57,সাতান্ন
+num-58,number_to_words,58,আটান্ন
+num-59,number_to_words,59,ঊনষাট
+num-60,number_to_words,60,ষাট
+num-61,number_to_words,61,একষট্টি
+num-62,number_to_words,62,বাষট্টি
+num-63,number_to_words,63,তেষট্টি
+num-64,number_to_words,64,চৌষট্টি
+num-65,number_to_words,65,পঁয়ষট্টি
+num-66,number_to_words,66,ছেষট্টি
+num-67,number_to_words,67,সাতষট্টি
+num-68,number_to_words,68,আটষট্টি
+num-69,number_to_words,69,ঊনসত্তর
+num-70,number_to_words,70,সত্তর
+num-71,number_to_words,71,একাত্তর
+num-72,number_to_words,72,বাহাত্তর
+num-73,number_to_words,73,তিয়াত্তর
+num-74,number_to_words,74,চুয়াত্তর
+num-75,number_to_words,75,পঁচাত্তর
+num-76,number_to_words,76,ছিয়াত্তর
+num-77,number_to_words,77,সাতাত্তর
+num-78,number_to_words,78,আটাত্তর
+num-79,number_to_words,79,ঊনআশি
+num-80,number_to_words,80,আশি
+num-81,number_to_words,81,একাশি
+num-82,number_to_words,82,বিরাশি
+num-83,number_to_words,83,তিরাশি
+num-84,number_to_words,84,চুরাশি
+num-85,number_to_words,85,পঁচাশি
+num-86,number_to_words,86,ছিয়াশি
+num-87,number_to_words,87,সাতাশি
+num-88,number_to_words,88,আটাশি
+num-89,number_to_words,89,ঊননব্বই
+num-90,number_to_words,90,নব্বই
+num-91,number_to_words,91,একানব্বই
+num-92,number_to_words,92,বিরানব্বই
+num-93,number_to_words,93,তিরানব্বই
+num-94,number_to_words,94,চুরানব্বই
+num-95,number_to_words,95,পঁচানব্বই
+num-96,number_to_words,96,ছিয়ানব্বই
+num-97,number_to_words,97,সাতানব্বই
+num-98,number_to_words,98,আটানব্বই
+num-99,number_to_words,99,নিরানব্বই
+num-100,number_to_words,100,এক শত
+num-101,number_to_words,101,এক শত এক
+num-110,number_to_words,110,এক শত দশ
+num-250,number_to_words,250,দুই শত পঞ্চাশ
+num-999,number_to_words,999,নয় শত নিরানব্বই
+num-1000,number_to_words,1000,এক হাজার
+num-1001,number_to_words,1001,এক হাজার এক
+num-10000,number_to_words,10000,দশ হাজার
+num-100000,number_to_words,100000,এক লক্ষ
+num-1000000,number_to_words,1000000,দশ লক্ষ
+num-10000000,number_to_words,10000000,এক কোটি
+num-1234567,number_to_words,1234567,বারো লক্ষ চৌত্রিশ হাজার পাঁচ শত সাতষট্টি
+num--5,number_to_words,-5,ঋণাত্মক পাঁচ
