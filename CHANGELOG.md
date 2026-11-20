@@ -2,6 +2,16 @@
 
 All notable changes to banglakit. This project follows [Semantic Versioning](https://semver.org/).
 
+## 0.5.0 (2026-11-20)
+
+### Added
+- 2025 public holidays from the 23 October 2024 gazette (pages 27737–27740). The PDF is in Bijoy; every date was checked against the printed Bangla date.
+- A VitePress docs site, including copy-paste MCP configs for Claude Desktop, Cursor, VS Code and Windsurf, and a small playground. CI builds it. It is not deployed.
+- Seeded fuzz tests for number words, phonetic typing, Bijoy and normalization, a loose speed check, and a pack-size check that keeps `datasets/` and `docs/` out of the npm tarball.
+- The evaluation sets gain Bijoy pairs and a few harder phonetic and calendar rows. A test regenerates them and diffs the result.
+- Every public export is required to appear in `src/index.d.ts`.
+- MCP string inputs are length-capped (20,000 characters for text, 200 for numbers and queries, 80 for dates and phone numbers). Bijoy conversion refuses inputs over 100,000 characters.
+
 ## 0.4.0 (2026-11-20)
 
 ### Added

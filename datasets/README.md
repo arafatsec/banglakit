@@ -14,12 +14,13 @@ The first command rewrites the files. The second scores the library, which shoul
 
 | Dataset | Rows | What an answer must match |
 |---|---|---|
-| [numbers](numbers/README.md) | 113 | Bangla words, lakh/crore, including a negative |
 | [taka](taka/README.md) | 8 | Cheque words, with paisa |
 | [ordinals](ordinals/README.md) | 7 | প্রথম … and ২১তম |
-| [dates](dates/README.md) | 371 | Every day of 2026, plus reform and leap days |
+| [dates](dates/README.md) | 373 | Every day of 2026, plus reform and leap days |
+| [numbers](numbers/README.md) | 114 | Bangla words, including a Bangla-digit input |
 | [hijri](hijri/README.md) | 4 | Tabular Hijri, not moon sighting |
-| [phonetic](phonetic/README.md) | 16 | Avro-style input, no dictionary |
+| [phonetic](phonetic/README.md) | 23 | Avro-style input, no dictionary, including reph and backtick cases |
+| [bijoy](bijoy/README.md) | 5 | Published Bijoy examples |
 | [romanization](romanization/README.md) | 16 | Orthographic ISO 15919 |
 | [normalization](normalization/README.md) | 3 | NFC and zero-width cleanup |
 | [times](times/README.md) | 6 | Clock times with period names |

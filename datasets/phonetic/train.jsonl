@@ -14,3 +14,10 @@
 {"id":"phon-bykti","task":"phonetic","input":"bykti","output":"ব্যক্তি","meta":{}}
 {"id":"phon-am`ra","task":"phonetic","input":"am`ra","output":"আমরা","meta":{}}
 {"id":"phon-Bangladesh","task":"phonetic","input":"Bangladesh","output":"বাংলাদেশ","meta":{}}
+{"id":"phon-OIrabot","task":"phonetic","input":"OIrabot","output":"ঐরাবত","meta":{}}
+{"id":"phon-grriho","task":"phonetic","input":"grriho","output":"গৃহ","meta":{}}
+{"id":"phon-ek`i","task":"phonetic","input":"ek`i","output":"একই","meta":{}}
+{"id":"phon-k,,","task":"phonetic","input":"k,,","output":"ক্‌","meta":{}}
+{"id":"phon-3.`14","task":"phonetic","input":"3.`14","output":"৩.১৪","meta":{}}
+{"id":"phon-cha^d","task":"phonetic","input":"cha^d","output":"ছাঁদ","meta":{}}
+{"id":"phon-Sikkha","task":"phonetic","input":"Sikkha","output":"শিক্ষা","meta":{}}

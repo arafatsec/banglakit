@@ -322,17 +322,24 @@ for (const [bijoy, unicode] of Object.entries(CONVERSION_MAP)) {
   if ([...nfc].length === 1 && !REVERSE_LETTER.has(nfc)) REVERSE_LETTER.set(nfc, bijoy);
 }
 
+const MAX = 100_000;
+
 /** Bijoy / SutonnyMJ text to Unicode Bangla. */
 export function bijoyToUnicode(input) {
-  return bnAnsiToUnicode(String(input)).normalize("NFC");
+  const src = String(input);
+  if (src.length > MAX) throw new RangeError("Text is too long");
+  return bnAnsiToUnicode(src).normalize("NFC");
 }
 
 /**
- * Unicode Bangla back to Bijoy for letters in the one-to-one map (অ–হ, ড় ঢ় য় ৎ ং ঃ ঁ and digits).
- * Vowel signs and conjuncts are not reversed here. Throws if a character has no single Bijoy letter.
+ * Unicode Bangla back to Bijoy for letters in the one-to-one map.
+ * ড়, ঢ় and য় are not in that map: Unicode NFC splits them into a base letter plus nukta.
+ * Vowel signs and conjuncts are not reversed. Throws if a character has no single Bijoy letter.
  */
 export function unicodeToBijoy(input) {
-  const s = String(input).normalize("NFC");
+  const src = String(input);
+  if (src.length > MAX) throw new RangeError("Text is too long");
+  const s = src.normalize("NFC");
   let out = "";
   for (const ch of s) {
     if (ch === " " || ch === "\n") { out += ch; continue; }
