@@ -1,0 +1,11 @@
+name: New tool or idea
+description: Suggest a Bangla tool that would help people or AI agents.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes: { label: What problem does it solve?, description: "Who has this problem, and what do they do today?" }
+    validations: { required: true }
+  - type: textarea
+    id: example
+    attributes: { label: "Example input -> output" }

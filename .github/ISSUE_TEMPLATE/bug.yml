@@ -1,0 +1,16 @@
+name: Wrong output / bug
+description: A tool gave a wrong word, date or letter, or crashed.
+labels: [bug]
+body:
+  - type: input
+    id: input
+    attributes: { label: What you gave it, placeholder: "banglakit taka 1050" }
+    validations: { required: true }
+  - type: input
+    id: got
+    attributes: { label: What you got }
+    validations: { required: true }
+  - type: input
+    id: want
+    attributes: { label: What is correct, description: "If it is a spelling question, say which dictionary or style (Bangla Academy, newspaper, etc.)." }
+    validations: { required: true }
