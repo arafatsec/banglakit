@@ -2,16 +2,30 @@
 license: cc0-1.0
 language:
   - bn
+task_categories:
+  - text2text-generation
+annotations_creators:
+  - found
+language_creators:
+  - found
+multilinguality: monolingual
 pretty_name: Phonetic input for attested words
+size_categories:
+  - n<1K
+configs:
+  - config_name: default
+    data_files:
+      - split: train
+        path: train.jsonl
 ---
 
 # Phonetic input for attested words
 
-The Bangla word occurs in the CC0 sentences. The Latin input is kept only when phoneticToBangla returns that word. It is not a recording of a particular person typing.
+The 400 most frequent words of 2–8 characters in the committed CC0 sentences whose generated spelling round-trips through phoneticToBangla. বই is absent: the spelling boi returns বৈ.
 
 | | |
 |---|---|
-| Rows | 15 |
+| Rows | 400 |
 | Licence | CC0-1.0 |
 | Source | Words taken from the CC0 sentences |
 | Retrieved | 2026-11-20 |

@@ -2,7 +2,21 @@
 license: cc0-1.0
 language:
   - bn
+task_categories:
+  - text-generation
+annotations_creators:
+  - found
+language_creators:
+  - found
+multilinguality: monolingual
 pretty_name: Normalization of real CC0 sentences
+size_categories:
+  - n<1K
+configs:
+  - config_name: default
+    data_files:
+      - split: train
+        path: train.jsonl
 ---
 
 # Normalization of real CC0 sentences

@@ -45,7 +45,8 @@ test("spot-checked rows are the ones that were read", () => {
     "text/cc-by/tatoeba-eng": ["tatoeba-455108-1482"],
     "text/cc0/numbers-in-sentences": ["num-1", "num-30", "num-91", "num-109"],
     "text/cc0/normalization": ["norm-1", "norm-2"],
-    "text/cc0/phonetic-words": ["word-1", "word-15"],
+    "text/cc0/phonetic-words": ["word-1", "word-6"],
+    "text/cc-by-sa/tagore": ["tagore-1913-1-1"],
     "text/cc0/romanized-words": ["rom-word-15"],
   };
   for (const [name, ids] of Object.entries(present)) {
@@ -59,6 +60,12 @@ test("spot-checked rows are the ones that were read", () => {
   assert.equal(norm[0].output.includes("“"), false);
   assert.equal(norm[1].input.includes("\u200B"), true);
   assert.equal(norm[1].output.includes("\u200B"), false);
+  const ami = rows("text/cc0/phonetic-words").find((row) => row.output === "আমি");
+  assert.equal(ami.input, "ami");
+  const tagore = rows("text/cc-by-sa/tagore").find((row) => row.id === "tagore-1913-1-1");
+  assert.match(tagore.input, /চরণ-ধূলার তলে/);
+  assert.equal(tagore.meta.license, "CC-BY-SA-4.0");
+  assert.equal(rows("text/cc0/phonetic-words").some((row) => row.output === "বই"), false);
   const dowry = rows("text/cc0/numbers-in-sentences").find((row) => row.id === "num-30");
   const spans = JSON.parse(dowry.output);
   assert.equal(spans[0].kind, "currency");

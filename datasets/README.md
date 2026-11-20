@@ -36,11 +36,15 @@ Hugging Face layout, not uploaded: each folder has a dataset card (`README.md` w
 
 | Dataset | Rows | Licence |
 |---|---|---|
-| [text/cc0/tatoeba](text/cc0/tatoeba/README.md) | 800 | CC0 1.0 |
-| [text/cc0/common-voice](text/cc0/common-voice/README.md) | 400 | CC0 1.0 |
+| [text/cc0/tatoeba](text/cc0/tatoeba/README.md) | 6704 | CC0 1.0 |
+| [text/cc0/common-voice](text/cc0/common-voice/README.md) | 2500 | CC0 1.0 |
 | [text/cc0/numbers-in-sentences](text/cc0/numbers-in-sentences/README.md) | 120 | CC0 1.0 |
 | [text/cc0/normalization](text/cc0/normalization/README.md) | 40 | CC0 1.0 |
-| [text/cc0/phonetic-words](text/cc0/phonetic-words/README.md) | 15 | CC0 1.0 |
-| [text/cc0/romanized-words](text/cc0/romanized-words/README.md) | 15 | CC0 1.0 |
-| [text/cc-by/tatoeba-eng](text/cc-by/tatoeba-eng/README.md) | 500 | CC BY 2.0 FR |
+| [text/cc0/phonetic-words](text/cc0/phonetic-words/README.md) | 400 | CC0 1.0 |
+| [text/cc0/romanized-words](text/cc0/romanized-words/README.md) | 400 | CC0 1.0 |
+| [text/cc-by/tatoeba](text/cc-by/tatoeba/README.md) | 7262 | CC BY 2.0 FR |
+| [text/cc-by/tatoeba-eng](text/cc-by/tatoeba-eng/README.md) | 7351 | CC BY 2.0 FR, some CC0 |
 | [text/cc-by-sa/wiki](text/cc-by-sa/wiki/README.md) | 75 | CC BY-SA 4.0 |
+| [text/cc-by-sa/tagore](text/cc-by-sa/tagore/README.md) | 141 | CC BY-SA 4.0 |
+
+`text/CHECKSUMS.json` pins the Tatoeba and Common Voice dumps. `node datasets/score-model.mjs` prints the library baseline in [LEADERBOARD.md](LEADERBOARD.md). Dataset cards have Hugging Face YAML (`license`, `language`, `task_categories`, `configs`). Nothing here is uploaded.

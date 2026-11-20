@@ -1,13 +1,15 @@
 {
   "retrieved": "2026-11-20",
   "counts": {
-    "text/cc0/tatoeba": 800,
-    "text/cc0/common-voice": 400,
-    "text/cc-by/tatoeba-eng": 500,
+    "text/cc0/tatoeba": 6704,
+    "text/cc0/common-voice": 2500,
+    "text/cc-by/tatoeba": 7262,
+    "text/cc-by/tatoeba-eng": 7351,
     "text/cc-by-sa/wiki": 75,
+    "text/cc-by-sa/tagore": 141,
     "text/cc0/numbers-in-sentences": 120,
     "text/cc0/normalization": 40,
-    "text/cc0/phonetic-words": 15,
-    "text/cc0/romanized-words": 15
+    "text/cc0/phonetic-words": 400,
+    "text/cc0/romanized-words": 400
   }
 }

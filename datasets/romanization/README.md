@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit ISO 15919
 size_categories:
   - n<1K
+configs:
+  - config_name: romanization
+    data_files:
+      - split: train
+        path: romanization/train.jsonl
 ---
 
 # banglakit ISO 15919

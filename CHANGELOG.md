@@ -2,6 +2,15 @@
 
 All notable changes to banglakit. This project follows [Semantic Versioning](https://semver.org/).
 
+## 0.7.0 (2026-11-20)
+
+### Added
+- The full filtered Tatoeba Bangla set: 6,704 CC0 sentences and 7,262 CC BY 2.0 FR sentences, plus 7,351 Bangla–English pairs. Common Voice contributes 2,500 CC0 sentences; the rest of that file stays out of git, pinned by sha256.
+- 141 sentences from songs 1–24 of the 1913 গীতাঞ্জলি on Bangla Wikisource. The book is in the public domain. The transcription is CC BY-SA 4.0 and stays in its own folder.
+- 400 phonetic spellings and 400 ISO 15919 rows for words that occur in the CC0 sentences and round-trip through the library.
+- 5 August 2025, জুলাই গণঅভ্যুত্থান দিবস, from the 2 July 2025 Cabinet Division gazette (page 6849).
+- `datasets/LEADERBOARD.md` and `datasets/score-model.mjs`. The committed baseline is banglakit itself. The script refuses known paid APIs.
+
 ## 0.6.0 (2026-11-20)
 
 ### Added

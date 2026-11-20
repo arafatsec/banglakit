@@ -148,7 +148,6 @@ Left out on purpose, because a wrong table would be worse than a gap:
 - Union names, and a BBS code on each upazila. Each upazila does carry its district's BBS code. The public upazila-code lists are older than the National Portal set.
 - A full post-office directory. The 4-digit shape is checked.
 - Honorifics. No official list was copied.
-- 5 August 2025. A later gazette declared it a holiday; that PDF was not transcribed, so it is not in the 2025 list.
 - An Avro dictionary. Two consonants join unless you type a backtick.
 - The West Bengal calendar, and Bangla reforms from before 1995.
 - The smart-NID checksum.
@@ -157,7 +156,7 @@ Left out on purpose, because a wrong table would be worse than a gap:
 ## Roadmap (help wanted)
 
 - Postcodes for every post office, from a Bangladesh Post file
-- The 2 July 2025 amendment (5 August) and the 2027 holiday list, from the gazette PDFs
+- The 2027 holiday list, from the gazette PDF when it is published
 - Unicode to Bijoy for full sentences
 - West Bengal (Indian) Bangla calendar
 - Conjunct whitelist for phonetic typing

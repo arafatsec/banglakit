@@ -2,16 +2,30 @@
 license: cc0-1.0
 language:
   - bn
+task_categories:
+  - text2text-generation
+annotations_creators:
+  - found
+language_creators:
+  - found
+multilinguality: monolingual
 pretty_name: ISO 15919 for attested words
+size_categories:
+  - n<1K
+configs:
+  - config_name: default
+    data_files:
+      - split: train
+        path: train.jsonl
 ---
 
 # ISO 15919 for attested words
 
-Orthographic ISO 15919, including a final inherent vowel when the library writes one.
+The same 400 words, in orthographic ISO 15919, including a final inherent vowel when the library writes one.
 
 | | |
 |---|---|
-| Rows | 15 |
+| Rows | 400 |
 | Licence | CC0-1.0 |
 | Source | Words taken from the CC0 sentences |
 | Retrieved | 2026-11-20 |

@@ -2,16 +2,31 @@
 license: cc-by-2.0-fr
 language:
   - bn
+  - en
+task_categories:
+  - translation
+annotations_creators:
+  - found
+language_creators:
+  - found
+multilinguality: multilingual
 pretty_name: Tatoeba Bangla–English pairs
+size_categories:
+  - 1K<n<10K
+configs:
+  - config_name: default
+    data_files:
+      - split: train
+        path: train.jsonl
 ---
 
 # Tatoeba Bangla–English pairs
 
-One English translation per Bangla sentence. Rows whose Bangla sentence is also in the CC0 export are marked CC0-1.0. Other rows are CC BY 2.0 FR and name the Tatoeba author.
+One English translation per Bangla sentence, for every link whose English side was found. Rows whose Bangla sentence is in the CC0 export are marked CC0-1.0. Other rows are CC BY 2.0 FR and name the Tatoeba author. Rows with no author are left out.
 
 | | |
 |---|---|
-| Rows | 500 |
+| Rows | 7351 |
 | Licence | CC-BY-2.0-FR |
 | Source | https://tatoeba.org/en/downloads |
 | Retrieved | 2026-11-20 |

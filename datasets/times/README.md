@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit clock times
 size_categories:
   - n<1K
+configs:
+  - config_name: times
+    data_files:
+      - split: train
+        path: times/train.jsonl
 ---
 
 # banglakit clock times

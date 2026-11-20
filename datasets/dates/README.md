@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit Bangla dates
 size_categories:
   - n<1K
+configs:
+  - config_name: dates
+    data_files:
+      - split: train
+        path: dates/train.jsonl
 ---
 
 # banglakit Bangla dates

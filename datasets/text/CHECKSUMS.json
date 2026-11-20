@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-11-20",
+  "note": "sha256 of the dumps datasets/curate-text.mjs will read. A different weekly export must not silently replace the committed sentences.",
+  "files": {
+    "ben_sentences_CC0.tsv": {
+      "sha256": "3bbf824cb0ad0a78b9cb4004ebc333147f324c03bd94bfe5be3730935d3cf93b",
+      "url": "https://downloads.tatoeba.org/exports/per_language/ben/ben_sentences_CC0.tsv.bz2",
+      "license": "CC0-1.0"
+    },
+    "ben_sentences.tsv": {
+      "sha256": "3334a2d4aaa1dc5eea4ad984edccd76f7e3caa76428b63775898b327e031f9cc",
+      "url": "https://downloads.tatoeba.org/exports/per_language/ben/ben_sentences.tsv.bz2",
+      "license": "CC-BY-2.0-FR"
+    },
+    "ben_sentences_detailed.tsv": {
+      "sha256": "6450884e23ea8ade08581ce25639127cc17e83274d4ae0c79b5d611fb0e01d9c",
+      "url": "https://downloads.tatoeba.org/exports/per_language/ben/ben_sentences_detailed.tsv.bz2",
+      "license": "CC-BY-2.0-FR"
+    },
+    "ben-eng_links.tsv": {
+      "sha256": "4850791962a9bcef4332efba592788ea05e657826eb1ddddac7aa7d3085c36e9",
+      "url": "https://downloads.tatoeba.org/exports/per_language/ben/ben-eng_links.tsv.bz2",
+      "license": "CC-BY-2.0-FR"
+    },
+    "eng_sentences.tsv": {
+      "sha256": "775b8b33b8d222b46eb6f4d5901286c5fea2e6553b00a4a77f110df9fc2f016f",
+      "url": "https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences.tsv.bz2",
+      "license": "CC-BY-2.0-FR"
+    },
+    "sentence-collector.txt": {
+      "sha256": "478e389b68dce47a968ae8ff45841882d2a83e2baf70963bbea9a42aba17b7dd",
+      "url": "https://raw.githubusercontent.com/common-voice/common-voice/main/server/data/bn/sentence-collector.txt",
+      "license": "CC0-1.0"
+    }
+  }
+}

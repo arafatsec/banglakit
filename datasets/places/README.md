@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit place questions
 size_categories:
   - n<1K
+configs:
+  - config_name: places
+    data_files:
+      - split: train
+        path: places/train.jsonl
 ---
 
 # banglakit place questions

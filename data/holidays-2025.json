@@ -2,7 +2,7 @@
  "year": 2025,
  "source": "https://www.dpp.gov.bd/upload_file/gazettes/56081_74888.pdf",
  "publisher": "Ministry of Public Administration, Bangladesh Gazette (extraordinary), 23 October 2024, notification no. 05.00.0000.173.08.013.23-166",
- "note": "Transcribed from the gazette PDF (pages 27737–27740). The PDF text is in Bijoy; it was converted with banglakit's Bijoy mapping and each Gregorian date was checked against the printed Bangla date and, where the PDF kept it, the weekday. Dates marked moon: true are starred in the gazette and may move. A later July 2025 gazette declared 5 August a holiday; that amendment is not in this file.",
+ "note": "Transcribed from the gazette PDF (pages 27737–27740). The PDF text is in Bijoy; it was converted with banglakit's Bijoy mapping and each Gregorian date was checked against the printed Bangla date and, where the PDF kept it, the weekday. Dates marked moon: true are starred in the gazette and may move. The 2 July 2025 Cabinet Division gazette, page 6849, adds 5 August as a general holiday every year. That page does not print a Bangla date for 5 August; the weekday and Bangla date on that row are computed with this calendar. The gazette date line itself, 2 July 2025 = Wednesday 18 Asharh 1432, matches the calendar.",
  "holidays": [
   {
    "date": "2025-02-21",
@@ -62,6 +62,15 @@
    "name_bn": "ঈদ-উল-আজহা",
    "name_en": "Eid-ul-Azha",
    "moon": true
+  },
+  {
+   "date": "2025-08-05",
+   "weekday": "মঙ্গলবার",
+   "bn": "২১ শ্রাবণ",
+   "type": "general",
+   "name_bn": "জুলাই গণঅভ্যুত্থান দিবস",
+   "name_en": "July Mass Uprising Day",
+   "source": "https://www.dpp.gov.bd/upload_file/gazettes/57995_36128.pdf"
   },
   {
    "date": "2025-08-16",
