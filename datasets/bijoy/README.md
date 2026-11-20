@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit Bijoy to Unicode
 size_categories:
   - n<1K
+configs:
+  - config_name: bijoy
+    data_files:
+      - split: train
+        path: bijoy/train.jsonl
 ---
 
 # banglakit Bijoy to Unicode

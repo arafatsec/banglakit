@@ -134,6 +134,11 @@ task_categories:
 pretty_name: ${title}
 size_categories:
   - n<1K
+configs:
+  - config_name: ${dir}
+    data_files:
+      - split: train
+        path: ${dir}/train.jsonl
 ---
 
 # ${title}

@@ -46,8 +46,8 @@ Node 18 or newer. No build step: the code in `src/` is plain JavaScript (ES modu
 
 ## Good first issues
 
-- Transcribe the 2 July 2025 gazette that declares 5 August a holiday, and add it beside the 2025 list with the gazette number.
 - Add the 2027 holiday list when the gazette is published.
+- Match a current BBS union list to the National Portal's 502 upazilas without guessing names. The 2016 geocode index and the later division PDFs do not line up.
 - English names for upazilas that are not just the website slug, from a source you can link.
 - Another ten phonetic pairs in `datasets/generate.mjs`, then run `npm run datasets`.
 

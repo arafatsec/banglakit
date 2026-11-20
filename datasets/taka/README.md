@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit taka in words
 size_categories:
   - n<1K
+configs:
+  - config_name: taka
+    data_files:
+      - split: train
+        path: taka/train.jsonl
 ---
 
 # banglakit taka in words

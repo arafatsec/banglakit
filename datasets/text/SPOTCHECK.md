@@ -41,3 +41,18 @@ Read by hand after `node datasets/curate-text.mjs`. The rows below are in the co
 | সঞ্চয়িতা/ভারততীর্থ | Wikisource wikitext is a PDF page index, not the poem. |
 
 The parallel file’s first 500 linked pairs are all CC BY 2.0 FR. None of those Bangla ids were in the CC0 export, so none were relabelled CC0. Author names are the Tatoeba usernames from `ben_sentences_detailed.tsv`.
+
+## Round 5, same day, after the full rebuild
+
+| Id | What was checked |
+|---|---|
+| `tagore-1913-1-1` | “আমার মাথা নত করে দাও হে তোমার চরণ-ধূলার তলে।” Revision 1936474 of গীতাঞ্জলি (১৯১৩)/১. This is the opening of the proofread poem, not the index line alone. |
+| `tagore-1913-1-2` | “সকল অহঙ্কার হে আমার ডুবাও চোখের জলে।” The same line is the refrain later in the song and is stored once. |
+| `word-1` | `na` → না, the most frequent round-tripping word in the committed CC0 sentences (922 times). |
+| `word-6` | `ami` → আমি. |
+| `word-19` | `bangladesh` → বাংলাদেশ. |
+| `word-245` | `shikSha` → শিক্ষা. `shiksha` is শিক্শা in this engine, so that spelling is not the one stored. |
+| `num-30` | Still “৫০ হাজার টাকা” as currency and “৫ ভরি” as a number. |
+| `norm-1` | Still the real sentence “আর কতদিন এভাবে চলবে!” wrapped in quotes. |
+
+`boi` → বৈ, so বই is not in the 400. The full Common Voice file was not committed. Project Gutenberg ebooks 7164, 6520, 33525, and 34757 were opened far enough to see they are English.

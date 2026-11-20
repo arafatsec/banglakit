@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit number words
 size_categories:
   - n<1K
+configs:
+  - config_name: numbers
+    data_files:
+      - split: train
+        path: numbers/train.jsonl
 ---
 
 # banglakit number words

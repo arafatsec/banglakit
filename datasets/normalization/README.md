@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit Unicode normalization
 size_categories:
   - n<1K
+configs:
+  - config_name: normalization
+    data_files:
+      - split: train
+        path: normalization/train.jsonl
 ---
 
 # banglakit Unicode normalization

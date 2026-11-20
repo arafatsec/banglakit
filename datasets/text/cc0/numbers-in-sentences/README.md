@@ -2,7 +2,21 @@
 license: cc0-1.0
 language:
   - bn
+task_categories:
+  - token-classification
+annotations_creators:
+  - found
+language_creators:
+  - found
+multilinguality: monolingual
 pretty_name: Numbers, dates and currency inside real CC0 sentences
+size_categories:
+  - n<1K
+configs:
+  - config_name: default
+    data_files:
+      - split: train
+        path: train.jsonl
 ---
 
 # Numbers, dates and currency inside real CC0 sentences

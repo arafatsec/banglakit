@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit tabular Hijri
 size_categories:
   - n<1K
+configs:
+  - config_name: hijri
+    data_files:
+      - split: train
+        path: hijri/train.jsonl
 ---
 
 # banglakit tabular Hijri

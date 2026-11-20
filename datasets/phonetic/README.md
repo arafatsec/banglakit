@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit phonetic pairs
 size_categories:
   - n<1K
+configs:
+  - config_name: phonetic
+    data_files:
+      - split: train
+        path: phonetic/train.jsonl
 ---
 
 # banglakit phonetic pairs

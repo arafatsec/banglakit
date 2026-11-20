@@ -8,6 +8,11 @@ task_categories:
 pretty_name: banglakit ordinals
 size_categories:
   - n<1K
+configs:
+  - config_name: ordinals
+    data_files:
+      - split: train
+        path: ordinals/train.jsonl
 ---
 
 # banglakit ordinals
