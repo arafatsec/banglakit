@@ -4,7 +4,17 @@
 
 **Bangla (বাংলা) and Bangladesh tools for people and AI agents.** Taka in words, the Bangla calendar, every district and upazila, official public holidays, phone numbers and phonetic typing, ready for Claude, Codex, Cursor or any MCP agent, plus a CLI and a JavaScript library.
 
-**বাংলায়:** টাকার কথায় লেখা, বাংলা ক্যালেন্ডার, জেলা-উপজেলা, সরকারি ছুটি, ফোন নম্বর ও অভ্র-ধাঁচের ফোনেটিক টাইপিং। হিসাব স্থানীয়, পরীক্ষিত, আর প্রতিটি তথ্যের সূত্র আছে।
+## বাংলায়
+
+টাকার কথায় লেখা, বাংলা ক্যালেন্ডার, ২০২৫ ও ২০২৬ সালের সরকারি ছুটি, জেলা-উপজেলা, ফোন নম্বর, অভ্র-ধাঁচের টাইপিং এবং বিজয় থেকে ইউনিকোড। সব হিসাব এই মেশিনে হয়। সূত্র আছে [data/SOURCES.md](data/SOURCES.md)-তে। ব্যবহার:
+
+```bash
+node bin/banglakit.js taka 125000.50
+node bin/banglakit.js date 2026-02-21
+node bin/banglakit.js holidays 2025 2
+```
+
+## English
 
 300 million people speak Bangla, yet AI agents still get the basics wrong: they write taka amounts in the Western million system, guess the Bangla date, and can't read Bangla typed in English letters. banglakit gives them exact, tested tools instead of guesses.
 
@@ -137,8 +147,8 @@ Left out on purpose, because a wrong table would be worse than a gap:
 
 - Union names, and a BBS code on each upazila. Each upazila does carry its district's BBS code. The public upazila-code lists are older than the National Portal set.
 - A full post-office directory. The 4-digit shape is checked.
-- Holiday gazettes other than 2026. The 2025 list exists (gazette pages 27737–27740, 23 October 2024) but the PDF was not transcribed.
 - Honorifics. No official list was copied.
+- 5 August 2025. A later gazette declared it a holiday; that PDF was not transcribed, so it is not in the 2025 list.
 - An Avro dictionary. Two consonants join unless you type a backtick.
 - The West Bengal calendar, and Bangla reforms from before 1995.
 - The smart-NID checksum.
@@ -147,13 +157,15 @@ Left out on purpose, because a wrong table would be worse than a gap:
 ## Roadmap (help wanted)
 
 - Postcodes for every post office, from a Bangladesh Post file
-- The 2025 and 2027 holiday lists, transcribed from the gazette
+- The 2 July 2025 amendment (5 August) and the 2027 holiday list, from the gazette PDFs
 - Unicode to Bijoy for full sentences
 - West Bengal (Indian) Bangla calendar
 - Conjunct whitelist for phonetic typing
 - Python package
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Good first issues are labelled **good first issue**.
+
+The docs site is built with `npm run docs:build` (VitePress). CI builds it and does not deploy it.
 
 ## License
 

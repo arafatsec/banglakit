@@ -1,12 +1,16 @@
 // Bangladesh public holidays from the official gazette (one file per year in data/).
 import { loadJson } from "./load.js";
 
+const FILES = {
+  2025: "../data/holidays-2025.json",
+  2026: "../data/holidays-2026.json",
+};
 let YEARS;
 function years() {
-  if (!YEARS) YEARS = { 2026: loadJson("../data/holidays-2026.json") };
+  if (!YEARS) YEARS = Object.fromEntries(Object.entries(FILES).map(([year, path]) => [year, loadJson(path)]));
   return YEARS;
 }
-export const holidayYears = [2026];
+export const holidayYears = Object.keys(FILES).map(Number);
 
 function yearData(year) {
   const y = years()[year];

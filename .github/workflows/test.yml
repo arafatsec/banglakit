@@ -23,3 +23,6 @@ jobs:
       - name: coverage
         if: matrix.node == '22'
         run: npm run coverage
+      - name: docs
+        if: matrix.node == '22'
+        run: npm run docs:build

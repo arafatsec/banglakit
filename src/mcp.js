@@ -15,31 +15,33 @@ const lang = z.enum(["bn", "en"]).default("bn").describe("bn = Bangla words, en 
 
 export function createServer() {
   const server = new McpServer({ name: "banglakit", version });
-  const textIn = z.string().max(100_000);
+  const textIn = z.string().max(20_000);
+  const short = z.string().max(80);
+  const medium = z.string().max(200);
   server.registerTool("taka_in_words", {
     title: "Taka amount in words",
     description: "Write a taka amount in words for cheques, invoices and receipts, using lakh and crore. Example: 125000.50 -> এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র.",
-    inputSchema: { amount: z.string().describe("Amount, e.g. 125000.50 or ১,২৫,০০০"), lang },
+    inputSchema: { amount: medium.describe("Amount, e.g. 125000.50 or ১,২৫,০০০"), lang },
   }, safe(({ amount, lang }) => bk.takaInWords(amount, lang)));
   server.registerTool("number_to_words", {
     title: "Number in words",
     description: "Write a whole number in Bangla (or English) words using the South Asian system: hundred, thousand, lakh, crore.",
-    inputSchema: { number: z.string().describe("Whole number, ASCII or Bangla digits"), lang },
+    inputSchema: { number: medium.describe("Whole number, ASCII or Bangla digits"), lang },
   }, safe(({ number, lang }) => bk.numberToWords(number, lang)));
   server.registerTool("format_number", {
     title: "Format number (lakh/crore grouping)",
     description: "Group digits the South Asian way (1,23,45,678), in Bangla or English digits.",
-    inputSchema: { number: z.string(), bangla_digits: z.boolean().default(true) },
+    inputSchema: { number: medium, bangla_digits: z.boolean().default(true) },
   }, safe(({ number, bangla_digits }) => bk.formatNumber(number, { bangla: bangla_digits })));
   server.registerTool("convert_digits", {
     title: "Convert digits",
     description: "Convert digits inside any text between English (0-9) and Bangla (০-৯).",
-    inputSchema: { text: z.string(), to: z.enum(["bn", "en"]) },
+    inputSchema: { text: textIn, to: z.enum(["bn", "en"]) },
   }, safe(({ text: t, to }) => (to === "bn" ? bk.toBanglaDigits(t) : bk.toEnglishDigits(t))));
   server.registerTool("bangla_date", {
     title: "Gregorian to Bangla date",
     description: "Convert a Gregorian date to the Bangladesh Bangla calendar, with weekday and season. From 14 April 2019 the 2019 revision is used (21 February is 8 Falgun). From 14 April 1995 until then, the previous official month lengths are used (21 February 2018 is 9 Falgun). Defaults to today.",
-    inputSchema: { date: z.string().optional().describe("YYYY-MM-DD; omit for today") },
+    inputSchema: { date: short.optional().describe("YYYY-MM-DD; omit for today") },
   }, safe(({ date }) => ({ ...bk.toBanglaDate(date || new Date()), gregorian_in_bangla: bk.gregorianInBangla(date || new Date()) })));
   server.registerTool("gregorian_date", {
     title: "Bangla to Gregorian date",
@@ -54,12 +56,12 @@ export function createServer() {
   server.registerTool("find_area", {
     title: "Find a place in Bangladesh",
     description: "Search Bangladesh divisions, districts and upazilas by Bangla or English name (or part of it). Returns the official Bangla name, English name, parent district/division and official website. Source: Bangladesh National Portal.",
-    inputSchema: { query: z.string().describe("e.g. সাভার, Cumilla, mymensingh"), limit: z.number().int().min(1).max(50).default(10) },
+    inputSchema: { query: medium.describe("e.g. সাভার, Cumilla, mymensingh"), limit: z.number().int().min(1).max(50).default(10) },
   }, safe(({ query, limit }) => bk.findArea(query, { limit })));
   server.registerTool("list_areas", {
     title: "List divisions, districts or upazilas",
     description: "No arguments: the 8 divisions. division: its districts. district: its upazilas (with official website names).",
-    inputSchema: { division: z.string().optional(), district: z.string().optional() },
+    inputSchema: { division: medium.optional(), district: medium.optional() },
   }, safe(({ division, district }) => (district ? bk.listUpazilas(district) : division ? bk.listDistricts(division) : bk.listDivisions())));
   server.registerTool("bd_holidays", {
     title: "Bangladesh public holidays",
@@ -69,32 +71,32 @@ export function createServer() {
   server.registerTool("is_holiday", {
     title: "Is this date a holiday in Bangladesh?",
     description: "Check a date (YYYY-MM-DD) against the official holiday list. Returns the holidays on that date, or an empty list. Fridays and Saturdays are the weekly days off and are not listed.",
-    inputSchema: { date: z.string() },
+    inputSchema: { date: short },
   }, safe(({ date }) => ({ date, holidays: bk.holidaysOn(date) })));
   server.registerTool("ordinal", {
     title: "Ordinal number",
     description: "Ordinal in Bangla or English. 1 to 10 use the classical Bangla forms (প্রথম … দশম). Larger numbers use the modern তম form, such as ২১তম.",
-    inputSchema: { number: z.string(), lang },
+    inputSchema: { number: medium, lang },
   }, safe(({ number, lang }) => bk.ordinal(number, lang)));
   server.registerTool("format_taka", {
     title: "Format an amount in taka",
     description: "Format a taka amount with the ৳ sign, lakh/crore grouping and two decimal places. 1250.5 -> ৳১,২৫০.৫০.",
-    inputSchema: { amount: z.string(), bangla_digits: z.boolean().default(true), symbol: z.boolean().default(true) },
+    inputSchema: { amount: medium, bangla_digits: z.boolean().default(true), symbol: z.boolean().default(true) },
   }, safe(({ amount, bangla_digits, symbol }) => bk.formatTaka(amount, { bangla: bangla_digits, symbol })));
   server.registerTool("percent", {
     title: "Format a percent",
     description: "Format a percent, or write a whole percent in words. 25 -> ২৫% or শতকরা পঁচিশ. The number is the percent itself, not a fraction of 1.",
-    inputSchema: { number: z.string(), words: z.boolean().default(false), lang },
+    inputSchema: { number: medium, words: z.boolean().default(false), lang },
   }, safe(({ number, words, lang }) => (words ? bk.percentInWords(number, lang) : bk.formatPercent(number, { bangla: lang !== "en" }))));
   server.registerTool("format_time", {
     title: "Time in Bangla",
     description: "Write a 24-hour clock time the way it is said in Bangladesh. 15:45 -> বিকাল ৩টা ৪৫ মিনিট. Period names are everyday usage, not a legal definition.",
-    inputSchema: { time: z.string().describe("HH:MM, 00:00 to 23:59, ASCII or Bangla digits") },
+    inputSchema: { time: short.describe("HH:MM, 00:00 to 23:59, ASCII or Bangla digits") },
   }, safe(({ time }) => bk.formatTime(time)));
   server.registerTool("hijri_date", {
     title: "Gregorian to tabular Hijri",
     description: "Convert a Gregorian date to the tabular (arithmetic) Islamic calendar. This is not Bangladesh moon sighting and can differ by a day or two from an announced Islamic holiday. Use bd_holidays for official dates.",
-    inputSchema: { date: z.string().optional().describe("YYYY-MM-DD; omit for today") },
+    inputSchema: { date: short.optional().describe("YYYY-MM-DD; omit for today") },
   }, safe(({ date }) => bk.toHijri(date || new Date())));
   server.registerTool("gregorian_from_hijri", {
     title: "Tabular Hijri to Gregorian",
@@ -159,7 +161,7 @@ export function createServer() {
   server.registerTool("find_mfs", {
     title: "Bangladesh mobile financial services",
     description: "List or search the Mobile Financial Service providers named on the Bangladesh Bank payment-systems page. No account numbers. Omit query to list them all.",
-    inputSchema: { query: z.string().optional() },
+    inputSchema: { query: medium.optional() },
   }, safe(({ query }) => (query ? bk.findMfs(query) : { providers: bk.listMfs(), source: bk.mfsSource })));
   server.registerTool("lexicon", {
     title: "Bangla names for months, weekdays, seasons and units",
@@ -169,7 +171,7 @@ export function createServer() {
   server.registerTool("parse_phone", {
     title: "Check a Bangladesh mobile number",
     description: "Validate and normalise a Bangladesh mobile number (any format, English or Bangla digits) and name the operator the prefix was issued to: Grameenphone (013/017), Banglalink (014/019), Robi (018), Airtel (016, now Robi) or Teletalk (015). Since October 2018 the SIM may have been ported.",
-    inputSchema: { number: z.string() },
+    inputSchema: { number: short },
   }, safe(({ number }) => bk.parsePhone(number)));
   return server;
 }

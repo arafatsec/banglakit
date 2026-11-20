@@ -22,6 +22,7 @@ export function expected(row) {
     case "bangla_date": return bk.toBanglaDate(row.input).text;
     case "hijri_date": return bk.toHijri(row.input).text;
     case "phonetic": return bk.phoneticToBangla(row.input);
+    case "bijoy_to_unicode": return bk.bijoyToUnicode(row.input);
     case "romanize": return bk.romanize(row.input, { style: meta.style || "iso" });
     case "normalize": return bk.normalizeBangla(row.input);
     case "format_time": return bk.formatTime(row.input).text;

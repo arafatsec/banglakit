@@ -111,3 +111,4 @@
 {"id":"num-10000000","task":"number_to_words","input":"10000000","output":"এক কোটি","meta":{"lang":"bn"}}
 {"id":"num-1234567","task":"number_to_words","input":"1234567","output":"বারো লক্ষ চৌত্রিশ হাজার পাঁচ শত সাতষট্টি","meta":{"lang":"bn"}}
 {"id":"num--5","task":"number_to_words","input":"-5","output":"ঋণাত্মক পাঁচ","meta":{"lang":"bn"}}
+{"id":"num-bn-100","task":"number_to_words","input":"১০০","output":"এক শত","meta":{"lang":"bn"}}

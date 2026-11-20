@@ -1,0 +1,522 @@
+{
+ "year": 2025,
+ "source": "https://www.dpp.gov.bd/upload_file/gazettes/56081_74888.pdf",
+ "publisher": "Ministry of Public Administration, Bangladesh Gazette (extraordinary), 23 October 2024, notification no. 05.00.0000.173.08.013.23-166",
+ "note": "Transcribed from the gazette PDF (pages 27737–27740). The PDF text is in Bijoy; it was converted with banglakit's Bijoy mapping and each Gregorian date was checked against the printed Bangla date and, where the PDF kept it, the weekday. Dates marked moon: true are starred in the gazette and may move. A later July 2025 gazette declared 5 August a holiday; that amendment is not in this file.",
+ "holidays": [
+  {
+   "date": "2025-02-21",
+   "weekday": "শুক্রবার",
+   "bn": "৮ ফাল্গুন",
+   "type": "general",
+   "name_bn": "শহিদ দিবস ও আন্তর্জাতিক মাতৃভাষা দিবস",
+   "name_en": "Shaheed Day and International Mother Language Day"
+  },
+  {
+   "date": "2025-03-26",
+   "weekday": "বুধবার",
+   "bn": "১২ চৈত্র",
+   "type": "general",
+   "name_bn": "স্বাধীনতা ও জাতীয় দিবস",
+   "name_en": "Independence and National Day"
+  },
+  {
+   "date": "2025-03-28",
+   "weekday": "শুক্রবার",
+   "bn": "১৪ চৈত্র",
+   "type": "general",
+   "name_bn": "জুমাতুল বিদা",
+   "name_en": "Jumatul Bida"
+  },
+  {
+   "date": "2025-03-31",
+   "weekday": "সোমবার",
+   "bn": "১৭ চৈত্র",
+   "type": "general",
+   "name_bn": "ঈদ-উল-ফিতর",
+   "name_en": "Eid-ul-Fitr",
+   "moon": true
+  },
+  {
+   "date": "2025-05-01",
+   "weekday": "বৃহস্পতিবার",
+   "bn": "১৮ বৈশাখ",
+   "type": "general",
+   "name_bn": "মে দিবস",
+   "name_en": "May Day"
+  },
+  {
+   "date": "2025-05-11",
+   "weekday": "রবিবার",
+   "bn": "২৮ বৈশাখ",
+   "type": "general",
+   "name_bn": "বুদ্ধ পূর্ণিমা (বৈশাখী পূর্ণিমা)",
+   "name_en": "Buddha Purnima",
+   "moon": true
+  },
+  {
+   "date": "2025-06-07",
+   "weekday": "শনিবার",
+   "bn": "২৪ জ্যৈষ্ঠ",
+   "type": "general",
+   "name_bn": "ঈদ-উল-আজহা",
+   "name_en": "Eid-ul-Azha",
+   "moon": true
+  },
+  {
+   "date": "2025-08-16",
+   "weekday": "শনিবার",
+   "bn": "১ ভাদ্র",
+   "type": "general",
+   "name_bn": "জন্মাষ্টমী",
+   "name_en": "Janmashtami"
+  },
+  {
+   "date": "2025-09-05",
+   "weekday": "শুক্রবার",
+   "bn": "২১ ভাদ্র",
+   "type": "general",
+   "name_bn": "ঈদ-ই-মিলাদুন্নবী (সা.)",
+   "name_en": "Eid-e-Miladunnabi",
+   "moon": true
+  },
+  {
+   "date": "2025-10-02",
+   "weekday": "বৃহস্পতিবার",
+   "bn": "১৭ আশ্বিন",
+   "type": "general",
+   "name_bn": "দুর্গাপূজা (বিজয়া দশমী)",
+   "name_en": "Durga Puja (Bijoya Dashami)"
+  },
+  {
+   "date": "2025-12-16",
+   "weekday": "মঙ্গলবার",
+   "bn": "১ পৌষ",
+   "type": "general",
+   "name_bn": "বিজয় দিবস",
+   "name_en": "Victory Day"
+  },
+  {
+   "date": "2025-12-25",
+   "weekday": "বৃহস্পতিবার",
+   "bn": "১০ পৌষ",
+   "type": "general",
+   "name_bn": "যিশু খ্রিষ্টের জন্মদিন (বড়দিন)",
+   "name_en": "Christmas Day"
+  },
+  {
+   "date": "2025-02-15",
+   "weekday": "শনিবার",
+   "bn": "২ ফাল্গুন",
+   "type": "executive",
+   "name_bn": "শব-ই-বরাত",
+   "name_en": "Shab-e-Barat",
+   "moon": true
+  },
+  {
+   "date": "2025-03-28",
+   "weekday": "শুক্রবার",
+   "bn": "১৪ চৈত্র",
+   "type": "executive",
+   "name_bn": "শব-ই-কদর",
+   "name_en": "Shab-e-Qadr",
+   "moon": true
+  },
+  {
+   "date": "2025-03-29",
+   "weekday": "শনিবার",
+   "bn": "১৫ চৈত্র",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-ফিতরের ছুটি",
+   "name_en": "Eid-ul-Fitr holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-03-30",
+   "weekday": "রবিবার",
+   "bn": "১৬ চৈত্র",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-ফিতরের ছুটি",
+   "name_en": "Eid-ul-Fitr holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-04-01",
+   "weekday": "মঙ্গলবার",
+   "bn": "১৮ চৈত্র",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-ফিতরের ছুটি",
+   "name_en": "Eid-ul-Fitr holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-04-02",
+   "weekday": "বুধবার",
+   "bn": "১৯ চৈত্র",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-ফিতরের ছুটি",
+   "name_en": "Eid-ul-Fitr holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-04-14",
+   "weekday": "সোমবার",
+   "bn": "১ বৈশাখ",
+   "type": "executive",
+   "name_bn": "নববর্ষ",
+   "name_en": "Bangla New Year"
+  },
+  {
+   "date": "2025-06-05",
+   "weekday": "বৃহস্পতিবার",
+   "bn": "২২ জ্যৈষ্ঠ",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-আজহার ছুটি",
+   "name_en": "Eid-ul-Azha holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-06-06",
+   "weekday": "শুক্রবার",
+   "bn": "২৩ জ্যৈষ্ঠ",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-আজহার ছুটি",
+   "name_en": "Eid-ul-Azha holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-06-08",
+   "weekday": "রবিবার",
+   "bn": "২৫ জ্যৈষ্ঠ",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-আজহার ছুটি",
+   "name_en": "Eid-ul-Azha holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-06-09",
+   "weekday": "সোমবার",
+   "bn": "২৬ জ্যৈষ্ঠ",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-আজহার ছুটি",
+   "name_en": "Eid-ul-Azha holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-06-10",
+   "weekday": "মঙ্গলবার",
+   "bn": "২৭ জ্যৈষ্ঠ",
+   "type": "executive",
+   "name_bn": "ঈদ-উল-আজহার ছুটি",
+   "name_en": "Eid-ul-Azha holiday",
+   "moon": true
+  },
+  {
+   "date": "2025-07-06",
+   "weekday": "রবিবার",
+   "bn": "২২ আষাঢ়",
+   "type": "executive",
+   "name_bn": "আশুরা",
+   "name_en": "Ashura",
+   "moon": true
+  },
+  {
+   "date": "2025-10-01",
+   "weekday": "বুধবার",
+   "bn": "১৬ আশ্বিন",
+   "type": "executive",
+   "name_bn": "দুর্গাপূজা (নবমী)",
+   "name_en": "Durga Puja (Nabami)"
+  },
+  {
+   "date": "2025-01-28",
+   "weekday": "মঙ্গলবার",
+   "bn": "১৪ মাঘ",
+   "type": "optional",
+   "name_bn": "শব-ই-মিরাজ",
+   "name_en": "Shab-e-Miraj",
+   "moon": true,
+   "group": "muslim"
+  },
+  {
+   "date": "2025-04-03",
+   "weekday": "বৃহস্পতিবার",
+   "bn": "২০ চৈত্র",
+   "type": "optional",
+   "name_bn": "ঈদ-উল-ফিতর (ঈদের পরের তৃতীয় দিন)",
+   "name_en": "Eid-ul-Fitr (third day after Eid)",
+   "moon": true,
+   "group": "muslim"
+  },
+  {
+   "date": "2025-06-11",
+   "weekday": "বুধবার",
+   "bn": "২৮ জ্যৈষ্ঠ",
+   "type": "optional",
+   "name_bn": "ঈদ-উল-আজহা (ঈদের পরের চতুর্থ দিন)",
+   "name_en": "Eid-ul-Azha (fourth day after Eid)",
+   "moon": true,
+   "group": "muslim"
+  },
+  {
+   "date": "2025-08-20",
+   "weekday": "বুধবার",
+   "bn": "৫ ভাদ্র",
+   "type": "optional",
+   "name_bn": "আখেরি চাহার সোম্বা",
+   "name_en": "Akheri Chahar Shomba",
+   "moon": true,
+   "group": "muslim"
+  },
+  {
+   "date": "2025-10-04",
+   "weekday": "শনিবার",
+   "bn": "১৯ আশ্বিন",
+   "type": "optional",
+   "name_bn": "ফাতেহা-ই-ইয়াজদাহম",
+   "name_en": "Fateha-e-Yazdaham",
+   "moon": true,
+   "group": "muslim"
+  },
+  {
+   "date": "2025-02-03",
+   "weekday": "সোমবার",
+   "bn": "২০ মাঘ",
+   "type": "optional",
+   "name_bn": "শ্রীশ্রী সরস্বতী পূজা",
+   "name_en": "Saraswati Puja",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-02-26",
+   "weekday": "বুধবার",
+   "bn": "১৩ ফাল্গুন",
+   "type": "optional",
+   "name_bn": "শ্রীশ্রী শিবরাত্রি ব্রত",
+   "name_en": "Shivaratri",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-03-14",
+   "weekday": "শুক্রবার",
+   "bn": "২৯ ফাল্গুন",
+   "type": "optional",
+   "name_bn": "দোলযাত্রা",
+   "name_en": "Dol Jatra",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-03-27",
+   "weekday": "বৃহস্পতিবার",
+   "bn": "১৩ চৈত্র",
+   "type": "optional",
+   "name_bn": "শ্রীশ্রী হরিচাঁদ ঠাকুরের আবির্ভাব",
+   "name_en": "Harichand Thakur's birth anniversary",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-09-21",
+   "weekday": "রবিবার",
+   "bn": "৬ আশ্বিন",
+   "type": "optional",
+   "name_bn": "মহালয়া",
+   "name_en": "Mahalaya",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-09-29",
+   "weekday": "সোমবার",
+   "bn": "১৪ আশ্বিন",
+   "type": "optional",
+   "name_bn": "শ্রীশ্রী দুর্গাপূজা (সপ্তমী)",
+   "name_en": "Durga Puja (Saptami)",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-09-30",
+   "weekday": "মঙ্গলবার",
+   "bn": "১৫ আশ্বিন",
+   "type": "optional",
+   "name_bn": "শ্রীশ্রী দুর্গাপূজা (অষ্টমী)",
+   "name_en": "Durga Puja (Ashtami)",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-10-06",
+   "weekday": "সোমবার",
+   "bn": "২১ আশ্বিন",
+   "type": "optional",
+   "name_bn": "শ্রীশ্রী লক্ষ্মী পূজা",
+   "name_en": "Lakshmi Puja",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-10-20",
+   "weekday": "সোমবার",
+   "bn": "৪ কার্তিক",
+   "type": "optional",
+   "name_bn": "শ্রীশ্রী শ্যামা পূজা",
+   "name_en": "Shyama Puja",
+   "group": "hindu"
+  },
+  {
+   "date": "2025-01-01",
+   "weekday": "বুধবার",
+   "bn": "১৭ পৌষ",
+   "type": "optional",
+   "name_bn": "ইংরেজি নববর্ষ",
+   "name_en": "English New Year",
+   "group": "christian"
+  },
+  {
+   "date": "2025-03-05",
+   "weekday": "বুধবার",
+   "bn": "২০ ফাল্গুন",
+   "type": "optional",
+   "name_bn": "ভস্ম বুধবার",
+   "name_en": "Ash Wednesday",
+   "group": "christian"
+  },
+  {
+   "date": "2025-04-17",
+   "weekday": "বৃহস্পতিবার",
+   "bn": "৪ বৈশাখ",
+   "type": "optional",
+   "name_bn": "পুণ্য বৃহস্পতিবার",
+   "name_en": "Holy Thursday",
+   "group": "christian"
+  },
+  {
+   "date": "2025-04-18",
+   "weekday": "শুক্রবার",
+   "bn": "৫ বৈশাখ",
+   "type": "optional",
+   "name_bn": "পুণ্য শুক্রবার",
+   "name_en": "Good Friday",
+   "group": "christian"
+  },
+  {
+   "date": "2025-04-19",
+   "weekday": "শনিবার",
+   "bn": "৬ বৈশাখ",
+   "type": "optional",
+   "name_bn": "পুণ্য শনিবার",
+   "name_en": "Holy Saturday",
+   "group": "christian"
+  },
+  {
+   "date": "2025-04-20",
+   "weekday": "রবিবার",
+   "bn": "৭ বৈশাখ",
+   "type": "optional",
+   "name_bn": "ইস্টার সানডে",
+   "name_en": "Easter Sunday",
+   "group": "christian"
+  },
+  {
+   "date": "2025-12-24",
+   "weekday": "বুধবার",
+   "bn": "৯ পৌষ",
+   "type": "optional",
+   "name_bn": "যিশু খ্রিষ্টের জন্মোৎসব (বড়দিনের পূর্বের দিন)",
+   "name_en": "Christmas Eve",
+   "group": "christian"
+  },
+  {
+   "date": "2025-12-26",
+   "weekday": "শুক্রবার",
+   "bn": "১১ পৌষ",
+   "type": "optional",
+   "name_bn": "যিশু খ্রিষ্টের জন্মোৎসব (বড়দিনের পরের দিন)",
+   "name_en": "Day after Christmas",
+   "group": "christian"
+  },
+  {
+   "date": "2025-02-11",
+   "weekday": "মঙ্গলবার",
+   "bn": "২৮ মাঘ",
+   "type": "optional",
+   "name_bn": "মাঘী পূর্ণিমা",
+   "name_en": "Maghi Purnima",
+   "moon": true,
+   "group": "buddhist"
+  },
+  {
+   "date": "2025-04-13",
+   "weekday": "রবিবার",
+   "bn": "৩০ চৈত্র",
+   "type": "optional",
+   "name_bn": "চৈত্র সংক্রান্তি",
+   "name_en": "Chaitra Sankranti",
+   "group": "buddhist"
+  },
+  {
+   "date": "2025-05-10",
+   "weekday": "শনিবার",
+   "bn": "২৭ বৈশাখ",
+   "type": "optional",
+   "name_bn": "বুদ্ধ পূর্ণিমা (পূর্বের দিন)",
+   "name_en": "Buddha Purnima (day before)",
+   "group": "buddhist"
+  },
+  {
+   "date": "2025-05-12",
+   "weekday": "সোমবার",
+   "bn": "২৯ বৈশাখ",
+   "type": "optional",
+   "name_bn": "বুদ্ধ পূর্ণিমা (পরের দিন)",
+   "name_en": "Buddha Purnima (day after)",
+   "group": "buddhist"
+  },
+  {
+   "date": "2025-07-09",
+   "weekday": "বুধবার",
+   "bn": "২৫ আষাঢ়",
+   "type": "optional",
+   "name_bn": "আষাঢ়ী পূর্ণিমা",
+   "name_en": "Ashari Purnima",
+   "moon": true,
+   "group": "buddhist"
+  },
+  {
+   "date": "2025-09-06",
+   "weekday": "শনিবার",
+   "bn": "২২ ভাদ্র",
+   "type": "optional",
+   "name_bn": "মধু পূর্ণিমা (ভাদ্র পূর্ণিমা)",
+   "name_en": "Madhu Purnima",
+   "moon": true,
+   "group": "buddhist"
+  },
+  {
+   "date": "2025-10-05",
+   "weekday": "রবিবার",
+   "bn": "২০ আশ্বিন",
+   "type": "optional",
+   "name_bn": "প্রবারণা পূর্ণিমা (আশ্বিনী পূর্ণিমা)",
+   "name_en": "Prabarana Purnima",
+   "moon": true,
+   "group": "buddhist"
+  },
+  {
+   "date": "2025-04-12",
+   "weekday": "শনিবার",
+   "bn": "২৯ চৈত্র",
+   "type": "optional",
+   "name_bn": "বৈসাবি ও পার্বত্য চট্টগ্রামের অন্যান্য ক্ষুদ্র নৃ-গোষ্ঠীর সামাজিক উৎসব",
+   "name_en": "Boisabi and other social festivals of the hill peoples",
+   "group": "ethnic",
+   "region": "Chittagong Hill Tracts, and ethnic minority employees posted outside that area"
+  },
+  {
+   "date": "2025-04-15",
+   "weekday": "মঙ্গলবার",
+   "bn": "২ বৈশাখ",
+   "type": "optional",
+   "name_bn": "বৈসাবি ও পার্বত্য চট্টগ্রামের অন্যান্য ক্ষুদ্র নৃ-গোষ্ঠীর সামাজিক উৎসব",
+   "name_en": "Boisabi and other social festivals of the hill peoples",
+   "group": "ethnic",
+   "region": "Chittagong Hill Tracts, and ethnic minority employees posted outside that area"
+  }
+ ]
+}

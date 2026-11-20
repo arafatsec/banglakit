@@ -44,6 +44,13 @@ Node 18 or newer. No build step: the code in `src/` is plain JavaScript (ES modu
 2. Register it in `src/mcp.js` with a clear description and a Zod input schema.
 3. Add it to the tool list test in `test/mcp.test.js` and to the table in `README.md`.
 
+## Good first issues
+
+- Transcribe the 2 July 2025 gazette that declares 5 August a holiday, and add it beside the 2025 list with the gazette number.
+- Add the 2027 holiday list when the gazette is published.
+- English names for upazilas that are not just the website slug, from a source you can link.
+- Another ten phonetic pairs in `datasets/generate.mjs`, then run `npm run datasets`.
+
 ## Finding something to work on
 
 Look for issues labelled **good first issue** or **help wanted**. Comment on the issue before you start, so two people don't do the same work.

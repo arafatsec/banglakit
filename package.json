@@ -1,6 +1,6 @@
 {
   "name": "@arafatsec/banglakit",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Bangla (Bengali) and Bangladesh tools for AI agents: taka in words, Bangla calendar, districts and upazilas, public holidays, phone numbers, phonetic typing. MCP server, CLI and library.",
   "type": "module",
   "main": "src/index.js",
@@ -29,6 +29,7 @@
     "lint": "node scripts/lint.mjs",
     "coverage": "node --test --experimental-test-coverage",
     "datasets": "node datasets/generate.mjs",
+    "docs:build": "vitepress build docs",
     "prepublishOnly": "npm run lint && npm test"
   },
   "keywords": [
@@ -66,5 +67,8 @@
     "url": "https://github.com/arafatsec/banglakit/issues"
   },
   "homepage": "https://github.com/arafatsec/banglakit#readme",
-  "types": "src/index.d.ts"
+  "types": "src/index.d.ts",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
 }
