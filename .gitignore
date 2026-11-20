@@ -1,3 +1,18 @@
 node_modules/
 *.log
 .DS_Store
+*.tgz
+
+# Never commit secrets or local config
+.env
+.env.*
+.dev.vars
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+.wrangler/
+.firecrawl/
+staging-link*
