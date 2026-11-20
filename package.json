@@ -37,5 +37,13 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.2",
     "zod": "^4.6.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arafatsec/banglakit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arafatsec/banglakit/issues"
+  },
+  "homepage": "https://github.com/arafatsec/banglakit#readme"
 }
