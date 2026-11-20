@@ -10,20 +10,18 @@
 - **Local:** no network, no account, no data leaves your machine.
 - **Free:** Apache-2.0.
 
-> Not on npm yet: the commands below install straight from GitHub. An npm release (`npx banglakit`) is coming.
-
 ## Use it in your AI agent (MCP)
 
 **Claude Code**
 
 ```bash
-claude mcp add banglakit -- npx -y github:arafatsec/banglakit mcp
+claude mcp add banglakit -- npx -y @arafatsec/banglakit mcp
 ```
 
 **Claude Desktop / Cursor / any MCP client** (add to the client's MCP config):
 
 ```json
-{ "mcpServers": { "banglakit": { "command": "npx", "args": ["-y", "github:arafatsec/banglakit", "mcp"] } } }
+{ "mcpServers": { "banglakit": { "command": "npx", "args": ["-y", "@arafatsec/banglakit", "mcp"] } } }
 ```
 
 Then just ask: *"Write ১,২৫,০০০.৫০ taka in words for this cheque"* or *"What is today's Bangla date?"*
@@ -41,22 +39,22 @@ Then just ask: *"Write ১,২৫,০০০.৫০ taka in words for this cheque
 ## Command line
 
 ```bash
-npx github:arafatsec/banglakit taka 125000.50          # এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র
-npx github:arafatsec/banglakit taka 125000 --en        # one lakh twenty-five thousand taka only
-npx github:arafatsec/banglakit date                    # today, e.g. শুক্রবার, ৫ অগ্রহায়ণ ১৪৩৩ বঙ্গাব্দ, হেমন্তকাল
-npx github:arafatsec/banglakit gdate 1433 1 1          # 2026-04-14
-npx github:arafatsec/banglakit type amar sOnar bangla  # আমার সোনার বাংলা
-npx github:arafatsec/banglakit format 12345678         # ১,২৩,৪৫,৬৭৮
+npx @arafatsec/banglakit taka 125000.50          # এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র
+npx @arafatsec/banglakit taka 125000 --en        # one lakh twenty-five thousand taka only
+npx @arafatsec/banglakit date                    # today, e.g. শুক্রবার, ৫ অগ্রহায়ণ ১৪৩৩ বঙ্গাব্দ, হেমন্তকাল
+npx @arafatsec/banglakit gdate 1433 1 1          # 2026-04-14
+npx @arafatsec/banglakit type amar sOnar bangla  # আমার সোনার বাংলা
+npx @arafatsec/banglakit format 12345678         # ১,২৩,৪৫,৬৭৮
 ```
 
 ## Library
 
 ```bash
-npm install github:arafatsec/banglakit
+npm install @arafatsec/banglakit
 ```
 
 ```js
-import { takaInWords, toBanglaDate, phoneticToBangla } from "banglakit";
+import { takaInWords, toBanglaDate, phoneticToBangla } from "@arafatsec/banglakit";
 
 takaInWords("1,250.50");           // "এক হাজার দুই শত পঞ্চাশ টাকা পঞ্চাশ পয়সা মাত্র"
 toBanglaDate("2026-12-16").text;   // "১ পৌষ ১৪৩৩ বঙ্গাব্দ"

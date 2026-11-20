@@ -1,5 +1,5 @@
 {
-  "name": "banglakit",
+  "name": "@arafatsec/banglakit",
   "version": "0.1.0",
   "description": "Bangla (Bengali) tools for AI agents: taka in words, Bangla calendar, phonetic typing, digits. MCP server, CLI and library.",
   "type": "module",
