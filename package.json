@@ -1,6 +1,6 @@
 {
   "name": "@arafatsec/banglakit",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Bangla (Bengali) and Bangladesh tools for AI agents: taka in words, Bangla calendar, districts and upazilas, public holidays, phone numbers, phonetic typing. MCP server, CLI and library.",
   "type": "module",
   "main": "src/index.js",

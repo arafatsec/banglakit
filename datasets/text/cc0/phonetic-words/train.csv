@@ -1,0 +1,16 @@
+id,task,input,output,license,source
+word-1,phonetic,ami,আমি,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-2,phonetic,bangla,বাংলা,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-3,phonetic,bangladesh,বাংলাদেশ,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-4,phonetic,Dhaka,ঢাকা,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-5,phonetic,kotha,কথা,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-6,phonetic,rat,রাত,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-7,phonetic,din,দিন,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-8,phonetic,aj,আজ,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-9,phonetic,na,না,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-10,phonetic,amar,আমার,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-11,phonetic,bhalo,ভাল,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-12,phonetic,bhalO,ভালো,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-13,phonetic,gan,গান,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-14,phonetic,pani,পানি,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla
+word-15,phonetic,bo`i,বই,CC0-1.0,Bangla word attested in the CC0 sentence sets; Latin input checked with phoneticToBangla

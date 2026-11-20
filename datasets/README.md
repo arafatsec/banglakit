@@ -29,3 +29,18 @@ The first command rewrites the files. The second scores the library, which shoul
 Counts are also in `manifest.json`, which the generator rewrites. Upazilas whose English name is shared (many are called Sadar) are left out of the place questions, because the question would have more than one answer.
 
 Hugging Face layout, not uploaded: each folder has a dataset card (`README.md` with YAML), `train.jsonl` and `train.csv`.
+
+## Original Bangla text
+
+`text/` is not produced by `generate.mjs`. The sentences come from Tatoeba, Common Voice, and Bangla Wikipedia. Licences are split into folders. The CC BY-SA Wikipedia sentences are share-alike and stay in `text/cc-by-sa/`. Rebuild with `node datasets/curate-text.mjs` after the downloads in [text/README.md](text/README.md). `node datasets/eval.mjs` scores these files too.
+
+| Dataset | Rows | Licence |
+|---|---|---|
+| [text/cc0/tatoeba](text/cc0/tatoeba/README.md) | 800 | CC0 1.0 |
+| [text/cc0/common-voice](text/cc0/common-voice/README.md) | 400 | CC0 1.0 |
+| [text/cc0/numbers-in-sentences](text/cc0/numbers-in-sentences/README.md) | 120 | CC0 1.0 |
+| [text/cc0/normalization](text/cc0/normalization/README.md) | 40 | CC0 1.0 |
+| [text/cc0/phonetic-words](text/cc0/phonetic-words/README.md) | 15 | CC0 1.0 |
+| [text/cc0/romanized-words](text/cc0/romanized-words/README.md) | 15 | CC0 1.0 |
+| [text/cc-by/tatoeba-eng](text/cc-by/tatoeba-eng/README.md) | 500 | CC BY 2.0 FR |
+| [text/cc-by-sa/wiki](text/cc-by-sa/wiki/README.md) | 75 | CC BY-SA 4.0 |

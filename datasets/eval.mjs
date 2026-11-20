@@ -5,6 +5,8 @@
 import { readFileSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 import * as bk from "../src/index.js";
+import { cleanSentence } from "./text/filters.mjs";
+import { extractNumbers } from "./text/extract.mjs";
 
 export const norm = (value) => String(value ?? "").normalize("NFC").replace(/\s+/g, " ").trim();
 
@@ -26,6 +28,12 @@ export function expected(row) {
     case "romanize": return bk.romanize(row.input, { style: meta.style || "iso" });
     case "normalize": return bk.normalizeBangla(row.input);
     case "format_time": return bk.formatTime(row.input).text;
+    case "real_normalize": return cleanSentence(row.input);
+    case "extract_numbers": return JSON.stringify(extractNumbers(row.input));
+    case "translation_pair": {
+      if (!/[\u0980-\u09FF]/.test(row.input) || !String(row.output).trim()) throw new Error(`Bad pair ${row.id}`);
+      return row.output;
+    }
     case "place_qa": {
       if (meta.type === "division") return bk.listDivisions().find((item) => item.id === meta.id).code;
       if (meta.type === "district") return bk.listDistricts().find((item) => item.id === meta.id).code;
