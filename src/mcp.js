@@ -151,6 +151,21 @@ export function createServer() {
     description: "Check that a Bangladesh postcode is 4 digits. This does not know whether the code is assigned to a post office.",
     inputSchema: { postcode: z.string().max(20) },
   }, safe(({ postcode }) => bk.parsePostcode(postcode)));
+  server.registerTool("bijoy_to_unicode", {
+    title: "Bijoy to Unicode",
+    description: "Convert Bijoy / SutonnyMJ legacy text to Unicode Bangla. Example: 'Avgvi †mvbvi evsjv' -> 'আমার সোনার বাংলা'. The mapping is the MIT BinduLogic table. A full sentence does not always convert back, because several Bijoy spellings can make one Unicode word.",
+    inputSchema: { text: textIn },
+  }, safe(({ text: t }) => bk.bijoyToUnicode(t)));
+  server.registerTool("find_mfs", {
+    title: "Bangladesh mobile financial services",
+    description: "List or search the Mobile Financial Service providers named on the Bangladesh Bank payment-systems page. No account numbers. Omit query to list them all.",
+    inputSchema: { query: z.string().optional() },
+  }, safe(({ query }) => (query ? bk.findMfs(query) : { providers: bk.listMfs(), source: bk.mfsSource })));
+  server.registerTool("lexicon", {
+    title: "Bangla names for months, weekdays, seasons and units",
+    description: "Bangla and English names for Bangla months, weekdays, seasons, Gregorian months, tabular Hijri months, and the unit words used for taka and clock times.",
+    inputSchema: {},
+  }, safe(() => bk.lexicon()));
   server.registerTool("parse_phone", {
     title: "Check a Bangladesh mobile number",
     description: "Validate and normalise a Bangladesh mobile number (any format, English or Bangla digits) and name the operator the prefix was issued to: Grameenphone (013/017), Banglalink (014/019), Robi (018), Airtel (016, now Robi) or Teletalk (015). Since October 2018 the SIM may have been ported.",

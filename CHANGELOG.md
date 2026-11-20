@@ -2,6 +2,17 @@
 
 All notable changes to banglakit. This project follows [Semantic Versioning](https://semver.org/).
 
+## 0.4.0 (2026-11-20)
+
+### Added
+- Bijoy / SutonnyMJ to Unicode, ported from the MIT BinduLogic mapping, with tests for the published sentences and a round trip of the one-to-one letters.
+- Bangladesh Bank's list of mobile financial service providers, retrieved 20 November 2026.
+- A lexicon of months, weekdays, seasons and the unit words the formatters already use.
+- The mobile-prefix table as `data/operators.json`.
+- Each upazila result includes its district's BBS code (`districtCode`).
+- `datasets/`: CC0 JSONL and CSV evaluation sets generated from the library, a dataset card per set, and `datasets/eval.mjs`.
+- `RESOURCES.md`, `CITATION.cff`, `examples/`, and a coverage step on Node 22 in CI.
+
 ## 0.3.0 (2026-11-20)
 
 ### Fixed

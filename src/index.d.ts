@@ -69,8 +69,8 @@ export function removeStopwords(input: string): string;
 
 export interface Division { id: string; bn: string; en: string; code: string; districts: number }
 export interface District { id: string; bn: string; en: string; code: string; website: string; division: string; upazilas: number }
-export interface Upazila { id: string; bn: string; en: string; website: string; district: string; division: string }
-export interface AreaHit { type: "division" | "district" | "upazila"; id: string; bn: string; en: string; code?: string; district?: string; division?: string; website?: string }
+export interface Upazila { id: string; bn: string; en: string; website: string; district: string; division: string; districtCode: string }
+export interface AreaHit { type: "division" | "district" | "upazila"; id: string; bn: string; en: string; code?: string; district?: string; districtCode?: string; division?: string; website?: string }
 export function listDivisions(): Division[];
 export function listDistricts(division?: string): District[];
 export function listUpazilas(district: string): Upazila[];
@@ -92,6 +92,25 @@ export type PhoneResult =
   | { valid: true; e164: string; local: string; display: string; operator: string; operator_bn: string; prefix: string; mnp: string }
   | { valid: false; input: string; reason: string };
 export function parsePhone(input: string): PhoneResult;
+export function listOperators(): { prefix: string; operator: string; operator_bn: string }[];
+
+export interface MfsProvider { service: string; entity: string; service_bn?: string }
+export function listMfs(): MfsProvider[];
+export function findMfs(query: string): MfsProvider[];
+export const mfsSource: { url: string; publisher: string; retrieved: string; note: string };
+
+export function lexicon(): {
+  months: { bn: string; en: string }[];
+  weekdays: { bn: string; en: string }[];
+  seasons: { bn: string; en: string; months: readonly number[] }[];
+  gregorianMonths: { bn: string; en: string }[];
+  hijriMonths: { bn: string; en: string }[];
+  units: { bn: string; en: string; symbol?: string }[];
+};
+
+export function bijoyToUnicode(input: string): string;
+export function unicodeToBijoy(input: string): string;
+export const bijoySource: { url: string; license: string; copyright: string };
 
 export type IdResult =
   | { valid: true; checks: "format only"; digits: string; length: number; kind: string; birthYear?: number; assigned?: "not checked" }

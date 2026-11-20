@@ -25,6 +25,7 @@ Node 18 or newer. No build step: the code in `src/` is plain JavaScript (ES modu
 | `src/id.js` | NID, TIN, BIN and postcode shapes |
 | `src/mcp.js` | MCP server (tools for AI agents) |
 | `data/SOURCES.md` | where every dataset and rule comes from |
+| `datasets/` | CC0 evaluation sets. Rebuild with `node datasets/generate.mjs` |
 | `bin/banglakit.js` | command line |
 | `test/` | tests (`node --test`) |
 

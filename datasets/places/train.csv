@@ -1,0 +1,525 @@
+id,task,input,output
+div-dhaka,place_qa,What is the BBS code of Dhaka division?,30
+div-khulna,place_qa,What is the BBS code of Khulna division?,40
+div-chattogram,place_qa,What is the BBS code of Chattogram division?,20
+div-rajshahi,place_qa,What is the BBS code of Rajshahi division?,50
+div-sylhet,place_qa,What is the BBS code of Sylhet division?,60
+div-rangpur,place_qa,What is the BBS code of Rangpur division?,55
+div-mymensingh,place_qa,What is the BBS code of Mymensingh division?,45
+div-barishal,place_qa,What is the BBS code of Barishal division?,10
+dist-dhaka,place_qa,What is the BBS code of Dhaka district?,3026
+dist-faridpur,place_qa,What is the BBS code of Faridpur district?,3029
+dist-gazipur,place_qa,What is the BBS code of Gazipur district?,3033
+dist-gopalganj,place_qa,What is the BBS code of Gopalganj district?,3035
+dist-kishoreganj,place_qa,What is the BBS code of Kishoreganj district?,3048
+dist-madaripur,place_qa,What is the BBS code of Madaripur district?,3054
+dist-manikganj,place_qa,What is the BBS code of Manikganj district?,3056
+dist-munshiganj,place_qa,What is the BBS code of Munshiganj district?,3059
+dist-narayanganj,place_qa,What is the BBS code of Narayanganj district?,3067
+dist-narsingdi,place_qa,What is the BBS code of Narsingdi district?,3068
+dist-rajbari,place_qa,What is the BBS code of Rajbari district?,3082
+dist-shariatpur,place_qa,What is the BBS code of Shariatpur district?,3086
+dist-tangail,place_qa,What is the BBS code of Tangail district?,3093
+dist-bagerhat,place_qa,What is the BBS code of Bagerhat district?,4001
+dist-chuadanga,place_qa,What is the BBS code of Chuadanga district?,4018
+dist-jashore,place_qa,What is the BBS code of Jashore district?,4041
+dist-jhenaidah,place_qa,What is the BBS code of Jhenaidah district?,4044
+dist-khulna,place_qa,What is the BBS code of Khulna district?,4047
+dist-kushtia,place_qa,What is the BBS code of Kushtia district?,4050
+dist-magura,place_qa,What is the BBS code of Magura district?,4055
+dist-meherpur,place_qa,What is the BBS code of Meherpur district?,4057
+dist-narail,place_qa,What is the BBS code of Narail district?,4065
+dist-satkhira,place_qa,What is the BBS code of Satkhira district?,4087
+dist-bandarban,place_qa,What is the BBS code of Bandarban district?,2003
+dist-brahmanbaria,place_qa,What is the BBS code of Brahmanbaria district?,2012
+dist-chandpur,place_qa,What is the BBS code of Chandpur district?,2013
+dist-chattogram,place_qa,What is the BBS code of Chattogram district?,2015
+dist-comilla,place_qa,What is the BBS code of Cumilla district?,2019
+dist-coxsbazar,place_qa,What is the BBS code of Cox's Bazar district?,2022
+dist-feni,place_qa,What is the BBS code of Feni district?,2030
+dist-khagrachhari,place_qa,What is the BBS code of Khagrachhari district?,2046
+dist-lakshmipur,place_qa,What is the BBS code of Lakshmipur district?,2051
+dist-noakhali,place_qa,What is the BBS code of Noakhali district?,2075
+dist-rangamati,place_qa,What is the BBS code of Rangamati district?,2084
+dist-bogra,place_qa,What is the BBS code of Bogura district?,5010
+dist-joypurhat,place_qa,What is the BBS code of Joypurhat district?,5038
+dist-naogaon,place_qa,What is the BBS code of Naogaon district?,5064
+dist-natore,place_qa,What is the BBS code of Natore district?,5069
+dist-chapainawabganj,place_qa,What is the BBS code of Chapai Nawabganj district?,5070
+dist-pabna,place_qa,What is the BBS code of Pabna district?,5076
+dist-rajshahi,place_qa,What is the BBS code of Rajshahi district?,5081
+dist-sirajganj,place_qa,What is the BBS code of Sirajganj district?,5088
+dist-habiganj,place_qa,What is the BBS code of Habiganj district?,6036
+dist-moulvibazar,place_qa,What is the BBS code of Moulvibazar district?,6058
+dist-sunamganj,place_qa,What is the BBS code of Sunamganj district?,6090
+dist-sylhet,place_qa,What is the BBS code of Sylhet district?,6091
+dist-dinajpur,place_qa,What is the BBS code of Dinajpur district?,5527
+dist-gaibandha,place_qa,What is the BBS code of Gaibandha district?,5532
+dist-kurigram,place_qa,What is the BBS code of Kurigram district?,5549
+dist-lalmonirhat,place_qa,What is the BBS code of Lalmonirhat district?,5552
+dist-nilphamari,place_qa,What is the BBS code of Nilphamari district?,5573
+dist-panchagarh,place_qa,What is the BBS code of Panchagarh district?,5577
+dist-rangpur,place_qa,What is the BBS code of Rangpur district?,5585
+dist-thakurgaon,place_qa,What is the BBS code of Thakurgaon district?,5594
+dist-jamalpur,place_qa,What is the BBS code of Jamalpur district?,4539
+dist-mymensingh,place_qa,What is the BBS code of Mymensingh district?,4561
+dist-netrokona,place_qa,What is the BBS code of Netrokona district?,4572
+dist-sherpur,place_qa,What is the BBS code of Sherpur district?,4589
+dist-barguna,place_qa,What is the BBS code of Barguna district?,1004
+dist-barisal,place_qa,What is the BBS code of Barishal district?,1006
+dist-bhola,place_qa,What is the BBS code of Bhola district?,1009
+dist-jhalakathi,place_qa,What is the BBS code of Jhalokati district?,1042
+dist-patuakhali,place_qa,What is the BBS code of Patuakhali district?,1078
+dist-pirojpur,place_qa,What is the BBS code of Pirojpur district?,1079
+upz-dhaka-dhamrai,place_qa,Which district is Dhamrai upazila in?,Dhaka
+upz-dhaka-dohar,place_qa,Which district is Dohar upazila in?,Dhaka
+upz-dhaka-keraniganj,place_qa,Which district is Keraniganj upazila in?,Dhaka
+upz-dhaka-savar,place_qa,Which district is Savar upazila in?,Dhaka
+upz-faridpur-alfadanga,place_qa,Which district is Alfadanga upazila in?,Faridpur
+upz-faridpur-bhanga,place_qa,Which district is Bhanga upazila in?,Faridpur
+upz-faridpur-boalmari,place_qa,Which district is Boalmari upazila in?,Faridpur
+upz-faridpur-charbhadrasan,place_qa,Which district is Charbhadrasan upazila in?,Faridpur
+upz-faridpur-madhukhali,place_qa,Which district is Madhukhali upazila in?,Faridpur
+upz-faridpur-nagarkanda,place_qa,Which district is Nagarkanda upazila in?,Faridpur
+upz-faridpur-sadarpur,place_qa,Which district is Sadarpur upazila in?,Faridpur
+upz-faridpur-saltha,place_qa,Which district is Saltha upazila in?,Faridpur
+upz-gazipur-kaliakair,place_qa,Which district is Kaliakair upazila in?,Gazipur
+upz-gazipur-kapasia,place_qa,Which district is Kapasia upazila in?,Gazipur
+upz-gopalganj-kashiani,place_qa,Which district is Kashiani upazila in?,Gopalganj
+upz-gopalganj-kotalipara,place_qa,Which district is Kotalipara upazila in?,Gopalganj
+upz-gopalganj-muksudpur,place_qa,Which district is Muksudpur upazila in?,Gopalganj
+upz-gopalganj-tungipara,place_qa,Which district is Tungipara upazila in?,Gopalganj
+upz-kishoreganj-austagram,place_qa,Which district is Austagram upazila in?,Kishoreganj
+upz-kishoreganj-bajitpur,place_qa,Which district is Bajitpur upazila in?,Kishoreganj
+upz-kishoreganj-bhairab,place_qa,Which district is Bhairab upazila in?,Kishoreganj
+upz-kishoreganj-hossainpur,place_qa,Which district is Hossainpur upazila in?,Kishoreganj
+upz-kishoreganj-itna,place_qa,Which district is Itna upazila in?,Kishoreganj
+upz-kishoreganj-karimgonj,place_qa,Which district is Karimgonj upazila in?,Kishoreganj
+upz-kishoreganj-katiadi,place_qa,Which district is Katiadi upazila in?,Kishoreganj
+upz-kishoreganj-kishoreganjsadar,place_qa,Which district is Kishoreganjsadar upazila in?,Kishoreganj
+upz-kishoreganj-kuliarchar,place_qa,Which district is Kuliarchar upazila in?,Kishoreganj
+upz-kishoreganj-mithamoin,place_qa,Which district is Mithamoin upazila in?,Kishoreganj
+upz-kishoreganj-nikli,place_qa,Which district is Nikli upazila in?,Kishoreganj
+upz-kishoreganj-pakundia,place_qa,Which district is Pakundia upazila in?,Kishoreganj
+upz-kishoreganj-tarail,place_qa,Which district is Tarail upazila in?,Kishoreganj
+upz-madaripur-kalkini,place_qa,Which district is Kalkini upazila in?,Madaripur
+upz-madaripur-rajoir,place_qa,Which district is Rajoir upazila in?,Madaripur
+upz-madaripur-shibchar,place_qa,Which district is Shibchar upazila in?,Madaripur
+upz-madaripur-dasar,place_qa,Which district is Dasar upazila in?,Madaripur
+upz-manikganj-gior,place_qa,Which district is Gior upazila in?,Manikganj
+upz-manikganj-harirampur,place_qa,Which district is Harirampur upazila in?,Manikganj
+upz-manikganj-saturia,place_qa,Which district is Saturia upazila in?,Manikganj
+upz-manikganj-shibaloy,place_qa,Which district is Shibaloy upazila in?,Manikganj
+upz-manikganj-singair,place_qa,Which district is Singair upazila in?,Manikganj
+upz-munshiganj-gajaria,place_qa,Which district is Gajaria upazila in?,Munshiganj
+upz-munshiganj-louhajanj,place_qa,Which district is Louhajanj upazila in?,Munshiganj
+upz-munshiganj-sirajdikhan,place_qa,Which district is Sirajdikhan upazila in?,Munshiganj
+upz-munshiganj-sreenagar,place_qa,Which district is Sreenagar upazila in?,Munshiganj
+upz-munshiganj-tongibari,place_qa,Which district is Tongibari upazila in?,Munshiganj
+upz-narayanganj-araihazar,place_qa,Which district is Araihazar upazila in?,Narayanganj
+upz-narayanganj-sonargaon,place_qa,Which district is Sonargaon upazila in?,Narayanganj
+upz-narayanganj-narayanganjsadar,place_qa,Which district is Narayanganjsadar upazila in?,Narayanganj
+upz-narayanganj-rupganj,place_qa,Which district is Rupganj upazila in?,Narayanganj
+upz-narayanganj-bandar,place_qa,Which district is Bandar upazila in?,Narayanganj
+upz-narsingdi-belabo,place_qa,Which district is Belabo upazila in?,Narsingdi
+upz-narsingdi-monohardi,place_qa,Which district is Monohardi upazila in?,Narsingdi
+upz-narsingdi-narsingdisadar,place_qa,Which district is Narsingdisadar upazila in?,Narsingdi
+upz-narsingdi-palash,place_qa,Which district is Palash upazila in?,Narsingdi
+upz-narsingdi-raipura,place_qa,Which district is Raipura upazila in?,Narsingdi
+upz-narsingdi-shibpur,place_qa,Which district is Shibpur upazila in?,Narsingdi
+upz-rajbari-baliakandi,place_qa,Which district is Baliakandi upazila in?,Rajbari
+upz-rajbari-goalanda,place_qa,Which district is Goalanda upazila in?,Rajbari
+upz-rajbari-kalukhali,place_qa,Which district is Kalukhali upazila in?,Rajbari
+upz-rajbari-pangsa,place_qa,Which district is Pangsa upazila in?,Rajbari
+upz-shariatpur-bhedarganj,place_qa,Which district is Bhedarganj upazila in?,Shariatpur
+upz-shariatpur-damudya,place_qa,Which district is Damudya upazila in?,Shariatpur
+upz-shariatpur-gosairhat,place_qa,Which district is Gosairhat upazila in?,Shariatpur
+upz-shariatpur-naria,place_qa,Which district is Naria upazila in?,Shariatpur
+upz-shariatpur-zajira,place_qa,Which district is Zajira upazila in?,Shariatpur
+upz-tangail-basail,place_qa,Which district is Basail upazila in?,Tangail
+upz-tangail-bhuapur,place_qa,Which district is Bhuapur upazila in?,Tangail
+upz-tangail-delduar,place_qa,Which district is Delduar upazila in?,Tangail
+upz-tangail-dhanbari,place_qa,Which district is Dhanbari upazila in?,Tangail
+upz-tangail-ghatail,place_qa,Which district is Ghatail upazila in?,Tangail
+upz-tangail-gopalpur,place_qa,Which district is Gopalpur upazila in?,Tangail
+upz-tangail-kalihati,place_qa,Which district is Kalihati upazila in?,Tangail
+upz-tangail-madhupur,place_qa,Which district is Madhupur upazila in?,Tangail
+upz-tangail-mirzapur,place_qa,Which district is Mirzapur upazila in?,Tangail
+upz-tangail-nagarpur,place_qa,Which district is Nagarpur upazila in?,Tangail
+upz-tangail-sakhipur,place_qa,Which district is Sakhipur upazila in?,Tangail
+upz-tangail-tangailsadar,place_qa,Which district is Tangailsadar upazila in?,Tangail
+upz-bagerhat-chitalmari,place_qa,Which district is Chitalmari upazila in?,Bagerhat
+upz-bagerhat-fakirhat,place_qa,Which district is Fakirhat upazila in?,Bagerhat
+upz-bagerhat-mollahat,place_qa,Which district is Mollahat upazila in?,Bagerhat
+upz-bagerhat-mongla,place_qa,Which district is Mongla upazila in?,Bagerhat
+upz-bagerhat-morrelganj,place_qa,Which district is Morrelganj upazila in?,Bagerhat
+upz-bagerhat-rampal,place_qa,Which district is Rampal upazila in?,Bagerhat
+upz-bagerhat-sarankhola,place_qa,Which district is Sarankhola upazila in?,Bagerhat
+upz-chuadanga-alamdanga,place_qa,Which district is Alamdanga upazila in?,Chuadanga
+upz-chuadanga-chuadangasadar,place_qa,Which district is Chuadangasadar upazila in?,Chuadanga
+upz-chuadanga-damurhuda,place_qa,Which district is Damurhuda upazila in?,Chuadanga
+upz-chuadanga-jibannagar,place_qa,Which district is Jibannagar upazila in?,Chuadanga
+upz-jashore-abhaynagar,place_qa,Which district is Abhaynagar upazila in?,Jashore
+upz-jashore-bagherpara,place_qa,Which district is Bagherpara upazila in?,Jashore
+upz-jashore-chougachha,place_qa,Which district is Chougachha upazila in?,Jashore
+upz-jashore-jhikargacha,place_qa,Which district is Jhikargacha upazila in?,Jashore
+upz-jashore-keshabpur,place_qa,Which district is Keshabpur upazila in?,Jashore
+upz-jashore-manirampur,place_qa,Which district is Manirampur upazila in?,Jashore
+upz-jashore-sharsha,place_qa,Which district is Sharsha upazila in?,Jashore
+upz-jhenaidah-harinakundu,place_qa,Which district is Harinakundu upazila in?,Jhenaidah
+upz-jhenaidah-kotchandpur,place_qa,Which district is Kotchandpur upazila in?,Jhenaidah
+upz-jhenaidah-moheshpur,place_qa,Which district is Moheshpur upazila in?,Jhenaidah
+upz-jhenaidah-shailkupa,place_qa,Which district is Shailkupa upazila in?,Jhenaidah
+upz-khulna-botiaghata,place_qa,Which district is Botiaghata upazila in?,Khulna
+upz-khulna-dacope,place_qa,Which district is Dacope upazila in?,Khulna
+upz-khulna-dumuria,place_qa,Which district is Dumuria upazila in?,Khulna
+upz-khulna-koyra,place_qa,Which district is Koyra upazila in?,Khulna
+upz-khulna-paikgasa,place_qa,Which district is Paikgasa upazila in?,Khulna
+upz-khulna-fultola,place_qa,Which district is Fultola upazila in?,Khulna
+upz-khulna-rupsha,place_qa,Which district is Rupsha upazila in?,Khulna
+upz-khulna-terokhada,place_qa,Which district is Terokhada upazila in?,Khulna
+upz-khulna-digholia,place_qa,Which district is Digholia upazila in?,Khulna
+upz-kushtia-bheramara,place_qa,Which district is Bheramara upazila in?,Kushtia
+upz-kushtia-khoksa,place_qa,Which district is Khoksa upazila in?,Kushtia
+upz-kushtia-kumarkhali,place_qa,Which district is Kumarkhali upazila in?,Kushtia
+upz-kushtia-kushtiasadar,place_qa,Which district is Kushtiasadar upazila in?,Kushtia
+upz-kushtia-mirpur,place_qa,Which district is Mirpur upazila in?,Kushtia
+upz-magura-magurasadar,place_qa,Which district is Magurasadar upazila in?,Magura
+upz-magura-mohammadpur,place_qa,Which district is Mohammadpur upazila in?,Magura
+upz-magura-shalikha,place_qa,Which district is Shalikha upazila in?,Magura
+upz-meherpur-gangni,place_qa,Which district is Gangni upazila in?,Meherpur
+upz-meherpur-mujibnagar,place_qa,Which district is Mujibnagar upazila in?,Meherpur
+upz-meherpur-meherpursadar,place_qa,Which district is Meherpursadar upazila in?,Meherpur
+upz-narail-kalia,place_qa,Which district is Kalia upazila in?,Narail
+upz-narail-narailsadar,place_qa,Which district is Narailsadar upazila in?,Narail
+upz-satkhira-assasuni,place_qa,Which district is Assasuni upazila in?,Satkhira
+upz-satkhira-debhata,place_qa,Which district is Debhata upazila in?,Satkhira
+upz-satkhira-kalaroa,place_qa,Which district is Kalaroa upazila in?,Satkhira
+upz-satkhira-satkhirasadar,place_qa,Which district is Satkhirasadar upazila in?,Satkhira
+upz-satkhira-shyamnagar,place_qa,Which district is Shyamnagar upazila in?,Satkhira
+upz-satkhira-tala,place_qa,Which district is Tala upazila in?,Satkhira
+upz-bandarban-alikadam,place_qa,Which district is Alikadam upazila in?,Bandarban
+upz-bandarban-lama,place_qa,Which district is Lama upazila in?,Bandarban
+upz-bandarban-naikhongchhari,place_qa,Which district is Naikhongchhari upazila in?,Bandarban
+upz-bandarban-rowangchhari,place_qa,Which district is Rowangchhari upazila in?,Bandarban
+upz-bandarban-ruma,place_qa,Which district is Ruma upazila in?,Bandarban
+upz-bandarban-thanchi,place_qa,Which district is Thanchi upazila in?,Bandarban
+upz-brahmanbaria-akhaura,place_qa,Which district is Akhaura upazila in?,Brahmanbaria
+upz-brahmanbaria-bancharampur,place_qa,Which district is Bancharampur upazila in?,Brahmanbaria
+upz-brahmanbaria-bijoynagar,place_qa,Which district is Bijoynagar upazila in?,Brahmanbaria
+upz-brahmanbaria-ashuganj,place_qa,Which district is Ashuganj upazila in?,Brahmanbaria
+upz-brahmanbaria-kasba,place_qa,Which district is Kasba upazila in?,Brahmanbaria
+upz-brahmanbaria-nabinagar,place_qa,Which district is Nabinagar upazila in?,Brahmanbaria
+upz-brahmanbaria-nasirnagar,place_qa,Which district is Nasirnagar upazila in?,Brahmanbaria
+upz-brahmanbaria-sarail,place_qa,Which district is Sarail upazila in?,Brahmanbaria
+upz-chandpur-faridgonj,place_qa,Which district is Faridgonj upazila in?,Chandpur
+upz-chandpur-haimchar,place_qa,Which district is Haimchar upazila in?,Chandpur
+upz-chandpur-hajiganj,place_qa,Which district is Hajiganj upazila in?,Chandpur
+upz-chandpur-matlabsouth,place_qa,Which district is Matlabsouth upazila in?,Chandpur
+upz-chandpur-matlabnorth,place_qa,Which district is Matlabnorth upazila in?,Chandpur
+upz-chandpur-shahrasti,place_qa,Which district is Shahrasti upazila in?,Chandpur
+upz-chattogram-anwara,place_qa,Which district is Anwara upazila in?,Chattogram
+upz-chattogram-banshkhali,place_qa,Which district is Banshkhali upazila in?,Chattogram
+upz-chattogram-boalkhali,place_qa,Which district is Boalkhali upazila in?,Chattogram
+upz-chattogram-chandanaish,place_qa,Which district is Chandanaish upazila in?,Chattogram
+upz-chattogram-fatikchhari,place_qa,Which district is Fatikchhari upazila in?,Chattogram
+upz-chattogram-hathazari,place_qa,Which district is Hathazari upazila in?,Chattogram
+upz-chattogram-mirsharai,place_qa,Which district is Mirsharai upazila in?,Chattogram
+upz-chattogram-patiya,place_qa,Which district is Patiya upazila in?,Chattogram
+upz-chattogram-rangunia,place_qa,Which district is Rangunia upazila in?,Chattogram
+upz-chattogram-raozan,place_qa,Which district is Raozan upazila in?,Chattogram
+upz-chattogram-sandwip,place_qa,Which district is Sandwip upazila in?,Chattogram
+upz-chattogram-satkania,place_qa,Which district is Satkania upazila in?,Chattogram
+upz-chattogram-sitakunda,place_qa,Which district is Sitakunda upazila in?,Chattogram
+upz-chattogram-karnafuli,place_qa,Which district is Karnafuli upazila in?,Chattogram
+upz-chattogram-fatikchhariuttar,place_qa,Which district is Fatikchhariuttar upazila in?,Chattogram
+upz-comilla-barura,place_qa,Which district is Barura upazila in?,Cumilla
+upz-comilla-brahmanpara,place_qa,Which district is Brahmanpara upazila in?,Cumilla
+upz-comilla-burichang,place_qa,Which district is Burichang upazila in?,Cumilla
+upz-comilla-chandina,place_qa,Which district is Chandina upazila in?,Cumilla
+upz-comilla-chauddagram,place_qa,Which district is Chauddagram upazila in?,Cumilla
+upz-comilla-comillasadar,place_qa,Which district is Comillasadar upazila in?,Cumilla
+upz-comilla-sadarsouth,place_qa,Which district is Sadarsouth upazila in?,Cumilla
+upz-comilla-daudkandi,place_qa,Which district is Daudkandi upazila in?,Cumilla
+upz-comilla-debidwar,place_qa,Which district is Debidwar upazila in?,Cumilla
+upz-comilla-homna,place_qa,Which district is Homna upazila in?,Cumilla
+upz-comilla-laksam,place_qa,Which district is Laksam upazila in?,Cumilla
+upz-comilla-monohargonj,place_qa,Which district is Monohargonj upazila in?,Cumilla
+upz-comilla-meghna,place_qa,Which district is Meghna upazila in?,Cumilla
+upz-comilla-muradnagar,place_qa,Which district is Muradnagar upazila in?,Cumilla
+upz-comilla-nangalkot,place_qa,Which district is Nangalkot upazila in?,Cumilla
+upz-comilla-titas,place_qa,Which district is Titas upazila in?,Cumilla
+upz-comilla-lalmai,place_qa,Which district is Lalmai upazila in?,Cumilla
+upz-comilla-bangara,place_qa,Which district is Bangara upazila in?,Cumilla
+upz-coxsbazar-chakaria,place_qa,Which district is Chakaria upazila in?,Cox's Bazar
+upz-coxsbazar-kutubdia,place_qa,Which district is Kutubdia upazila in?,Cox's Bazar
+upz-coxsbazar-moheshkhali,place_qa,Which district is Moheshkhali upazila in?,Cox's Bazar
+upz-coxsbazar-pekua,place_qa,Which district is Pekua upazila in?,Cox's Bazar
+upz-coxsbazar-ramu,place_qa,Which district is Ramu upazila in?,Cox's Bazar
+upz-coxsbazar-teknaf,place_qa,Which district is Teknaf upazila in?,Cox's Bazar
+upz-coxsbazar-ukhiya,place_qa,Which district is Ukhiya upazila in?,Cox's Bazar
+upz-coxsbazar-eidgaon,place_qa,Which district is Eidgaon upazila in?,Cox's Bazar
+upz-feni-chhagalnaiya,place_qa,Which district is Chhagalnaiya upazila in?,Feni
+upz-feni-daganbhuiyan,place_qa,Which district is Daganbhuiyan upazila in?,Feni
+upz-feni-fulgazi,place_qa,Which district is Fulgazi upazila in?,Feni
+upz-feni-parshuram,place_qa,Which district is Parshuram upazila in?,Feni
+upz-feni-sonagazi,place_qa,Which district is Sonagazi upazila in?,Feni
+upz-khagrachhari-dighinala,place_qa,Which district is Dighinala upazila in?,Khagrachhari
+upz-khagrachhari-manikchari,place_qa,Which district is Manikchari upazila in?,Khagrachhari
+upz-khagrachhari-laxmichhari,place_qa,Which district is Laxmichhari upazila in?,Khagrachhari
+upz-khagrachhari-mohalchari,place_qa,Which district is Mohalchari upazila in?,Khagrachhari
+upz-khagrachhari-matiranga,place_qa,Which district is Matiranga upazila in?,Khagrachhari
+upz-khagrachhari-panchari,place_qa,Which district is Panchari upazila in?,Khagrachhari
+upz-khagrachhari-ramgarh,place_qa,Which district is Ramgarh upazila in?,Khagrachhari
+upz-khagrachhari-guimara,place_qa,Which district is Guimara upazila in?,Khagrachhari
+upz-lakshmipur-kamalnagar,place_qa,Which district is Kamalnagar upazila in?,Lakshmipur
+upz-lakshmipur-raipur,place_qa,Which district is Raipur upazila in?,Lakshmipur
+upz-lakshmipur-ramganj,place_qa,Which district is Ramganj upazila in?,Lakshmipur
+upz-lakshmipur-ramgati,place_qa,Which district is Ramgati upazila in?,Lakshmipur
+upz-lakshmipur-chandraganj,place_qa,Which district is Chandraganj upazila in?,Lakshmipur
+upz-noakhali-begumganj,place_qa,Which district is Begumganj upazila in?,Noakhali
+upz-noakhali-chatkhil,place_qa,Which district is Chatkhil upazila in?,Noakhali
+upz-noakhali-hatia,place_qa,Which district is Hatia upazila in?,Noakhali
+upz-noakhali-senbug,place_qa,Which district is Senbug upazila in?,Noakhali
+upz-noakhali-sonaimuri,place_qa,Which district is Sonaimuri upazila in?,Noakhali
+upz-noakhali-subarnachar,place_qa,Which district is Subarnachar upazila in?,Noakhali
+upz-noakhali-kabirhat,place_qa,Which district is Kabirhat upazila in?,Noakhali
+upz-rangamati-baghaichari,place_qa,Which district is Baghaichari upazila in?,Rangamati
+upz-rangamati-barkal,place_qa,Which district is Barkal upazila in?,Rangamati
+upz-rangamati-kaptai,place_qa,Which district is Kaptai upazila in?,Rangamati
+upz-rangamati-juraichari,place_qa,Which district is Juraichari upazila in?,Rangamati
+upz-rangamati-langadu,place_qa,Which district is Langadu upazila in?,Rangamati
+upz-rangamati-naniarchar,place_qa,Which district is Naniarchar upazila in?,Rangamati
+upz-rangamati-rajasthali,place_qa,Which district is Rajasthali upazila in?,Rangamati
+upz-rangamati-belaichari,place_qa,Which district is Belaichari upazila in?,Rangamati
+upz-bogra-adamdighi,place_qa,Which district is Adamdighi upazila in?,Bogura
+upz-bogra-dhunot,place_qa,Which district is Dhunot upazila in?,Bogura
+upz-bogra-dupchanchia,place_qa,Which district is Dupchanchia upazila in?,Bogura
+upz-bogra-gabtali,place_qa,Which district is Gabtali upazila in?,Bogura
+upz-bogra-kahaloo,place_qa,Which district is Kahaloo upazila in?,Bogura
+upz-bogra-nondigram,place_qa,Which district is Nondigram upazila in?,Bogura
+upz-bogra-shariakandi,place_qa,Which district is Shariakandi upazila in?,Bogura
+upz-bogra-shajahanpur,place_qa,Which district is Shajahanpur upazila in?,Bogura
+upz-bogra-sherpur,place_qa,Which district is Sherpur upazila in?,Bogura
+upz-bogra-sonatala,place_qa,Which district is Sonatala upazila in?,Bogura
+upz-bogra-mokamtala,place_qa,Which district is Mokamtala upazila in?,Bogura
+upz-joypurhat-akkelpur,place_qa,Which district is Akkelpur upazila in?,Joypurhat
+upz-joypurhat-joypurhatsadar,place_qa,Which district is Joypurhatsadar upazila in?,Joypurhat
+upz-joypurhat-kalai,place_qa,Which district is Kalai upazila in?,Joypurhat
+upz-joypurhat-panchbibi,place_qa,Which district is Panchbibi upazila in?,Joypurhat
+upz-joypurhat-khetlal,place_qa,Which district is Khetlal upazila in?,Joypurhat
+upz-naogaon-atrai,place_qa,Which district is Atrai upazila in?,Naogaon
+upz-naogaon-dhamoirhat,place_qa,Which district is Dhamoirhat upazila in?,Naogaon
+upz-naogaon-manda,place_qa,Which district is Manda upazila in?,Naogaon
+upz-naogaon-mohadevpur,place_qa,Which district is Mohadevpur upazila in?,Naogaon
+upz-naogaon-naogaonsadar,place_qa,Which district is Naogaonsadar upazila in?,Naogaon
+upz-naogaon-niamatpur,place_qa,Which district is Niamatpur upazila in?,Naogaon
+upz-naogaon-patnitala,place_qa,Which district is Patnitala upazila in?,Naogaon
+upz-naogaon-raninagar,place_qa,Which district is Raninagar upazila in?,Naogaon
+upz-naogaon-sapahar,place_qa,Which district is Sapahar upazila in?,Naogaon
+upz-naogaon-badalgachi,place_qa,Which district is Badalgachi upazila in?,Naogaon
+upz-naogaon-porsha,place_qa,Which district is Porsha upazila in?,Naogaon
+upz-natore-bagatipara,place_qa,Which district is Bagatipara upazila in?,Natore
+upz-natore-baraigram,place_qa,Which district is Baraigram upazila in?,Natore
+upz-natore-gurudaspur,place_qa,Which district is Gurudaspur upazila in?,Natore
+upz-natore-lalpur,place_qa,Which district is Lalpur upazila in?,Natore
+upz-natore-natoresadar,place_qa,Which district is Natoresadar upazila in?,Natore
+upz-natore-singra,place_qa,Which district is Singra upazila in?,Natore
+upz-natore-naldanga,place_qa,Which district is Naldanga upazila in?,Natore
+upz-chapainawabganj-bholahat,place_qa,Which district is Bholahat upazila in?,Chapai Nawabganj
+upz-chapainawabganj-gomostapur,place_qa,Which district is Gomostapur upazila in?,Chapai Nawabganj
+upz-chapainawabganj-nachol,place_qa,Which district is Nachol upazila in?,Chapai Nawabganj
+upz-chapainawabganj-chapainawabganjsadar,place_qa,Which district is Chapainawabganjsadar upazila in?,Chapai Nawabganj
+upz-pabna-atghoria,place_qa,Which district is Atghoria upazila in?,Pabna
+upz-pabna-bera,place_qa,Which district is Bera upazila in?,Pabna
+upz-pabna-bhangura,place_qa,Which district is Bhangura upazila in?,Pabna
+upz-pabna-chatmohar,place_qa,Which district is Chatmohar upazila in?,Pabna
+upz-pabna-faridpur,place_qa,Which district is Faridpur upazila in?,Pabna
+upz-pabna-ishurdi,place_qa,Which district is Ishurdi upazila in?,Pabna
+upz-pabna-pabnasadar,place_qa,Which district is Pabnasadar upazila in?,Pabna
+upz-pabna-santhia,place_qa,Which district is Santhia upazila in?,Pabna
+upz-pabna-sujanagar,place_qa,Which district is Sujanagar upazila in?,Pabna
+upz-rajshahi-bagha,place_qa,Which district is Bagha upazila in?,Rajshahi
+upz-rajshahi-bagmara,place_qa,Which district is Bagmara upazila in?,Rajshahi
+upz-rajshahi-charghat,place_qa,Which district is Charghat upazila in?,Rajshahi
+upz-rajshahi-godagari,place_qa,Which district is Godagari upazila in?,Rajshahi
+upz-rajshahi-mohonpur,place_qa,Which district is Mohonpur upazila in?,Rajshahi
+upz-rajshahi-paba,place_qa,Which district is Paba upazila in?,Rajshahi
+upz-rajshahi-puthia,place_qa,Which district is Puthia upazila in?,Rajshahi
+upz-rajshahi-tanore,place_qa,Which district is Tanore upazila in?,Rajshahi
+upz-sirajganj-belkuchi,place_qa,Which district is Belkuchi upazila in?,Sirajganj
+upz-sirajganj-chauhali,place_qa,Which district is Chauhali upazila in?,Sirajganj
+upz-sirajganj-kamarkhand,place_qa,Which district is Kamarkhand upazila in?,Sirajganj
+upz-sirajganj-kazipur,place_qa,Which district is Kazipur upazila in?,Sirajganj
+upz-sirajganj-raigonj,place_qa,Which district is Raigonj upazila in?,Sirajganj
+upz-sirajganj-shahjadpur,place_qa,Which district is Shahjadpur upazila in?,Sirajganj
+upz-sirajganj-sirajganjsadar,place_qa,Which district is Sirajganjsadar upazila in?,Sirajganj
+upz-sirajganj-tarash,place_qa,Which district is Tarash upazila in?,Sirajganj
+upz-sirajganj-ullapara,place_qa,Which district is Ullapara upazila in?,Sirajganj
+upz-habiganj-ajmiriganj,place_qa,Which district is Ajmiriganj upazila in?,Habiganj
+upz-habiganj-bahubal,place_qa,Which district is Bahubal upazila in?,Habiganj
+upz-habiganj-baniachong,place_qa,Which district is Baniachong upazila in?,Habiganj
+upz-habiganj-chunarughat,place_qa,Which district is Chunarughat upazila in?,Habiganj
+upz-habiganj-habiganjsadar,place_qa,Which district is Habiganjsadar upazila in?,Habiganj
+upz-habiganj-lakhai,place_qa,Which district is Lakhai upazila in?,Habiganj
+upz-habiganj-madhabpur,place_qa,Which district is Madhabpur upazila in?,Habiganj
+upz-habiganj-nabiganj,place_qa,Which district is Nabiganj upazila in?,Habiganj
+upz-habiganj-shayestaganj,place_qa,Which district is Shayestaganj upazila in?,Habiganj
+upz-moulvibazar-barlekha,place_qa,Which district is Barlekha upazila in?,Moulvibazar
+upz-moulvibazar-juri,place_qa,Which district is Juri upazila in?,Moulvibazar
+upz-moulvibazar-kamolganj,place_qa,Which district is Kamolganj upazila in?,Moulvibazar
+upz-moulvibazar-kulaura,place_qa,Which district is Kulaura upazila in?,Moulvibazar
+upz-moulvibazar-moulvibazarsadar,place_qa,Which district is Moulvibazarsadar upazila in?,Moulvibazar
+upz-moulvibazar-rajnagar,place_qa,Which district is Rajnagar upazila in?,Moulvibazar
+upz-moulvibazar-sreemangal,place_qa,Which district is Sreemangal upazila in?,Moulvibazar
+upz-sunamganj-bishwambarpur,place_qa,Which district is Bishwambarpur upazila in?,Sunamganj
+upz-sunamganj-chhatak,place_qa,Which district is Chhatak upazila in?,Sunamganj
+upz-sunamganj-derai,place_qa,Which district is Derai upazila in?,Sunamganj
+upz-sunamganj-dharmapasha,place_qa,Which district is Dharmapasha upazila in?,Sunamganj
+upz-sunamganj-dowarabazar,place_qa,Which district is Dowarabazar upazila in?,Sunamganj
+upz-sunamganj-jagannathpur,place_qa,Which district is Jagannathpur upazila in?,Sunamganj
+upz-sunamganj-jamalganj,place_qa,Which district is Jamalganj upazila in?,Sunamganj
+upz-sunamganj-shalla,place_qa,Which district is Shalla upazila in?,Sunamganj
+upz-sunamganj-tahirpur,place_qa,Which district is Tahirpur upazila in?,Sunamganj
+upz-sunamganj-shantiganj,place_qa,Which district is Shantiganj upazila in?,Sunamganj
+upz-sunamganj-madhyanagar,place_qa,Which district is Madhyanagar upazila in?,Sunamganj
+upz-sylhet-balaganj,place_qa,Which district is Balaganj upazila in?,Sylhet
+upz-sylhet-beanibazar,place_qa,Which district is Beanibazar upazila in?,Sylhet
+upz-sylhet-bishwanath,place_qa,Which district is Bishwanath upazila in?,Sylhet
+upz-sylhet-dakshinsurma,place_qa,Which district is Dakshinsurma upazila in?,Sylhet
+upz-sylhet-fenchuganj,place_qa,Which district is Fenchuganj upazila in?,Sylhet
+upz-sylhet-golapganj,place_qa,Which district is Golapganj upazila in?,Sylhet
+upz-sylhet-gowainghat,place_qa,Which district is Gowainghat upazila in?,Sylhet
+upz-sylhet-jaintiapur,place_qa,Which district is Jaintiapur upazila in?,Sylhet
+upz-sylhet-kanaighat,place_qa,Which district is Kanaighat upazila in?,Sylhet
+upz-sylhet-sylhetsadar,place_qa,Which district is Sylhetsadar upazila in?,Sylhet
+upz-sylhet-zakiganj,place_qa,Which district is Zakiganj upazila in?,Sylhet
+upz-sylhet-osmaninagar,place_qa,Which district is Osmaninagar upazila in?,Sylhet
+upz-dinajpur-birampur,place_qa,Which district is Birampur upazila in?,Dinajpur
+upz-dinajpur-birganj,place_qa,Which district is Birganj upazila in?,Dinajpur
+upz-dinajpur-birol,place_qa,Which district is Birol upazila in?,Dinajpur
+upz-dinajpur-bochaganj,place_qa,Which district is Bochaganj upazila in?,Dinajpur
+upz-dinajpur-chirirbandar,place_qa,Which district is Chirirbandar upazila in?,Dinajpur
+upz-dinajpur-fulbari,place_qa,Which district is Fulbari upazila in?,Dinajpur
+upz-dinajpur-ghoraghat,place_qa,Which district is Ghoraghat upazila in?,Dinajpur
+upz-dinajpur-hakimpur,place_qa,Which district is Hakimpur upazila in?,Dinajpur
+upz-dinajpur-kaharol,place_qa,Which district is Kaharol upazila in?,Dinajpur
+upz-dinajpur-khansama,place_qa,Which district is Khansama upazila in?,Dinajpur
+upz-dinajpur-parbatipur,place_qa,Which district is Parbatipur upazila in?,Dinajpur
+upz-dinajpur-dinajpursadar,place_qa,Which district is Dinajpursadar upazila in?,Dinajpur
+upz-gaibandha-phulchari,place_qa,Which district is Phulchari upazila in?,Gaibandha
+upz-gaibandha-gaibandhasadar,place_qa,Which district is Gaibandhasadar upazila in?,Gaibandha
+upz-gaibandha-gobindaganj,place_qa,Which district is Gobindaganj upazila in?,Gaibandha
+upz-gaibandha-palashbari,place_qa,Which district is Palashbari upazila in?,Gaibandha
+upz-gaibandha-sadullapur,place_qa,Which district is Sadullapur upazila in?,Gaibandha
+upz-gaibandha-saghata,place_qa,Which district is Saghata upazila in?,Gaibandha
+upz-gaibandha-sundarganj,place_qa,Which district is Sundarganj upazila in?,Gaibandha
+upz-kurigram-bhurungamari,place_qa,Which district is Bhurungamari upazila in?,Kurigram
+upz-kurigram-charrajibpur,place_qa,Which district is Charrajibpur upazila in?,Kurigram
+upz-kurigram-chilmari,place_qa,Which district is Chilmari upazila in?,Kurigram
+upz-kurigram-phulbari,place_qa,Which district is Phulbari upazila in?,Kurigram
+upz-kurigram-kurigramsadar,place_qa,Which district is Kurigramsadar upazila in?,Kurigram
+upz-kurigram-nageshwari,place_qa,Which district is Nageshwari upazila in?,Kurigram
+upz-kurigram-rajarhat,place_qa,Which district is Rajarhat upazila in?,Kurigram
+upz-kurigram-rowmari,place_qa,Which district is Rowmari upazila in?,Kurigram
+upz-kurigram-ulipur,place_qa,Which district is Ulipur upazila in?,Kurigram
+upz-lalmonirhat-aditmari,place_qa,Which district is Aditmari upazila in?,Lalmonirhat
+upz-lalmonirhat-hatibandha,place_qa,Which district is Hatibandha upazila in?,Lalmonirhat
+upz-lalmonirhat-patgram,place_qa,Which district is Patgram upazila in?,Lalmonirhat
+upz-nilphamari-domar,place_qa,Which district is Domar upazila in?,Nilphamari
+upz-nilphamari-jaldhaka,place_qa,Which district is Jaldhaka upazila in?,Nilphamari
+upz-nilphamari-kishorganj,place_qa,Which district is Kishorganj upazila in?,Nilphamari
+upz-nilphamari-nilphamarisadar,place_qa,Which district is Nilphamarisadar upazila in?,Nilphamari
+upz-nilphamari-syedpur,place_qa,Which district is Syedpur upazila in?,Nilphamari
+upz-nilphamari-dimla,place_qa,Which district is Dimla upazila in?,Nilphamari
+upz-panchagarh-atwari,place_qa,Which district is Atwari upazila in?,Panchagarh
+upz-panchagarh-boda,place_qa,Which district is Boda upazila in?,Panchagarh
+upz-panchagarh-debiganj,place_qa,Which district is Debiganj upazila in?,Panchagarh
+upz-panchagarh-panchagarhsadar,place_qa,Which district is Panchagarhsadar upazila in?,Panchagarh
+upz-panchagarh-tetulia,place_qa,Which district is Tetulia upazila in?,Panchagarh
+upz-rangpur-badargonj,place_qa,Which district is Badargonj upazila in?,Rangpur
+upz-rangpur-kaunia,place_qa,Which district is Kaunia upazila in?,Rangpur
+upz-rangpur-rangpursadar,place_qa,Which district is Rangpursadar upazila in?,Rangpur
+upz-rangpur-mithapukur,place_qa,Which district is Mithapukur upazila in?,Rangpur
+upz-rangpur-pirgacha,place_qa,Which district is Pirgacha upazila in?,Rangpur
+upz-rangpur-pirgonj,place_qa,Which district is Pirgonj upazila in?,Rangpur
+upz-rangpur-taragonj,place_qa,Which district is Taragonj upazila in?,Rangpur
+upz-rangpur-gangachara,place_qa,Which district is Gangachara upazila in?,Rangpur
+upz-thakurgaon-baliadangi,place_qa,Which district is Baliadangi upazila in?,Thakurgaon
+upz-thakurgaon-haripur,place_qa,Which district is Haripur upazila in?,Thakurgaon
+upz-thakurgaon-pirganj,place_qa,Which district is Pirganj upazila in?,Thakurgaon
+upz-thakurgaon-ranisankail,place_qa,Which district is Ranisankail upazila in?,Thakurgaon
+upz-thakurgaon-thakurgaonsadar,place_qa,Which district is Thakurgaonsadar upazila in?,Thakurgaon
+upz-thakurgaon-bhulli,place_qa,Which district is Bhulli upazila in?,Thakurgaon
+upz-thakurgaon-ruhia,place_qa,Which district is Ruhia upazila in?,Thakurgaon
+upz-jamalpur-bokshiganj,place_qa,Which district is Bokshiganj upazila in?,Jamalpur
+upz-jamalpur-dewangonj,place_qa,Which district is Dewangonj upazila in?,Jamalpur
+upz-jamalpur-islampur,place_qa,Which district is Islampur upazila in?,Jamalpur
+upz-jamalpur-jamalpursadar,place_qa,Which district is Jamalpursadar upazila in?,Jamalpur
+upz-jamalpur-madarganj,place_qa,Which district is Madarganj upazila in?,Jamalpur
+upz-jamalpur-melandah,place_qa,Which district is Melandah upazila in?,Jamalpur
+upz-jamalpur-sarishabari,place_qa,Which district is Sarishabari upazila in?,Jamalpur
+upz-mymensingh-bhaluka,place_qa,Which district is Bhaluka upazila in?,Mymensingh
+upz-mymensingh-dhobaura,place_qa,Which district is Dhobaura upazila in?,Mymensingh
+upz-mymensingh-fulbaria,place_qa,Which district is Fulbaria upazila in?,Mymensingh
+upz-mymensingh-gafargaon,place_qa,Which district is Gafargaon upazila in?,Mymensingh
+upz-mymensingh-gouripur,place_qa,Which district is Gouripur upazila in?,Mymensingh
+upz-mymensingh-haluaghat,place_qa,Which district is Haluaghat upazila in?,Mymensingh
+upz-mymensingh-iswarganj,place_qa,Which district is Iswarganj upazila in?,Mymensingh
+upz-mymensingh-mymensinghsadar,place_qa,Which district is Mymensinghsadar upazila in?,Mymensingh
+upz-mymensingh-muktagacha,place_qa,Which district is Muktagacha upazila in?,Mymensingh
+upz-mymensingh-nandail,place_qa,Which district is Nandail upazila in?,Mymensingh
+upz-mymensingh-phulpur,place_qa,Which district is Phulpur upazila in?,Mymensingh
+upz-mymensingh-tarakanda,place_qa,Which district is Tarakanda upazila in?,Mymensingh
+upz-mymensingh-trishal,place_qa,Which district is Trishal upazila in?,Mymensingh
+upz-mymensingh-southgafargaon,place_qa,Which district is Southgafargaon upazila in?,Mymensingh
+upz-netrokona-atpara,place_qa,Which district is Atpara upazila in?,Netrokona
+upz-netrokona-barhatta,place_qa,Which district is Barhatta upazila in?,Netrokona
+upz-netrokona-khaliajuri,place_qa,Which district is Khaliajuri upazila in?,Netrokona
+upz-netrokona-kalmakanda,place_qa,Which district is Kalmakanda upazila in?,Netrokona
+upz-netrokona-kendua,place_qa,Which district is Kendua upazila in?,Netrokona
+upz-netrokona-madan,place_qa,Which district is Madan upazila in?,Netrokona
+upz-netrokona-mohongonj,place_qa,Which district is Mohongonj upazila in?,Netrokona
+upz-netrokona-netrokonasadar,place_qa,Which district is Netrokonasadar upazila in?,Netrokona
+upz-netrokona-purbadhala,place_qa,Which district is Purbadhala upazila in?,Netrokona
+upz-sherpur-jhenaigati,place_qa,Which district is Jhenaigati upazila in?,Sherpur
+upz-sherpur-nokla,place_qa,Which district is Nokla upazila in?,Sherpur
+upz-sherpur-nalitabari,place_qa,Which district is Nalitabari upazila in?,Sherpur
+upz-sherpur-sherpursadar,place_qa,Which district is Sherpursadar upazila in?,Sherpur
+upz-sherpur-sreebordi,place_qa,Which district is Sreebordi upazila in?,Sherpur
+upz-barguna-amtali,place_qa,Which district is Amtali upazila in?,Barguna
+upz-barguna-bamna,place_qa,Which district is Bamna upazila in?,Barguna
+upz-barguna-betagi,place_qa,Which district is Betagi upazila in?,Barguna
+upz-barguna-pathorghata,place_qa,Which district is Pathorghata upazila in?,Barguna
+upz-barguna-taltali,place_qa,Which district is Taltali upazila in?,Barguna
+upz-barisal-agailjhara,place_qa,Which district is Agailjhara upazila in?,Barishal
+upz-barisal-babuganj,place_qa,Which district is Babuganj upazila in?,Barishal
+upz-barisal-bakerganj,place_qa,Which district is Bakerganj upazila in?,Barishal
+upz-barisal-banaripara,place_qa,Which district is Banaripara upazila in?,Barishal
+upz-barisal-gournadi,place_qa,Which district is Gournadi upazila in?,Barishal
+upz-barisal-hizla,place_qa,Which district is Hizla upazila in?,Barishal
+upz-barisal-barisalsadar,place_qa,Which district is Barisalsadar upazila in?,Barishal
+upz-barisal-mehendiganj,place_qa,Which district is Mehendiganj upazila in?,Barishal
+upz-barisal-muladi,place_qa,Which district is Muladi upazila in?,Barishal
+upz-barisal-wazirpur,place_qa,Which district is Wazirpur upazila in?,Barishal
+upz-bhola-borhanuddin,place_qa,Which district is Borhanuddin upazila in?,Bhola
+upz-bhola-doulatkhan,place_qa,Which district is Doulatkhan upazila in?,Bhola
+upz-bhola-lalmohan,place_qa,Which district is Lalmohan upazila in?,Bhola
+upz-bhola-monpura,place_qa,Which district is Monpura upazila in?,Bhola
+upz-bhola-tazumuddin,place_qa,Which district is Tazumuddin upazila in?,Bhola
+upz-bhola-charfesson,place_qa,Which district is Charfesson upazila in?,Bhola
+upz-jhalakathi-nalchity,place_qa,Which district is Nalchity upazila in?,Jhalokati
+upz-jhalakathi-kathalia,place_qa,Which district is Kathalia upazila in?,Jhalokati
+upz-jhalakathi-rajapur,place_qa,Which district is Rajapur upazila in?,Jhalokati
+upz-patuakhali-bauphal,place_qa,Which district is Bauphal upazila in?,Patuakhali
+upz-patuakhali-dashmina,place_qa,Which district is Dashmina upazila in?,Patuakhali
+upz-patuakhali-dumki,place_qa,Which district is Dumki upazila in?,Patuakhali
+upz-patuakhali-kalapara,place_qa,Which district is Kalapara upazila in?,Patuakhali
+upz-patuakhali-mirzaganj,place_qa,Which district is Mirzaganj upazila in?,Patuakhali
+upz-patuakhali-rangabali,place_qa,Which district is Rangabali upazila in?,Patuakhali
+upz-patuakhali-galachipa,place_qa,Which district is Galachipa upazila in?,Patuakhali
+upz-pirojpur-bhandaria,place_qa,Which district is Bhandaria upazila in?,Pirojpur
+upz-pirojpur-mathbaria,place_qa,Which district is Mathbaria upazila in?,Pirojpur
+upz-pirojpur-nazirpur,place_qa,Which district is Nazirpur upazila in?,Pirojpur
+upz-pirojpur-nesarabad,place_qa,Which district is Nesarabad upazila in?,Pirojpur
+upz-pirojpur-zianagar,place_qa,Which district is Zianagar upazila in?,Pirojpur

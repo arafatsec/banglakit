@@ -8,7 +8,7 @@ test("MCP server lists tools and answers calls over stdio", async () => {
   await client.connect(new StdioClientTransport({ command: process.execPath, args: ["bin/banglakit.js", "mcp"] }));
   try {
     const { tools } = await client.listTools();
-    assert.deepEqual(tools.map((t) => t.name).sort(), ["bangla_date", "bd_holidays", "check_bin", "check_nid", "check_postcode", "check_tin", "convert_digits", "count_bangla", "find_area", "format_number", "format_taka", "format_time", "gregorian_date", "gregorian_from_hijri", "hijri_date", "is_holiday", "list_areas", "normalize_bangla", "number_to_words", "ordinal", "parse_phone", "percent", "phonetic_to_bangla", "remove_stopwords", "romanize", "sort_bangla", "split_sentences", "taka_in_words"]);
+    assert.deepEqual(tools.map((t) => t.name).sort(), ["bangla_date", "bd_holidays", "bijoy_to_unicode", "check_bin", "check_nid", "check_postcode", "check_tin", "convert_digits", "count_bangla", "find_area", "find_mfs", "format_number", "format_taka", "format_time", "gregorian_date", "gregorian_from_hijri", "hijri_date", "is_holiday", "lexicon", "list_areas", "normalize_bangla", "number_to_words", "ordinal", "parse_phone", "percent", "phonetic_to_bangla", "remove_stopwords", "romanize", "sort_bangla", "split_sentences", "taka_in_words"]);
     const r = await client.callTool({ name: "taka_in_words", arguments: { amount: "125000.50" } });
     assert.equal(r.content[0].text, "এক লক্ষ পঁচিশ হাজার টাকা পঞ্চাশ পয়সা মাত্র");
     const d = await client.callTool({ name: "bangla_date", arguments: { date: "2026-02-21" } });

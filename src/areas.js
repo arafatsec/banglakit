@@ -50,7 +50,7 @@ export function listDistricts(divisionName) {
 /** Upazilas of one district. `id` is the upazila's official website name (e.g. "savar" for savar.dhaka.gov.bd). */
 export function listUpazilas(districtName) {
   const d = district(districtName);
-  return d.upazilas.map((u) => ({ ...u, en: latinName(u.id), district: d.en, division: d.division.en }));
+  return d.upazilas.map((u) => ({ ...u, en: latinName(u.id), district: d.en, districtCode: codes().districts[d.id], division: d.division.en }));
 }
 
 /** Search divisions, districts and upazilas by Bangla or English name (or part of it). */
@@ -67,7 +67,7 @@ export function findArea(query, { limit = 20 } = {}) {
       if (sd < 9) hits.push({ s: sd, type: "district", id: d.id, bn: d.bn, en: d.en, code: codes().districts[d.id], division: dv.en });
       for (const u of d.upazilas) {
         const su = score(u.bn, u.id, latinName(u.id));
-        if (su < 9) hits.push({ s: su, type: "upazila", id: u.id, bn: u.bn, en: latinName(u.id), district: d.en, division: dv.en, website: u.website });
+        if (su < 9) hits.push({ s: su, type: "upazila", id: u.id, bn: u.bn, en: latinName(u.id), district: d.en, districtCode: codes().districts[d.id], division: dv.en, website: u.website });
       }
     }
   }

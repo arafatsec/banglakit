@@ -1,0 +1,6 @@
+{"id":"time-00:00","task":"format_time","input":"00:00","output":"রাত ১২টা","meta":{}}
+{"id":"time-06:30","task":"format_time","input":"06:30","output":"সকাল ৬টা ৩০ মিনিট","meta":{}}
+{"id":"time-12:05","task":"format_time","input":"12:05","output":"দুপুর ১২টা ৫ মিনিট","meta":{}}
+{"id":"time-15:45","task":"format_time","input":"15:45","output":"বিকাল ৩টা ৪৫ মিনিট","meta":{}}
+{"id":"time-18:00","task":"format_time","input":"18:00","output":"সন্ধ্যা ৬টা","meta":{}}
+{"id":"time-21:15","task":"format_time","input":"21:15","output":"রাত ৯টা ১৫ মিনিট","meta":{}}

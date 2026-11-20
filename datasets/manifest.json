@@ -1,0 +1,16 @@
+{
+  "generatedBy": "datasets/generate.mjs",
+  "license": "CC0-1.0",
+  "counts": {
+    "numbers": 113,
+    "taka": 8,
+    "ordinals": 7,
+    "dates": 371,
+    "hijri": 4,
+    "phonetic": 16,
+    "romanization": 16,
+    "normalization": 3,
+    "times": 6,
+    "places": 524
+  }
+}

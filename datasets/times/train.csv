@@ -1,0 +1,7 @@
+id,task,input,output
+time-00:00,format_time,00:00,রাত ১২টা
+time-06:30,format_time,06:30,সকাল ৬টা ৩০ মিনিট
+time-12:05,format_time,12:05,দুপুর ১২টা ৫ মিনিট
+time-15:45,format_time,15:45,বিকাল ৩টা ৪৫ মিনিট
+time-18:00,format_time,18:00,সন্ধ্যা ৬টা
+time-21:15,format_time,21:15,রাত ৯টা ১৫ মিনিট

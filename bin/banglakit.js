@@ -31,6 +31,9 @@ const HELP = `banglakit ${bk.version}: Bangla tools for people and AI agents
   banglakit upazilas gazipur            list upazilas of a district
   banglakit holidays [2026] [month]     public holidays
   banglakit phone 01712345678           mobile number and original operator
+  banglakit bijoy "Avgvi †mvbvi evsjv"   Bijoy / SutonnyMJ to Unicode
+  banglakit mfs [bkash]                 Bangladesh Bank MFS list
+  banglakit lexicon                     months, weekdays, seasons, units
   banglakit nid|tin|bin|postcode VALUE  format check only, no lookup
 
 Exit status is 0 on success and 1 on bad input, an unknown command, or no match.`;
@@ -74,6 +77,14 @@ try {
     case "upazilas": for (const u of bk.listUpazilas(arg)) console.log(`${u.bn} (${u.en}) · ${u.website}`); break;
     case "holidays": { const [y, m] = arg.split(/\s+/).filter(Boolean).map(Number); for (const h of bk.listHolidays(y || new Date().getFullYear(), { month: m })) console.log(`${h.date} ${h.weekday} ${h.name_bn} (${h.name_en})${h.moon ? " *moon" : ""}`); break; }
     case "phone": { const p = bk.parsePhone(arg); console.log(p.valid ? `${p.e164} · ${p.operator}` : p.reason); if (!p.valid) process.exitCode = 1; break; }
+    case "bijoy": console.log(bk.bijoyToUnicode(arg)); break;
+    case "mfs": {
+      const rows = arg ? bk.findMfs(arg) : bk.listMfs();
+      if (!rows.length) { fail(`no MFS matching ${JSON.stringify(arg)}`); break; }
+      for (const r of rows) console.log(`${r.service}${r.service_bn ? ` (${r.service_bn})` : ""} · ${r.entity}`);
+      break;
+    }
+    case "lexicon": for (const row of bk.lexicon().months) console.log(`${row.bn} ${row.en}`); break;
     case "nid":
     case "tin":
     case "bin":
