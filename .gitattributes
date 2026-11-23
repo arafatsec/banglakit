@@ -1,0 +1,4 @@
+# Generated datasets must keep LF endings so committed files match a fresh
+# generation byte-for-byte, regardless of core.autocrlf on a contributor's machine.
+datasets/**/*.jsonl text eol=lf
+datasets/**/*.csv text eol=lf
